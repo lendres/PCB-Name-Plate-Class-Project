@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -134,8 +134,8 @@ U 1 1 5EADD4CA
 P 2500 5950
 F 0 "J101" H 2650 6200 50  0000 R TNN
 F 1 "CONN HEADER SMD 6POS 2.54MM" H 2650 6300 50  0000 R TNN
-F 2 "" H 2500 5950 50  0001 C CNN
-F 3 "~" H 2500 5950 50  0001 C CNN
+F 2 "Name Plate Class Project:Molex_PinHeader_2x03" H 2500 5950 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/713085404_sd.pdf" H 2500 5950 50  0001 C CNN
 	1    2500 5950
 	-1   0    0    1   
 $EndComp
@@ -184,17 +184,6 @@ Wire Wire Line
 	2200 6050 1650 6050
 Wire Wire Line
 	1650 6050 1650 5700
-$Comp
-L Timer:MCP7940N-xSN U801
-U 1 1 5EACC70E
-P 8900 5700
-F 0 "U801" H 9150 5300 50  0000 C CNN
-F 1 "MCP7940N-xSN" H 9350 5200 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8900 5700 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" H 8900 5700 50  0001 C CNN
-	1    8900 5700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Name~Plate~Class~Library:LCD_ER-TFTM024-3 LCD1
 U 1 1 5EAD1968
@@ -287,191 +276,6 @@ F 3 "" H 10150 2050 50  0001 C CNN
 	1    10150 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C802
-U 1 1 5EB14F87
-P 10150 5400
-F 0 "C802" V 10000 5400 50  0000 C CNN
-F 1 "10pF" V 10300 5400 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10188 5250 50  0001 C CNN
-F 3 "~" H 10150 5400 50  0001 C CNN
-	1    10150 5400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C803
-U 1 1 5EB166B0
-P 10150 6000
-F 0 "C803" V 10000 6000 50  0000 C CNN
-F 1 "10pF" V 10300 6000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10188 5850 50  0001 C CNN
-F 3 "~" H 10150 6000 50  0001 C CNN
-	1    10150 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L Name~Plate~Class~Library:Oscillator_MC-405_32.7680K-D__ROHS Y801
-U 1 1 5EB20688
-P 9650 5700
-F 0 "Y801" H 9550 5550 50  0000 L CNN
-F 1 "32.7680 kHz" H 9400 5850 50  0000 L CNN
-F 2 "Name Plate Class Project:Oscillator_MC-405_32.7680K-D__ROHS" H 9550 5400 50  0001 L BNN
-F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-405&lang=en" H 9550 5300 50  0001 L BNN
-	1    9650 5700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9300 5800 9350 5800
-Wire Wire Line
-	9350 5800 9350 6000
-Wire Wire Line
-	9350 6000 9650 6000
-Wire Wire Line
-	10300 6000 10400 6000
-Connection ~ 9650 6000
-Wire Wire Line
-	9650 6000 10000 6000
-Wire Wire Line
-	9300 5600 9350 5600
-Wire Wire Line
-	9350 5600 9350 5400
-Wire Wire Line
-	9350 5400 9650 5400
-Wire Wire Line
-	10300 5400 10400 5400
-Connection ~ 9650 5400
-Wire Wire Line
-	9650 5400 10000 5400
-$Comp
-L power:GND #PWR0112
-U 1 1 5EB2D987
-P 10400 5400
-F 0 "#PWR0112" H 10400 5150 50  0001 C CNN
-F 1 "GND" V 10405 5272 50  0000 R CNN
-F 2 "" H 10400 5400 50  0001 C CNN
-F 3 "" H 10400 5400 50  0001 C CNN
-	1    10400 5400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 5EB2E8ED
-P 10400 6000
-F 0 "#PWR0113" H 10400 5750 50  0001 C CNN
-F 1 "GND" V 10405 5872 50  0000 R CNN
-F 2 "" H 10400 6000 50  0001 C CNN
-F 3 "" H 10400 6000 50  0001 C CNN
-	1    10400 6000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Name~Plate~Class~Library:BK-883 B801
-U 1 1 5EAD0B5B
-P 7850 5150
-F 0 "B801" H 7850 4883 50  0000 C CNN
-F 1 "BK-883" H 7850 4974 50  0000 C CNN
-F 2 "Name Plate Class Project:BAT_BK-883" H 7700 5400 50  0001 L BNN
-F 3 "https://www.memoryprotectiondevices.com/datasheets/BK-883-datasheet.pdf" H 7700 4800 50  0001 L BNN
-F 4 "MPD" H 7700 4850 50  0001 L BNN "Field4"
-F 5 "L" H 7700 4750 50  0001 L BNN "Field5"
-	1    7850 5150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8500 5800 8300 5800
-Text Label 7950 5800 0    50   ~ 0
-RTC_INT
-Text Notes 8300 6500 0    98   ~ 20
-Real Time Clock
-Connection ~ 8300 5800
-Wire Wire Line
-	8300 5800 7950 5800
-$Comp
-L Device:R R801
-U 1 1 5EADC695
-P 8300 4750
-F 0 "R801" H 8370 4796 50  0000 L CNN
-F 1 "10k0" H 8370 4705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8230 4750 50  0001 C CNN
-F 3 "~" H 8300 4750 50  0001 C CNN
-	1    8300 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C801
-U 1 1 5EAE96FD
-P 7500 4800
-F 0 "C801" H 7150 4850 50  0000 L CNN
-F 1 "0.1uF" H 7150 4750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7538 4650 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7500 4800 50  0001 C CNN
-	1    7500 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8900 6100 8900 6200
-$Comp
-L power:GND #PWR0114
-U 1 1 5EAEF0C2
-P 7500 6300
-F 0 "#PWR0114" H 7500 6050 50  0001 C CNN
-F 1 "GND" H 7505 6127 50  0000 C CNN
-F 2 "" H 7500 6300 50  0001 C CNN
-F 3 "" H 7500 6300 50  0001 C CNN
-	1    7500 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 4600 8300 4500
-Connection ~ 8300 4500
-Wire Wire Line
-	8150 5150 9000 5150
-Wire Wire Line
-	9000 5150 9000 5300
-Wire Wire Line
-	7550 5150 7500 5150
-Connection ~ 7500 5150
-Wire Wire Line
-	8900 5300 8900 4500
-Wire Wire Line
-	8300 4500 8900 4500
-Wire Wire Line
-	8300 4900 8300 5800
-Wire Wire Line
-	7500 4500 8300 4500
-Connection ~ 7500 4500
-Wire Wire Line
-	7500 4500 7500 4650
-$Comp
-L power:+3.3V #PWR0115
-U 1 1 5EB22892
-P 7500 4350
-F 0 "#PWR0115" H 7500 4200 50  0001 C CNN
-F 1 "+3.3V" H 7515 4523 50  0000 C CNN
-F 2 "" H 7500 4350 50  0001 C CNN
-F 3 "" H 7500 4350 50  0001 C CNN
-	1    7500 4350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 4350 7500 4500
-Wire Wire Line
-	7500 4950 7500 5150
-Wire Wire Line
-	7500 5150 7500 6200
-Wire Wire Line
-	7500 6200 8900 6200
-Connection ~ 7500 6200
-Wire Wire Line
-	7500 6200 7500 6300
-Wire Wire Line
-	8500 5500 7950 5500
-Wire Wire Line
-	8500 5600 7950 5600
-Text GLabel 7950 5600 0    50   Input ~ 0
-SDA
-Text GLabel 7950 5500 0    50   Input ~ 0
-SCL
 Wire Wire Line
 	2750 950  2750 850 
 Wire Wire Line
