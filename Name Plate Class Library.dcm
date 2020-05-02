@@ -4,6 +4,10 @@ $CMP BK-883
 F https://www.memoryprotectiondevices.com/datasheets/BK-883-datasheet.pdf
 $ENDCMP
 #
+$CMP Oscillator_ABM3-16.000MHZ-B2-T
+F https://abracon.com/Resonators/abm3.pdf
+$ENDCMP
+#
 $CMP Oscillator_MC-405_32.7680K-D__ROHS
 F https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-405&lang=en
 $ENDCMP
