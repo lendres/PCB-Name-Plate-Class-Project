@@ -21,8 +21,10 @@ AR Path="/5EAC05C2/5ECEB242" Ref="D?"  Part="1"
 AR Path="/5ECEA271/5ECEB242" Ref="D305"  Part="1" 
 F 0 "D305" H 2350 5800 50  0000 R TNN
 F 1 "BLUE LED" H 2350 5900 50  0000 R TNN
-F 2 "" H 2300 6050 50  0001 C CNN
-F 3 "~" H 2300 6050 50  0001 C CNN
+F 2 "Name Plate Class Project:LED_G-GX" H 2300 6050 50  0001 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APA3010CGCK-GX.pdf" H 2300 6050 50  0001 C CNN
+F 4 "754-1580-6-ND" H 2300 6050 50  0001 C CNN "DigiKey Part No."
+F 5 "Kingbright APA3010CGCK-GX" H 2300 6050 50  0001 C CNN "Mftr Part No."
 	1    2300 6050
 	-1   0    0    1   
 $EndComp
@@ -104,9 +106,13 @@ AR Path="/5EACA483/5ECECE9A" Ref="C?"  Part="1"
 AR Path="/5ECE9FD3/5ECECE9A" Ref="C?"  Part="1" 
 AR Path="/5ECEA271/5ECECE9A" Ref="C309"  Part="1" 
 F 0 "C309" V 8902 5200 50  0000 C CNN
-F 1 "22uF" V 8811 5200 50  0000 C CNN
-F 2 "" H 8650 5200 50  0001 C CNN
-F 3 "~" H 8650 5200 50  0001 C CNN
+F 1 "2.2uF" V 8811 5200 50  0000 C CNN
+F 2 "Name Plate Class Project:CAP_430X430N" H 8650 5200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 8650 5200 50  0001 C CNN
+F 4 "Panasonic EEE-1VA2R2NR" H 8650 5200 50  0001 C CNN "Field4"
+F 5 "PCE4295CT-ND" H 8650 5200 50  0001 C CNN "DigiKey Part No."
+F 6 "Panasonic EEE-1VA2R2NR" H 8650 5200 50  0001 C CNN "Mftr Part No."
+F 7 "" H 8650 5200 50  0001 C CNN "URL"
 	1    8650 5200
 	0    -1   -1   0   
 $EndComp

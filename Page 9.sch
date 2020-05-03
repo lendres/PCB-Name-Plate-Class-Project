@@ -36,6 +36,8 @@ F 0 "C802" V 7000 3750 50  0000 C CNN
 F 1 "10pF" V 7300 3750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 3600 50  0001 C CNN
 F 3 "~" H 7150 3750 50  0001 C CNN
+F 4 "399-7816-1-ND" H 7150 3750 50  0001 C CNN "DigiKey Part No."
+F 5 "Kemet C0603C100J1GACTU" H 7150 3750 50  0001 C CNN "Mftr Part No."
 	1    7150 3750
 	0    1    1    0   
 $EndComp
@@ -49,6 +51,8 @@ F 0 "C803" V 7000 4350 50  0000 C CNN
 F 1 "10pF" V 7300 4350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 4200 50  0001 C CNN
 F 3 "~" H 7150 4350 50  0001 C CNN
+F 4 "399-7816-1-ND" H 7150 4350 50  0001 C CNN "DigiKey Part No."
+F 5 "Kemet C0603C100J1GACTU" H 7150 4350 50  0001 C CNN "Mftr Part No."
 	1    7150 4350
 	0    1    1    0   
 $EndComp
@@ -160,6 +164,7 @@ F 0 "C801" H 4150 3200 50  0000 L CNN
 F 1 "0.1uF" H 4150 3100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4538 3000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4500 3150 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 4500 3150 50  0001 C CNN "Mftr Part No."
 	1    4500 3150
 	1    0    0    -1  
 $EndComp
