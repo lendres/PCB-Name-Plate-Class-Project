@@ -12,4 +12,8 @@ $CMP Oscillator_MC-405_32.7680K-D__ROHS
 F https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-405&lang=en
 $ENDCMP
 #
+$CMP Switch_JS202011SCQN
+F C&K
+$ENDCMP
+#
 #End Doc Library
