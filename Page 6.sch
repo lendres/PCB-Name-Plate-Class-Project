@@ -154,4 +154,6 @@ Wire Wire Line
 	7300 4650 7800 4650
 Wire Wire Line
 	7800 4000 7800 4650
+Text Notes 5750 5250 0    98   ~ 20
+Environmental Sensor
 $EndSCHEMATC

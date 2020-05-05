@@ -84,29 +84,15 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5EB30800
-P 7400 3700
+P 7400 4000
 AR Path="/5EAC05C2/5EB30800" Ref="#PWR?"  Part="1" 
 AR Path="/5ECF32A9/5EB30800" Ref="#PWR?"  Part="1" 
 AR Path="/5ECF31FF/5EB30800" Ref="#PWR014"  Part="1" 
-F 0 "#PWR014" H 7400 3450 50  0001 C CNN
-F 1 "GND" V 7405 3572 50  0000 R CNN
-F 2 "" H 7400 3700 50  0001 C CNN
-F 3 "" H 7400 3700 50  0001 C CNN
-	1    7400 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5EB30806
-P 7400 4300
-AR Path="/5EAC05C2/5EB30806" Ref="#PWR?"  Part="1" 
-AR Path="/5ECF32A9/5EB30806" Ref="#PWR?"  Part="1" 
-AR Path="/5ECF31FF/5EB30806" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 7400 4050 50  0001 C CNN
-F 1 "GND" V 7405 4172 50  0000 R CNN
-F 2 "" H 7400 4300 50  0001 C CNN
-F 3 "" H 7400 4300 50  0001 C CNN
-	1    7400 4300
+F 0 "#PWR014" H 7400 3750 50  0001 C CNN
+F 1 "GND" V 7405 3872 50  0000 R CNN
+F 2 "" H 7400 4000 50  0001 C CNN
+F 3 "" H 7400 4000 50  0001 C CNN
+	1    7400 4000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -129,7 +115,7 @@ Wire Wire Line
 	5500 4100 5300 4100
 Text Label 4950 4100 0    50   ~ 0
 RTC_INT
-Text Notes 5300 4800 0    98   ~ 20
+Text Notes 5300 5050 0    98   ~ 20
 Real Time Clock
 Connection ~ 5300 4100
 Wire Wire Line
@@ -183,7 +169,7 @@ Wire Wire Line
 	5300 2900 5300 2800
 Connection ~ 5300 2800
 Wire Wire Line
-	5150 3450 6000 3450
+	5150 3450 5650 3450
 Wire Wire Line
 	6000 3450 6000 3600
 Wire Wire Line
@@ -219,8 +205,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 3250 4500 3450
 Wire Wire Line
-	4500 3450 4500 4500
-Wire Wire Line
 	4500 4500 5900 4500
 Connection ~ 4500 4500
 Wire Wire Line
@@ -247,4 +231,27 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" H 5900 4000 
 	1    5900 4000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7400 3700 7400 4000
+Connection ~ 7400 4000
+Wire Wire Line
+	7400 4000 7400 4300
+Text GLabel 4950 4100 0    50   UnSpc ~ 0
+RTC_INT
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5ED8645E
+P 5650 3450
+F 0 "#FLG0101" H 5650 3525 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 3623 50  0000 C CNN
+F 2 "" H 5650 3450 50  0001 C CNN
+F 3 "~" H 5650 3450 50  0001 C CNN
+	1    5650 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 3450
+Wire Wire Line
+	5650 3450 6000 3450
+Wire Wire Line
+	4500 3450 4500 4500
 $EndSCHEMATC
