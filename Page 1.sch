@@ -349,6 +349,7 @@ F 0 "C101" H 1900 2000 50  0000 L BNN
 F 1 "0.1uF" H 1900 1750 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1888 1750 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 1850 1900 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 1850 1900 50  0001 C CNN "Mftr Part No."
 	1    1850 1900
 	1    0    0    -1  
 $EndComp
@@ -374,6 +375,7 @@ F 0 "C102" H 1550 2400 50  0000 L BNN
 F 1 "0.12uF" H 1550 2150 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1538 2150 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1500 2300 50  0001 C CNN
+F 4 "AVX 08053C124KAT2A" H 1500 2300 50  0001 C CNN "Mftr Part No."
 	1    1500 2300
 	1    0    0    -1  
 $EndComp
@@ -388,6 +390,7 @@ F 0 "C103" H 1250 2900 50  0000 L BNN
 F 1 "0.1uF" H 1250 2650 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1238 2650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 1200 2800 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 1200 2800 50  0001 C CNN "Mftr Part No."
 	1    1200 2800
 	1    0    0    -1  
 $EndComp
@@ -402,6 +405,7 @@ F 0 "C104" H 950 3350 50  0000 L BNN
 F 1 "0.1uF" H 950 3100 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 938 3100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 900 3250 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 900 3250 50  0001 C CNN "Mftr Part No."
 	1    900  3250
 	1    0    0    -1  
 $EndComp
@@ -457,7 +461,9 @@ AR Path="/5EACA483/5EAC9991" Ref="R?"  Part="1"
 F 0 "R103" H 4920 2296 50  0000 L CNN
 F 1 "R10K0" H 4920 2205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4780 2250 50  0001 C CNN
-F 3 "~" H 4850 2250 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4850 2250 50  0001 C CNN
+F 4 "311-10KGRCT-ND" H 4850 2250 50  0001 C CNN "DigiKey Part No."
+F 5 "Yageo RC0603JR-0710KL" H 4850 2250 50  0001 C CNN "Mftr Part No."
 	1    4850 2250
 	1    0    0    -1  
 $EndComp
@@ -480,6 +486,7 @@ F 0 "C106" V 2648 4650 50  0000 C CNN
 F 1 "18pF" V 2739 4650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2938 4500 50  0001 C CNN
 F 3 "~" H 2900 4650 50  0001 C CNN
+F 4 "Kemet C0603C180J5GACTU" H 2900 4650 50  0001 C CNN "Mftr Part No."
 	1    2900 4650
 	0    1    1    0   
 $EndComp
@@ -491,6 +498,7 @@ F 0 "C105" V 3050 5050 50  0000 C CNN
 F 1 "18pF" V 3150 5050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2938 4900 50  0001 C CNN
 F 3 "~" H 2900 5050 50  0001 C CNN
+F 4 "Kemet C0603C180J5GACTU" H 2900 5050 50  0001 C CNN "Mftr Part No."
 	1    2900 5050
 	0    1    1    0   
 $EndComp

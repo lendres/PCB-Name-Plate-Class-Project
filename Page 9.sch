@@ -384,6 +384,7 @@ F 0 "C901" H 7900 1550 50  0000 L BNN
 F 1 "0.1uF" H 7900 1450 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8288 1400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8250 1550 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 8250 1550 50  0001 C CNN "Mftr Part No."
 	1    8250 1550
 	1    0    0    -1  
 $EndComp

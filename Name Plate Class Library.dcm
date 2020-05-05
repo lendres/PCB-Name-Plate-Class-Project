@@ -4,6 +4,10 @@ $CMP BK-883
 F https://www.memoryprotectiondevices.com/datasheets/BK-883-datasheet.pdf
 $ENDCMP
 #
+$CMP Button_B3FS-1000P
+F https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf
+$ENDCMP
+#
 $CMP Oscillator_ABM3-16.000MHZ-B2-T
 F https://abracon.com/Resonators/abm3.pdf
 $ENDCMP

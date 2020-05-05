@@ -16,23 +16,435 @@ $EndDescr
 $Comp
 L Name~Plate~Class~Library:Switch_JS202011SCQN S201
 U 1 1 5EB4E9F9
-P 2850 3500
-F 0 "S201" H 3180 3546 50  0000 L CNN
-F 1 "Battery Switch" H 3180 3455 50  0000 L CNN
-F 2 "Name Plate Class Project:Switch_JS202011SCQN" H 2000 2700 50  0001 L BNN
-F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 2850 3500 50  0001 L BNN
-	1    2850 3500
+P 2650 3500
+F 0 "S201" H 2400 4300 50  0000 L CNN
+F 1 "Battery Switch" H 2400 4200 50  0000 L CNN
+F 2 "Name Plate Class Project:Switch_JS202011SCQN" H 1800 2700 50  0001 L BNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 2650 3500 50  0001 L BNN
+	1    2650 3500
 	1    0    0    -1  
 $EndComp
 $Comp
+L power:GND #PWR?
+U 1 1 5EB54C9C
+P 1450 2950
+F 0 "#PWR?" H 1450 2700 50  0001 C CNN
+F 1 "GND" H 1455 2777 50  0000 C CNN
+F 2 "" H 1450 2950 50  0001 C CNN
+F 3 "" H 1450 2950 50  0001 C CNN
+	1    1450 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2850 1450 2950
+Wire Wire Line
+	1350 2850 1350 3500
+Wire Wire Line
+	1350 3500 2150 3500
+Wire Wire Line
+	2150 3500 2150 2900
+Wire Wire Line
+	2150 2900 2650 2900
+Wire Wire Line
+	2650 2900 2650 3000
+Wire Wire Line
+	2650 4000 2650 4100
+Wire Wire Line
+	2650 4100 2150 4100
+Wire Wire Line
+	2150 4100 2150 3500
+Connection ~ 2150 3500
+$Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5EB52776
-P 1550 2650
-F 0 "J1" V 1514 2462 50  0000 R CNN
-F 1 "Battery Connector" V 1423 2462 50  0000 R CNN
-F 2 "" H 1550 2650 50  0001 C CNN
-F 3 "~" H 1550 2650 50  0001 C CNN
-	1    1550 2650
+P 1350 2650
+F 0 "J1" V 1550 2700 50  0000 R CNN
+F 1 "Battery Connector" V 1450 2700 50  0000 R CNN
+F 2 "Name Plate Class Project:JST_PH_w_SolderPoints" H 1350 2650 50  0001 C CNN
+F 3 "~" H 1350 2650 50  0001 C CNN
+	1    1350 2650
 	0    -1   -1   0   
+$EndComp
+NoConn ~ 2450 4000
+NoConn ~ 2450 3000
+Wire Wire Line
+	2850 3000 2850 2900
+Wire Wire Line
+	2850 2900 3150 2900
+Wire Wire Line
+	3150 2900 3150 3500
+Wire Wire Line
+	3150 4100 2850 4100
+Wire Wire Line
+	2850 4100 2850 4000
+Wire Wire Line
+	3150 3500 3500 3500
+Connection ~ 3150 3500
+Wire Wire Line
+	3150 3500 3150 4100
+Wire Wire Line
+	3500 3500 3500 4400
+Connection ~ 3500 3500
+Wire Wire Line
+	3500 3500 4500 3500
+$Comp
+L power:GND #PWR?
+U 1 1 5EB58CBE
+P 3750 5150
+F 0 "#PWR?" H 3750 4900 50  0001 C CNN
+F 1 "GND" H 3755 4977 50  0000 C CNN
+F 2 "" H 3750 5150 50  0001 C CNN
+F 3 "" H 3750 5150 50  0001 C CNN
+	1    3750 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3150 4000 4300
+$Comp
+L Device:C C?
+U 1 1 5EB5C47E
+P 6450 3850
+AR Path="/5EB5C47E" Ref="C?"  Part="1" 
+AR Path="/5EAC05C2/5EB5C47E" Ref="C?"  Part="1" 
+AR Path="/5EACA483/5EB5C47E" Ref="C203"  Part="1" 
+F 0 "C203" H 6500 3950 50  0000 L BNN
+F 1 "0.1uF" H 6500 3700 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6488 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6450 3850 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 6450 3850 50  0001 C CNN "Mftr Part No."
+	1    6450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB5D504
+P 4500 3800
+AR Path="/5EB5D504" Ref="R?"  Part="1" 
+AR Path="/5EAC05C2/5EB5D504" Ref="R?"  Part="1" 
+AR Path="/5EACA483/5EB5D504" Ref="R201"  Part="1" 
+F 0 "R201" H 4570 3846 50  0000 L CNN
+F 1 "R100K0" H 4570 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 3800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4500 3800 50  0001 C CNN
+	1    4500 3800
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB5DD15
+P 4000 4700
+AR Path="/5EB5DD15" Ref="R?"  Part="1" 
+AR Path="/5EAC05C2/5EB5DD15" Ref="R?"  Part="1" 
+AR Path="/5EACA483/5EB5DD15" Ref="R202"  Part="1" 
+F 0 "R202" H 4070 4746 50  0000 L CNN
+F 1 "R100K0" H 4070 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 4700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4000 4700 50  0001 C CNN
+	1    4000 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3950 4500 4050
+$Comp
+L Device:C C?
+U 1 1 5EB58B49
+P 3500 4550
+AR Path="/5EB58B49" Ref="C?"  Part="1" 
+AR Path="/5EAC05C2/5EB58B49" Ref="C?"  Part="1" 
+AR Path="/5EACA483/5EB58B49" Ref="C201"  Part="1" 
+F 0 "C201" H 3550 4650 50  0000 L BNN
+F 1 "0.1uF" H 3550 4400 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3538 4400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 3500 4550 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 3500 4550 50  0001 C CNN "Mftr Part No."
+	1    3500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q201
+U 1 1 5EB6003E
+P 4400 4300
+F 0 "Q201" H 4604 4254 50  0000 L CNN
+F 1 "BSS138" H 4604 4345 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4600 4400 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138LT1-D.PDF" H 4400 4300 50  0001 C CNN
+	1    4400 4300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4500 4500 4500 5000
+Wire Wire Line
+	4200 4300 4000 4300
+Connection ~ 4000 4300
+Wire Wire Line
+	4000 4300 4000 4550
+Wire Wire Line
+	4000 4850 4000 5000
+Connection ~ 4500 3500
+Wire Wire Line
+	4500 3500 5350 3500
+Wire Wire Line
+	4500 3500 4500 3650
+Wire Wire Line
+	4500 5000 4000 5000
+Wire Wire Line
+	3500 4700 3500 5000
+Connection ~ 4000 5000
+Wire Wire Line
+	4000 5000 3750 5000
+Connection ~ 3750 5000
+Wire Wire Line
+	3750 5000 3500 5000
+$Comp
+L Name~Plate~Class~Library:MIC5219-x.xYM5-TR U201
+U 1 1 5EB67A18
+P 5800 3700
+F 0 "U201" H 5450 4150 60  0000 L CNN
+F 1 "MIC5219-5.0YM5-TR" H 5450 4050 60  0000 L CNN
+F 2 "SOT-23-5_M5_MCH" H 5450 3300 60  0001 L CNN
+F 3 "" H 5150 3900 60  0000 C CNN
+	1    5800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4050 5250 4050
+Wire Wire Line
+	5300 4050 5300 3600
+Wire Wire Line
+	5300 3600 5350 3600
+Connection ~ 4500 4050
+Wire Wire Line
+	4500 4050 4500 4100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EB6B8BD
+P 5250 4050
+AR Path="/5ECF32A9/5EB6B8BD" Ref="TP?"  Part="1" 
+AR Path="/5EACA483/5EB6B8BD" Ref="TP201"  Part="1" 
+F 0 "TP201" H 5300 4300 50  0000 R CNN
+F 1 "TP_SWITCH_BATTERY" H 5300 4400 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 5450 4050 50  0001 C CNN
+F 3 "~" H 5450 4050 50  0001 C CNN
+	1    5250 4050
+	-1   0    0    1   
+$EndComp
+Connection ~ 5250 4050
+Wire Wire Line
+	5250 4050 5300 4050
+Wire Wire Line
+	6250 3600 6450 3600
+Wire Wire Line
+	6450 3600 6450 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5EB6D89E
+P 6450 4350
+F 0 "#PWR?" H 6450 4100 50  0001 C CNN
+F 1 "GND" H 6455 4177 50  0000 C CNN
+F 2 "" H 6450 4350 50  0001 C CNN
+F 3 "" H 6450 4350 50  0001 C CNN
+	1    6450 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4000 6450 4100
+Wire Wire Line
+	6250 3900 6300 3900
+Wire Wire Line
+	6300 3900 6300 4100
+Wire Wire Line
+	6300 4100 6450 4100
+Connection ~ 6450 4100
+Wire Wire Line
+	6450 4100 6450 4200
+Wire Wire Line
+	6250 3500 6750 3500
+$Comp
+L Name~Plate~Class~Library:MIC5219-x.xYM5-TR U?
+U 1 1 5EB717E5
+P 8400 3700
+F 0 "U?" H 8050 4150 60  0000 L CNN
+F 1 "MIC5219-5.0YM5-TR" H 8050 4050 60  0000 L CNN
+F 2 "SOT-23-5_M5_MCH" H 8050 3300 60  0001 L CNN
+F 3 "" H 7750 3900 60  0000 C CNN
+	1    8400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EB7241E
+P 6750 3500
+AR Path="/5ECF32A9/5EB7241E" Ref="TP?"  Part="1" 
+AR Path="/5EACA483/5EB7241E" Ref="TP202"  Part="1" 
+F 0 "TP202" H 6700 3800 50  0000 L CNN
+F 1 "TP_5V" H 6700 3700 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 6950 3500 50  0001 C CNN
+F 3 "~" H 6950 3500 50  0001 C CNN
+	1    6750 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6750 3500
+Wire Wire Line
+	6750 3500 7100 3500
+$Comp
+L Device:CP1 C202
+U 1 1 5EB74201
+P 7100 3850
+AR Path="/5EACA483/5EB74201" Ref="C202"  Part="1" 
+AR Path="/5ECE9FD3/5EB74201" Ref="C?"  Part="1" 
+AR Path="/5ECEA271/5EB74201" Ref="C?"  Part="1" 
+F 0 "C202" H 7250 3850 50  0000 L CNN
+F 1 "22uF" H 7250 3750 50  0000 L CNN
+F 2 "Name Plate Class Project:CAP_430X430N" H 7100 3850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 7100 3850 50  0001 C CNN
+F 4 "" H 7100 3850 50  0001 C CNN "Field4"
+F 5 "399-11437-1-ND" H 7100 3850 50  0001 C CNN "DigiKey Part No."
+F 6 "KEMET EDK226M016A9BAA" H 7100 3850 50  0001 C CNN "Mftr Part No."
+F 7 "" H 7100 3850 50  0001 C CNN "URL"
+	1    7100 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4000 7100 4200
+Wire Wire Line
+	7100 4200 6450 4200
+Connection ~ 6450 4200
+Wire Wire Line
+	6450 4200 6450 4350
+Wire Wire Line
+	7100 3700 7100 3500
+Connection ~ 7100 3500
+Wire Wire Line
+	7950 3600 7800 3600
+Wire Wire Line
+	7800 3600 7800 3500
+Connection ~ 7800 3500
+Wire Wire Line
+	7800 3500 7950 3500
+$Comp
+L Device:C C?
+U 1 1 5EB7AD4B
+P 9050 3850
+AR Path="/5EB7AD4B" Ref="C?"  Part="1" 
+AR Path="/5EAC05C2/5EB7AD4B" Ref="C?"  Part="1" 
+AR Path="/5EACA483/5EB7AD4B" Ref="C204"  Part="1" 
+F 0 "C204" H 9100 3950 50  0000 L BNN
+F 1 "0.1uF" H 9100 3700 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9088 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9050 3850 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 9050 3850 50  0001 C CNN "Mftr Part No."
+	1    9050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3600 9050 3600
+Wire Wire Line
+	9050 3600 9050 3700
+$Comp
+L power:GND #PWR?
+U 1 1 5EB7AD53
+P 9050 4350
+F 0 "#PWR?" H 9050 4100 50  0001 C CNN
+F 1 "GND" H 9055 4177 50  0000 C CNN
+F 2 "" H 9050 4350 50  0001 C CNN
+F 3 "" H 9050 4350 50  0001 C CNN
+	1    9050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4000 9050 4100
+Wire Wire Line
+	8900 4100 9050 4100
+Connection ~ 9050 4100
+Wire Wire Line
+	9050 4100 9050 4200
+$Comp
+L Device:CP1 C205
+U 1 1 5EB7AD61
+P 9700 3850
+AR Path="/5EACA483/5EB7AD61" Ref="C205"  Part="1" 
+AR Path="/5ECE9FD3/5EB7AD61" Ref="C?"  Part="1" 
+AR Path="/5ECEA271/5EB7AD61" Ref="C?"  Part="1" 
+F 0 "C205" H 9850 3850 50  0000 L CNN
+F 1 "22uF" H 9850 3750 50  0000 L CNN
+F 2 "Name Plate Class Project:CAP_430X430N" H 9700 3850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 9700 3850 50  0001 C CNN
+F 4 "" H 9700 3850 50  0001 C CNN "Field4"
+F 5 "399-11437-1-ND" H 9700 3850 50  0001 C CNN "DigiKey Part No."
+F 6 "KEMET EDK226M016A9BAA" H 9700 3850 50  0001 C CNN "Mftr Part No."
+F 7 "" H 9700 3850 50  0001 C CNN "URL"
+	1    9700 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4000 9700 4200
+Wire Wire Line
+	9700 4200 9050 4200
+Connection ~ 9050 4200
+Wire Wire Line
+	9050 4200 9050 4350
+Wire Wire Line
+	9700 3700 9700 3500
+Wire Wire Line
+	8850 3900 8900 3900
+Wire Wire Line
+	8900 3900 8900 4100
+Wire Wire Line
+	8850 3500 9700 3500
+Connection ~ 7550 3500
+Wire Wire Line
+	7550 3500 7800 3500
+Wire Wire Line
+	7100 3500 7550 3500
+Wire Wire Line
+	7550 3050 7550 3500
+$Comp
+L power:+5V #PWR?
+U 1 1 5EB765CC
+P 7550 3050
+F 0 "#PWR?" H 7550 2900 50  0001 C CNN
+F 1 "+5V" H 7565 3223 50  0000 C CNN
+F 2 "" H 7550 3050 50  0001 C CNN
+F 3 "" H 7550 3050 50  0001 C CNN
+	1    7550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5EB828C2
+P 9700 3050
+F 0 "#PWR?" H 9700 2900 50  0001 C CNN
+F 1 "+3.3V" H 9715 3223 50  0000 C CNN
+F 2 "" H 9700 3050 50  0001 C CNN
+F 3 "" H 9700 3050 50  0001 C CNN
+	1    9700 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 3050 9700 3500
+Connection ~ 9700 3500
+Wire Wire Line
+	3750 5000 3750 5150
+$Comp
+L power:VBUS #PWR?
+U 1 1 5EB8783A
+P 4000 3150
+F 0 "#PWR?" H 4000 3000 50  0001 C CNN
+F 1 "VBUS" H 4015 3323 50  0000 C CNN
+F 2 "" H 4000 3150 50  0001 C CNN
+F 3 "" H 4000 3150 50  0001 C CNN
+	1    4000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EB88401
+P 4300 3100
+F 0 "#PWR?" H 4300 2950 50  0001 C CNN
+F 1 "+5V" H 4315 3273 50  0000 C CNN
+F 2 "" H 4300 3100 50  0001 C CNN
+F 3 "" H 4300 3100 50  0001 C CNN
+	1    4300 3100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

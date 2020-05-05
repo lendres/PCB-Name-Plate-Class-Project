@@ -181,6 +181,7 @@ F 0 "C305" H 4450 3350 50  0000 L BNN
 F 1 "0.1uF" H 4450 3100 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4438 3100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4400 3250 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 4400 3250 50  0001 C CNN "Mftr Part No."
 	1    4400 3250
 	1    0    0    -1  
 $EndComp
@@ -227,6 +228,7 @@ F 0 "C306" H 5600 3350 50  0000 L BNN
 F 1 "0.1uF" H 5600 3100 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5588 3100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5550 3250 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 5550 3250 50  0001 C CNN "Mftr Part No."
 	1    5550 3250
 	1    0    0    -1  
 $EndComp
@@ -268,6 +270,7 @@ F 0 "C307" H 6750 3350 50  0000 L BNN
 F 1 "0.1uF" H 6750 3100 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6738 3100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6700 3250 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 6700 3250 50  0001 C CNN "Mftr Part No."
 	1    6700 3250
 	1    0    0    -1  
 $EndComp
@@ -309,6 +312,7 @@ F 0 "C308" H 7900 3350 50  0000 L BNN
 F 1 "0.1uF" H 7900 3100 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7888 3100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7850 3250 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 7850 3250 50  0001 C CNN "Mftr Part No."
 	1    7850 3250
 	1    0    0    -1  
 $EndComp
@@ -319,10 +323,6 @@ Wire Wire Line
 Connection ~ 5050 3550
 Wire Wire Line
 	5050 3550 5550 3550
-Connection ~ 5550 3550
-Wire Wire Line
-	5550 3550 6050 3550
-Connection ~ 6200 3550
 Wire Wire Line
 	6200 3550 6700 3550
 Connection ~ 6700 3550
@@ -335,9 +335,8 @@ Wire Wire Line
 	8350 2250 8350 2750
 Wire Wire Line
 	3900 2250 5050 2250
-Connection ~ 3900 2250
 Wire Wire Line
-	3900 2250 3900 2100
+	8350 2250 8350 2100
 Connection ~ 7850 3550
 NoConn ~ 7650 2950
 $Comp
@@ -369,28 +368,25 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0101
 U 1 1 5EB43851
-P 3900 2100
-F 0 "#PWR0101" H 3900 1950 50  0001 C CNN
-F 1 "+5V" H 3915 2273 50  0000 C CNN
-F 2 "" H 3900 2100 50  0001 C CNN
-F 3 "" H 3900 2100 50  0001 C CNN
-	1    3900 2100
+P 8350 2100
+F 0 "#PWR0101" H 8350 1950 50  0001 C CNN
+F 1 "+5V" H 8365 2273 50  0000 C CNN
+F 2 "" H 8350 2100 50  0001 C CNN
+F 3 "" H 8350 2100 50  0001 C CNN
+	1    8350 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5EB44FF3
-P 6050 3550
-F 0 "#PWR0102" H 6050 3300 50  0001 C CNN
-F 1 "GND" H 6055 3377 50  0000 C CNN
-F 2 "" H 6050 3550 50  0001 C CNN
-F 3 "" H 6050 3550 50  0001 C CNN
-	1    6050 3550
+P 8350 3750
+F 0 "#PWR0102" H 8350 3500 50  0001 C CNN
+F 1 "GND" H 8355 3577 50  0000 C CNN
+F 2 "" H 8350 3750 50  0001 C CNN
+F 3 "" H 8350 3750 50  0001 C CNN
+	1    8350 3750
 	1    0    0    -1  
 $EndComp
-Connection ~ 6050 3550
-Wire Wire Line
-	6050 3550 6200 3550
 Wire Wire Line
 	8350 3550 7850 3550
 $Comp
@@ -404,4 +400,12 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4000 2575 50  0001 
 	1    3900 2950
 	1    0    0    -1  
 $EndComp
+Connection ~ 8350 2250
+Connection ~ 6200 3550
+Connection ~ 5550 3550
+Wire Wire Line
+	5550 3550 6200 3550
+Wire Wire Line
+	8350 3550 8350 3750
+Connection ~ 8350 3550
 $EndSCHEMATC
