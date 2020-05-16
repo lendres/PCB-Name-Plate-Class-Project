@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -170,8 +170,6 @@ Wire Wire Line
 	3500 2300 3250 2300
 Text Label 4150 2300 0    50   ~ 0
 LCD_SPI_MISO
-Text GLabel 3250 2300 0    50   UnSpc ~ 0
-SPI_MISO
 Wire Wire Line
 	4050 2950 4750 2950
 Wire Wire Line
@@ -181,8 +179,6 @@ Wire Wire Line
 	3500 2950 3250 2950
 Text Label 4150 2950 0    50   ~ 0
 LCD_FONT_nCS
-Text GLabel 3250 2950 0    50   UnSpc ~ 0
-LCD_FONT_nSELECT
 Wire Wire Line
 	4050 3600 4750 3600
 Wire Wire Line
@@ -201,8 +197,6 @@ Wire Wire Line
 	3500 4250 3250 4250
 Text Label 4150 4250 0    50   ~ 0
 LCD_SPI_MOSI
-Text GLabel 3250 4250 0    50   UnSpc ~ 0
-SPI_MOSI
 Wire Wire Line
 	4050 4900 4750 4900
 Wire Wire Line
@@ -211,8 +205,6 @@ Connection ~ 3500 4900
 Wire Wire Line
 	3500 4900 3250 4900
 Text Label 4150 4900 0    50   ~ 0
-LCD_DC
-Text GLabel 3250 4900 0    50   UnSpc ~ 0
 LCD_DC
 Wire Wire Line
 	4050 5550 4750 5550
@@ -223,10 +215,6 @@ Wire Wire Line
 	3500 5550 3250 5550
 Text Label 4150 5550 0    50   ~ 0
 LCD_nCS
-Text GLabel 3250 5550 0    50   UnSpc ~ 0
-LCD_nCS
-Text GLabel 3250 3600 0    50   UnSpc ~ 0
-SPI_CLK
 $Comp
 L Connector:TestPoint TP906
 U 1 1 5EB10897
@@ -414,4 +402,16 @@ F 3 "~" H 3700 2300 50  0001 C CNN
 $EndComp
 Text Notes 5050 6250 0    98   ~ 20
 LCD Screen
+Text HLabel 3250 2300 0    50   Input ~ 0
+SPI_MISO
+Text HLabel 3250 2950 0    50   Input ~ 0
+LCD_FONT_nSELECT
+Text HLabel 3250 3600 0    50   Input ~ 0
+SPI_CLK
+Text HLabel 3250 4250 0    50   Input ~ 0
+SPI_MOSI
+Text HLabel 3250 4900 0    50   Input ~ 0
+LCD_DC
+Text HLabel 3250 5550 0    50   Input ~ 0
+LCD_nCS
 $EndSCHEMATC

@@ -213,10 +213,6 @@ Wire Wire Line
 	5500 3800 4950 3800
 Wire Wire Line
 	5500 3900 4950 3900
-Text GLabel 4950 3900 0    50   Input ~ 0
-SDA
-Text GLabel 4950 3800 0    50   Input ~ 0
-SCL
 $Comp
 L Timer:MCP7940N-xSN U?
 U 1 1 5EB307D8
@@ -236,8 +232,6 @@ Wire Wire Line
 Connection ~ 7400 4000
 Wire Wire Line
 	7400 4000 7400 4300
-Text GLabel 4950 4100 0    50   UnSpc ~ 0
-RTC_INT
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5ED8645E
@@ -254,4 +248,10 @@ Wire Wire Line
 	5650 3450 6000 3450
 Wire Wire Line
 	4500 3450 4500 4500
+Text HLabel 4950 3800 0    50   Input ~ 0
+SCL
+Text HLabel 4950 3900 0    50   Input ~ 0
+SDA
+Text HLabel 4950 4100 0    50   Input ~ 0
+RTC_INT
 $EndSCHEMATC

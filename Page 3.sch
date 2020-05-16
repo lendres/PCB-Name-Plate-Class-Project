@@ -64,8 +64,6 @@ F 3 "" H 3350 4950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2350 4850 2050 4850
-Text GLabel 2050 4850 0    50   Input ~ 0
-LED_IND
 $Comp
 L Device:Buzzer LS?
 U 1 1 5ECECE8C
@@ -116,8 +114,6 @@ F 7 "" H 8950 4800 50  0001 C CNN "URL"
 	1    8950 4800
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8600 4800 0    50   Input ~ 0
-BUZZER
 Wire Wire Line
 	9100 4800 9250 4800
 Wire Wire Line
@@ -158,8 +154,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 2250 2550 2250
 Connection ~ 2850 2250
-Text GLabel 2550 2250 0    50   UnSpc ~ 0
-ADDR_LED
 Wire Wire Line
 	3850 1950 3850 1750
 Wire Wire Line
@@ -414,4 +408,10 @@ Text Notes 2100 5500 0    98   ~ 20
 Indicator LED
 Text Notes 8700 5550 0    98   ~ 20
 Buzzer
+Text HLabel 8600 4800 0    50   Input ~ 0
+BUZZER
+Text HLabel 2050 4850 0    50   Input ~ 0
+LED_IND
+Text HLabel 2550 2250 0    50   Input ~ 0
+ADDR_LED
 $EndSCHEMATC

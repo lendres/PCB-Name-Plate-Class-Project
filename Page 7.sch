@@ -197,12 +197,6 @@ Wire Wire Line
 	5200 3650 4000 3650
 Wire Wire Line
 	5200 3450 4000 3450
-Text GLabel 3800 4250 0    50   UnSpc ~ 0
-SCL
-Text GLabel 3800 4150 0    50   UnSpc ~ 0
-SDA
-Text GLabel 3800 3650 0    50   UnSpc ~ 0
-IMU_INT
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5ECF5130
@@ -470,4 +464,10 @@ Wire Wire Line
 	6100 2450 6100 2350
 Wire Wire Line
 	5800 3150 5800 2350
+Text HLabel 3800 3650 0    50   Input ~ 0
+IMU_INT
+Text HLabel 3800 4150 0    50   Input ~ 0
+SDA
+Text HLabel 3800 4250 0    50   Input ~ 0
+SCL
 $EndSCHEMATC

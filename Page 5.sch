@@ -25,7 +25,7 @@ F 3 "http://suddendocs.samtec.com/catalog_english/fts.pdf" H 8550 2150 50  0001 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Mini J501
+L Name~Plate~Class~Library:USB_B_Mini J501
 U 1 1 5EBEA16E
 P 2650 6300
 F 0 "J501" H 2450 6800 50  0000 L CNN
@@ -80,14 +80,8 @@ Wire Wire Line
 	8850 2050 9650 2050
 Wire Wire Line
 	8850 1950 9650 1950
-Text GLabel 9650 2350 2    50   Output ~ 0
-SAMD11_nRST
 Text Label 8950 2350 0    50   ~ 0
 SAMD11_nRST
-Text GLabel 9650 2050 2    50   Output ~ 0
-SAMD11_SWCLK
-Text GLabel 9650 1950 2    50   BiDi ~ 0
-SAMD11_SWDIO
 Text Label 8950 1950 0    50   ~ 0
 SAMD11_SWDIO
 Text Label 8950 2050 0    50   ~ 0
@@ -103,10 +97,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 3810 535
 	1    3750 5350
 	1    0    0    -1  
 $EndComp
-Text GLabel 4500 6400 2    50   BiDi ~ 0
-USB_DM
-Text GLabel 3550 6300 2    50   BiDi ~ 0
-USB_DP
 Wire Wire Line
 	2950 6300 3200 6300
 NoConn ~ 2950 6500
@@ -116,14 +106,14 @@ Wire Wire Line
 	4450 4900 4100 4900
 Connection ~ 3200 6300
 Wire Wire Line
-	3200 6300 3550 6300
+	3200 6300 3700 6300
 Wire Wire Line
 	4150 5350 4300 5350
 Wire Wire Line
 	4300 5350 4300 6400
 Connection ~ 4300 6400
 Wire Wire Line
-	4300 6400 4500 6400
+	4300 6400 4800 6400
 Wire Wire Line
 	4100 4850 4100 4900
 Connection ~ 4100 4900
@@ -225,14 +215,10 @@ F 3 "" H 4100 4850 50  0001 C CNN
 	1    4100 4850
 	1    0    0    -1  
 $EndComp
-Text Label 2800 2050 0    50   ~ 0
+Text Label 1750 2050 0    50   ~ 0
 SAMD11_SWCLK
-Text Label 2800 2150 0    50   ~ 0
+Text Label 1750 2150 0    50   ~ 0
 SAMD11_SWDIO
-Text GLabel 5900 2450 2    50   BiDi ~ 0
-USB_DP
-Text GLabel 5900 2350 2    50   BiDi ~ 0
-USB_DM
 Text Label 4900 2450 0    50   ~ 0
 USB_DP
 Text Label 4900 2350 0    50   ~ 0
@@ -273,18 +259,14 @@ F 3 "~" H 6150 1600 50  0001 C CNN
 	1    5950 1600
 	1    0    0    -1  
 $EndComp
-Text GLabel 6650 2050 2    50   UnSpc ~ 0
-MEGA_TX
-Text GLabel 6650 1950 2    50   UnSpc ~ 0
-MEGA_RX
 Text Label 4900 2050 0    50   ~ 0
 SAMD11_RX
 Text Label 4900 1950 0    50   ~ 0
 SAMD11_TX
 Wire Wire Line
-	4700 2450 5900 2450
+	4700 2450 5200 2450
 Wire Wire Line
-	4700 2350 5900 2350
+	4700 2350 5200 2350
 Wire Wire Line
 	5750 2050 6350 2050
 Wire Wire Line
@@ -294,62 +276,55 @@ Wire Wire Line
 Wire Wire Line
 	4200 2850 4200 3400
 Wire Wire Line
-	2050 2150 2050 2350
+	2400 2150 2400 2350
 Wire Wire Line
-	2050 2850 1900 2850
-Connection ~ 2050 2850
-Wire Wire Line
-	2050 2950 2050 2850
+	2400 2950 2400 2850
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5EBD98BA
-P 2050 2950
+P 2400 2950
 AR Path="/5ECF32A9/5EBD98BA" Ref="TP?"  Part="1" 
 AR Path="/5ECF2FE7/5EBD98BA" Ref="TP502"  Part="1" 
-F 0 "TP502" H 2000 3050 50  0000 R CNN
-F 1 "TP_MEGA_nRST" H 2000 3150 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 2950 50  0001 C CNN
-F 3 "~" H 2250 2950 50  0001 C CNN
-	1    2050 2950
+F 0 "TP502" H 2350 3050 50  0000 R CNN
+F 1 "TP_MEGA_nRST" H 2350 3150 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2600 2950 50  0001 C CNN
+F 3 "~" H 2600 2950 50  0001 C CNN
+	1    2400 2950
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5EBCF6F7
-P 2650 2200
+P 2800 2200
 AR Path="/5ECF32A9/5EBCF6F7" Ref="TP?"  Part="1" 
 AR Path="/5ECF2FE7/5EBCF6F7" Ref="TP505"  Part="1" 
-F 0 "TP505" H 2850 2450 50  0000 R CNN
-F 1 "TP_SAMD11_SWCLK" H 2850 2550 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2850 2200 50  0001 C CNN
-F 3 "~" H 2850 2200 50  0001 C CNN
-	1    2650 2200
+F 0 "TP505" H 3000 2450 50  0000 R CNN
+F 1 "TP_SAMD11_SWCLK" H 3000 2550 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3000 2200 50  0001 C CNN
+F 3 "~" H 3000 2200 50  0001 C CNN
+	1    2800 2200
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2650 2200 2650 2050
+	3550 2850 2400 2850
 Wire Wire Line
-	3550 2850 2050 2850
+	3700 2050 2800 2050
 Wire Wire Line
-	3700 2050 2650 2050
-Wire Wire Line
-	1900 2050 2650 2050
-Connection ~ 2650 2050
+	1750 2050 2800 2050
+Connection ~ 2800 2050
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5EBCD7DB
-P 2050 2350
+P 2400 2350
 AR Path="/5ECF32A9/5EBCD7DB" Ref="TP?"  Part="1" 
 AR Path="/5ECF2FE7/5EBCD7DB" Ref="TP506"  Part="1" 
-F 0 "TP506" H 2800 2350 50  0000 R CNN
-F 1 "TP_SAMD11_SWDIO" H 2800 2450 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 2350 50  0001 C CNN
-F 3 "~" H 2250 2350 50  0001 C CNN
-	1    2050 2350
+F 0 "TP506" H 3150 2350 50  0000 R CNN
+F 1 "TP_SAMD11_SWDIO" H 3150 2450 50  0000 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2600 2350 50  0001 C CNN
+F 3 "~" H 2600 2350 50  0001 C CNN
+	1    2400 2350
 	-1   0    0    1   
 $EndComp
-Text GLabel 1900 2850 0    50   UnSpc ~ 0
-MEGA_nRST
 Text Label 2800 2850 0    50   ~ 0
 MEGA_nRST
 Wire Wire Line
@@ -362,47 +337,28 @@ Wire Wire Line
 	4700 1950 5450 1950
 Connection ~ 3400 1000
 Wire Wire Line
-	2650 1000 2650 1250
+	2950 1000 2950 1250
 Wire Wire Line
-	3400 1000 2650 1000
+	3400 1000 2950 1000
 Wire Wire Line
 	4200 1000 4200 1450
 Wire Wire Line
-	2650 1850 3700 1850
-Connection ~ 2650 1850
-Wire Wire Line
-	2650 1550 2650 1850
-Wire Wire Line
-	2050 2150 3700 2150
-Connection ~ 2050 2150
-Wire Wire Line
-	1900 2150 2050 2150
-Wire Wire Line
-	2050 1850 2650 1850
-Wire Wire Line
-	2050 1850 1900 1850
-Connection ~ 2050 1850
-Text GLabel 1900 1850 0    50   Input ~ 0
-SAMD11_nRST
+	2950 1550 2950 1850
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5EBCAF81
-P 2050 1850
+P 2400 1850
 AR Path="/5ECF32A9/5EBCAF81" Ref="TP?"  Part="1" 
 AR Path="/5ECF2FE7/5EBCAF81" Ref="TP501"  Part="1" 
-F 0 "TP501" H 1850 2150 50  0000 L CNN
-F 1 "TP_SAMD11_nRST" H 1850 2050 50  0000 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 1850 50  0001 C CNN
-F 3 "~" H 2250 1850 50  0001 C CNN
-	1    2050 1850
+F 0 "TP501" H 2200 2150 50  0000 L CNN
+F 1 "TP_SAMD11_nRST" H 2200 2050 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2600 1850 50  0001 C CNN
+F 3 "~" H 2600 1850 50  0001 C CNN
+	1    2400 1850
 	1    0    0    -1  
 $EndComp
-Text GLabel 1900 2050 0    50   Input ~ 0
-SAMD11_SWCLK
-Text Label 2800 1850 0    50   ~ 0
+Text Label 1750 1850 0    50   ~ 0
 SAMD11_nRST
-Text GLabel 1900 2150 0    50   BiDi ~ 0
-SAMD11_SWDIO
 Wire Wire Line
 	3400 1000 3700 1000
 $Comp
@@ -442,18 +398,18 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5EBC6EB0
-P 2650 1400
+P 2950 1400
 AR Path="/5EBC6EB0" Ref="R?"  Part="1" 
 AR Path="/5EAC05C2/5EBC6EB0" Ref="R?"  Part="1" 
 AR Path="/5EACA483/5EBC6EB0" Ref="R?"  Part="1" 
 AR Path="/5ECF2FE7/5EBC6EB0" Ref="R501"  Part="1" 
-F 0 "R501" H 2720 1446 50  0000 L CNN
-F 1 "R10K0" H 2720 1355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2580 1400 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2650 1400 50  0001 C CNN
-F 4 "311-10KGRCT-ND" H 2650 1400 50  0001 C CNN "DigiKey Part No."
-F 5 "Yageo RC0603JR-0710KL" H 2650 1400 50  0001 C CNN "Mftr Part No."
-	1    2650 1400
+F 0 "R501" H 3020 1446 50  0000 L CNN
+F 1 "R10K0" H 3020 1355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2880 1400 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2950 1400 50  0001 C CNN
+F 4 "311-10KGRCT-ND" H 2950 1400 50  0001 C CNN "DigiKey Part No."
+F 5 "Yageo RC0603JR-0710KL" H 2950 1400 50  0001 C CNN "Mftr Part No."
+	1    2950 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -539,4 +495,32 @@ Wire Wire Line
 	4450 6100 4450 4900
 Wire Wire Line
 	3750 4900 3750 4950
+Text Label 4500 6400 0    50   ~ 0
+USB_DM
+Text Label 3400 6300 0    50   ~ 0
+USB_DP
+Text HLabel 2200 2850 0    50   Input ~ 0
+MEGA_nRST
+Text HLabel 6650 1950 2    50   Input ~ 0
+SAMD11_TX_MEGA_RX
+Text HLabel 6650 2050 2    50   Input ~ 0
+SAMD11_RX_MEGA_TX
+Connection ~ 2400 2150
+Wire Wire Line
+	1750 2150 2400 2150
+Wire Wire Line
+	2800 2050 2800 2200
+Wire Wire Line
+	2400 2150 3700 2150
+Connection ~ 2950 1850
+Wire Wire Line
+	2950 1850 3700 1850
+Connection ~ 2400 1850
+Wire Wire Line
+	2400 1850 2950 1850
+Wire Wire Line
+	1750 1850 2400 1850
+Connection ~ 2400 2850
+Wire Wire Line
+	2200 2850 2400 2850
 $EndSCHEMATC

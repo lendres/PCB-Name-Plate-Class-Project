@@ -73,8 +73,6 @@ F 4 "Yageo CC0603KPX7R7BB104" H 4800 1800 50  0001 C CNN "Mftr Part No."
 $EndComp
 Wire Wire Line
 	3350 1500 3500 1500
-Text GLabel 5100 1500 2    50   UnSpc ~ 0
-SW1
 $Comp
 L power:GND #PWR0110
 U 1 1 5EB93F26
@@ -201,8 +199,6 @@ F 4 "Yageo CC0603KPX7R7BB104" H 8450 1800 50  0001 C CNN "Mftr Part No."
 $EndComp
 Wire Wire Line
 	7000 1500 7150 1500
-Text GLabel 8750 1500 2    50   UnSpc ~ 0
-SW2
 $Comp
 L power:GND #PWR0113
 U 1 1 5EBA75A9
@@ -344,8 +340,6 @@ F 4 "Yageo CC0603KPX7R7BB104" H 4800 3600 50  0001 C CNN "Mftr Part No."
 $EndComp
 Wire Wire Line
 	3350 3300 3500 3300
-Text GLabel 5100 3300 2    50   UnSpc ~ 0
-SW3
 $Comp
 L power:GND #PWR0116
 U 1 1 5EBAEDAC
@@ -487,8 +481,6 @@ F 4 "Yageo CC0603KPX7R7BB104" H 8450 3600 50  0001 C CNN "Mftr Part No."
 $EndComp
 Wire Wire Line
 	7000 3300 7150 3300
-Text GLabel 8750 3300 2    50   UnSpc ~ 0
-SW4
 $Comp
 L power:GND #PWR0119
 U 1 1 5EBB48C8
@@ -626,8 +618,6 @@ F 4 "Yageo CC0603KPX7R7BB104" H 6800 5350 50  0001 C CNN "Mftr Part No."
 $EndComp
 Wire Wire Line
 	5350 5050 5500 5050
-Text GLabel 7100 5050 2    50   UnSpc ~ 0
-SW5
 $Comp
 L power:GND #PWR0122
 U 1 1 5EBBC70C
@@ -730,4 +720,14 @@ Wire Wire Line
 	6300 3400 6300 3600
 Wire Wire Line
 	7150 3300 7400 3300
+Text HLabel 5100 1500 2    50   Input ~ 0
+SW1
+Text HLabel 8750 1500 2    50   Input ~ 0
+SW2
+Text HLabel 8750 3300 2    50   Input ~ 0
+SW4
+Text HLabel 7100 5050 2    50   Input ~ 0
+SW5
+Text HLabel 5100 3300 2    50   Input ~ 0
+SW3
 $EndSCHEMATC

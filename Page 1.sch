@@ -72,30 +72,8 @@ Wire Wire Line
 	4000 2350 4750 2350
 Wire Wire Line
 	4000 2450 4750 2450
-Text GLabel 4750 1350 2    50   Output ~ 0
+Text GLabel 5400 1350 2    50   Output ~ 0
 BUZZER
-Text GLabel 4750 2150 2    50   Input ~ 0
-IMU_INT
-Text GLabel 6600 2650 2    50   UnSpc ~ 0
-SCL
-Text GLabel 6600 2750 2    50   UnSpc ~ 0
-MEGA_nRST
-Text GLabel 4750 2950 2    50   Input ~ 0
-MEGA_RX
-Text GLabel 4750 3050 2    50   Output ~ 0
-MEGA_TX
-Text GLabel 4750 3250 2    50   UnSpc ~ 0
-SW1
-Text GLabel 4750 3350 2    50   UnSpc ~ 0
-SW2
-Text GLabel 4750 3450 2    50   UnSpc ~ 0
-SW3
-Text GLabel 4750 3550 2    50   UnSpc ~ 0
-SW4
-Text GLabel 4750 3650 2    50   UnSpc ~ 0
-SW5
-Text GLabel 6600 2550 2    50   UnSpc ~ 0
-SDA
 Text GLabel 9450 3200 2    50   BiDi ~ 0
 MEGA_nRST
 $Comp
@@ -209,12 +187,12 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR06
 U 1 1 5EADA375
-P 5950 1900
-F 0 "#PWR06" H 5950 1750 50  0001 C CNN
-F 1 "+3.3V" H 5965 2073 50  0000 C CNN
-F 2 "" H 5950 1900 50  0001 C CNN
-F 3 "" H 5950 1900 50  0001 C CNN
-	1    5950 1900
+P 6050 1900
+F 0 "#PWR06" H 6050 1750 50  0001 C CNN
+F 1 "+3.3V" H 6065 2073 50  0000 C CNN
+F 2 "" H 6050 1900 50  0001 C CNN
+F 3 "" H 6050 1900 50  0001 C CNN
+	1    6050 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -264,22 +242,16 @@ Text Label 8150 1300 0    50   ~ 0
 XTAL2
 Wire Wire Line
 	8150 1300 8550 1300
-Text GLabel 4750 1250 2    50   Output ~ 0
+Text GLabel 5400 1250 2    50   Output ~ 0
 LED_IND
-Text GLabel 4750 2450 2    50   Output ~ 0
-ADDR_LED
-Text GLabel 4750 1450 2    50   UnSpc ~ 0
+Text GLabel 5400 1450 2    50   UnSpc ~ 0
 LCD_DC
-Text GLabel 4750 1550 2    50   UnSpc ~ 0
+Text GLabel 5400 1550 2    50   UnSpc ~ 0
 SPI_MOSI
-Text GLabel 4750 1650 2    50   UnSpc ~ 0
+Text GLabel 5400 1650 2    50   UnSpc ~ 0
 SPI_MISO
-Text GLabel 4750 1750 2    50   UnSpc ~ 0
+Text GLabel 5400 1750 2    50   UnSpc ~ 0
 SPI_CLK
-Text GLabel 4750 2250 2    50   UnSpc ~ 0
-RTC_INT
-Text GLabel 4750 2350 2    50   UnSpc ~ 0
-LCD_FONT_nSELECT
 Wire Wire Line
 	5600 2000 6050 2000
 Connection ~ 5600 2750
@@ -297,8 +269,6 @@ Wire Wire Line
 	4000 2550 6050 2550
 Wire Wire Line
 	4000 2650 6500 2650
-Text GLabel 4750 3150 2    50   UnSpc ~ 0
-LCD_nCS
 Text GLabel 9450 3400 2    50   UnSpc ~ 0
 SPI_MISO
 Text GLabel 9450 3300 2    50   UnSpc ~ 0
@@ -504,4 +474,46 @@ Wire Wire Line
 	1950 2950 1950 3700
 Wire Wire Line
 	2600 2050 2600 3700
+Text HLabel 4750 2150 2    50   Input ~ 0
+IMU_INT
+Text HLabel 6600 2550 2    50   Input ~ 0
+SDA
+Text HLabel 6600 2650 2    50   Input ~ 0
+SCL
+Text HLabel 4750 3250 2    50   Input ~ 0
+SW1
+Text HLabel 4750 3350 2    50   Input ~ 0
+SW2
+Text HLabel 4750 3450 2    50   Input ~ 0
+SW3
+Text HLabel 4750 3550 2    50   Input ~ 0
+SW4
+Text HLabel 4750 3650 2    50   Input ~ 0
+SW5
+Text HLabel 4750 2250 2    50   Input ~ 0
+RTC_INT
+Text HLabel 6600 2750 2    50   Input ~ 0
+MEGA_nRST
+Text HLabel 4750 2950 2    50   Input ~ 0
+SAMD11_TX_MEGA_RX
+Text HLabel 4750 3050 2    50   Input ~ 0
+SAMD11_RX_MEGA_TX
+Text HLabel 4750 3150 2    50   Input ~ 0
+LCD_nCS
+Text HLabel 4750 2450 2    50   Input ~ 0
+ADDR_LED
+Text HLabel 4750 2350 2    50   Input ~ 0
+LCD_FONT_nSELECT
+Text HLabel 4750 1750 2    50   Input ~ 0
+SPI_CLK
+Text HLabel 4750 1650 2    50   Input ~ 0
+SPI_MISO
+Text HLabel 4750 1550 2    50   Input ~ 0
+SPI_MOSI
+Text HLabel 4750 1450 2    50   Input ~ 0
+LCD_DC
+Text HLabel 4750 1350 2    50   Input ~ 0
+BUZZER
+Text HLabel 4750 1250 2    50   Input ~ 0
+LED_IND
 $EndSCHEMATC
