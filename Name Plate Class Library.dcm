@@ -20,6 +20,12 @@ $CMP Switch_JS202011SCQN
 F C&K
 $ENDCMP
 #
+$CMP TestPoint
+D test point
+K test point tp
+F None
+$ENDCMP
+#
 $CMP USB_B_Micro
 D USB Micro Type B connector
 K connector USB micro

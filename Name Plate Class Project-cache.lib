@@ -545,6 +545,24 @@ X 6 6 200 500 200 D 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
+# Name_Plate_Class_Library_TestPoint
+#
+DEF Name_Plate_Class_Library_TestPoint TP 0 30 N N 1 F N
+F0 "TP" -100 300 50 H V L CNN
+F1 "Name_Plate_Class_Library_TestPoint" -100 -250 50 H I L CNN
+F2 "" 200 0 50 H I C CNN
+F3 "" 200 0 50 H I C CNN
+F4 "Name" -100 200 50 H V L CNN "Name"
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C 0 130 30 0 1 0 N
+X 1 1 0 0 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Name_Plate_Class_Library_USB_B_Mini
 #
 DEF Name_Plate_Class_Library_USB_B_Mini J 0 40 Y Y 1 F N

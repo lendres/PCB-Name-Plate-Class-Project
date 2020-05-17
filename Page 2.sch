@@ -97,11 +97,13 @@ U 1 1 5EB5D504
 P 4500 3800
 AR Path="/5EB5D504" Ref="R?"  Part="1" 
 AR Path="/5EAC05C2/5EB5D504" Ref="R?"  Part="1" 
-AR Path="/5EACA483/5EB5D504" Ref="R201"  Part="1" 
-F 0 "R201" H 4570 3846 50  0000 L CNN
-F 1 "R100K0" H 4570 3755 50  0000 L CNN
+AR Path="/5EACA483/5EB5D504" Ref="R202"  Part="1" 
+F 0 "R202" H 4570 3846 50  0000 L CNN
+F 1 "100K0" H 4570 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 3800 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4500 3800 50  0001 C CNN
+F 4 "311-100KGRCT-ND" H 4500 3800 50  0001 C CNN "DigiKey Part No."
+F 5 "Yageo" H 4500 3800 50  0001 C CNN "Manufacturer"
 	1    4500 3800
 	1    0    0    1   
 $EndComp
@@ -113,9 +115,11 @@ AR Path="/5EB5DD15" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EB5DD15" Ref="R?"  Part="1" 
 AR Path="/5EACA483/5EB5DD15" Ref="R203"  Part="1" 
 F 0 "R203" H 4070 4746 50  0000 L CNN
-F 1 "R100K0" H 4070 4655 50  0000 L CNN
+F 1 "100K0" H 4070 4655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 4700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4000 4700 50  0001 C CNN
+F 4 "311-100KGRCT-ND" H 4000 4700 50  0001 C CNN "DigiKey Part No."
+F 5 "Yageo" H 4000 4700 50  0001 C CNN "Manufacturer"
 	1    4000 4700
 	1    0    0    -1  
 $EndComp
@@ -181,15 +185,16 @@ Connection ~ 4500 4050
 Wire Wire Line
 	4500 4050 4500 4100
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EB6B8BD
 P 5250 4050
 AR Path="/5ECF32A9/5EB6B8BD" Ref="TP?"  Part="1" 
 AR Path="/5EACA483/5EB6B8BD" Ref="TP201"  Part="1" 
 F 0 "TP201" H 5300 4300 50  0000 R CNN
-F 1 "TP_SWITCH_BATTERY" H 5300 4400 50  0000 R CNN
+F 1 "TestPoint" H 5300 4400 50  0000 R CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 5450 4050 50  0001 C CNN
-F 3 "~" H 5450 4050 50  0001 C CNN
+F 3 "None" H 5450 4050 50  0001 C CNN
+F 4 "TP_SWITCH_BATTERY" H 5250 4050 50  0001 C CNN "Name"
 	1    5250 4050
 	-1   0    0    1   
 $EndComp
@@ -236,15 +241,16 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-L
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EB7241E
 P 6850 3500
 AR Path="/5ECF32A9/5EB7241E" Ref="TP?"  Part="1" 
 AR Path="/5EACA483/5EB7241E" Ref="TP202"  Part="1" 
 F 0 "TP202" H 6800 3800 50  0000 L CNN
-F 1 "TP_5V" H 6800 3700 50  0000 L CNN
+F 1 "Test Point" H 6800 3700 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 7050 3500 50  0001 C CNN
-F 3 "~" H 7050 3500 50  0001 C CNN
+F 3 "None" H 7050 3500 50  0001 C CNN
+F 4 "TP_5V" H 6800 3700 50  0000 L CNN "Name"
 	1    6850 3500
 	1    0    0    -1  
 $EndComp
@@ -423,7 +429,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-L
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 3050 6600 3050
+	4000 3050 6200 3050
 Wire Wire Line
 	1550 2850 1550 2950
 $Comp
@@ -448,15 +454,16 @@ Connection ~ 2150 3500
 Wire Wire Line
 	1450 3500 2150 3500
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5ECCF025
 P 9300 3500
 AR Path="/5ECF32A9/5ECCF025" Ref="TP?"  Part="1" 
 AR Path="/5EACA483/5ECCF025" Ref="TP203"  Part="1" 
 F 0 "TP203" H 9250 3800 50  0000 L CNN
-F 1 "TP_3V" H 9250 3700 50  0000 L CNN
+F 1 "Test Point" H 9250 3700 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 9500 3500 50  0001 C CNN
-F 3 "~" H 9500 3500 50  0001 C CNN
+F 3 "None" H 9500 3500 50  0001 C CNN
+F 4 "TP_3V" H 9250 3700 50  0000 L CNN "Name"
 	1    9300 3500
 	1    0    0    -1  
 $EndComp
@@ -511,4 +518,21 @@ F 3 "" H 7650 4350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7650 4350 7650 4000
+Wire Wire Line
+	6500 3050 6600 3050
+$Comp
+L Device:R R?
+U 1 1 5EC13512
+P 6350 3050
+AR Path="/5EC13512" Ref="R?"  Part="1" 
+AR Path="/5EAC05C2/5EC13512" Ref="R?"  Part="1" 
+AR Path="/5EACA483/5EC13512" Ref="R201"  Part="1" 
+F 0 "R201" V 6550 2950 50  0000 L CNN
+F 1 "Jumper" V 6450 2950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 3050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6350 3050 50  0001 C CNN
+F 4 "Yageo" H 6350 3050 50  0001 C CNN "Manufacturer"
+	1    6350 3050
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC

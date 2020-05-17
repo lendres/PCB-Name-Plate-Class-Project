@@ -356,9 +356,10 @@ AR Path="/5EAD5874" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EAD5874" Ref="R103"  Part="1" 
 AR Path="/5EACA483/5EAD5874" Ref="R?"  Part="1" 
 F 0 "R103" H 5970 1396 50  0000 L CNN
-F 1 "R4k75" H 5970 1305 50  0000 L CNN
+F 1 "4k75" H 5970 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5830 1350 50  0001 C CNN
 F 3 "~" H 5900 1350 50  0001 C CNN
+F 4 "Yageo" H 5900 1350 50  0001 C CNN "Manufacturer"
 	1    5900 1350
 	1    0    0    -1  
 $EndComp
@@ -370,9 +371,10 @@ AR Path="/5EAD4B3A" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EAD4B3A" Ref="R102"  Part="1" 
 AR Path="/5EACA483/5EAD4B3A" Ref="R?"  Part="1" 
 F 0 "R102" H 5520 1396 50  0000 L CNN
-F 1 "R4k75" H 5520 1305 50  0000 L CNN
+F 1 "4k75" H 5520 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 1350 50  0001 C CNN
 F 3 "~" H 5450 1350 50  0001 C CNN
+F 4 "Yageo" H 5450 1350 50  0001 C CNN "Manufacturer"
 	1    5450 1350
 	1    0    0    -1  
 $EndComp
@@ -384,11 +386,12 @@ AR Path="/5EAC9991" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EAC9991" Ref="R101"  Part="1" 
 AR Path="/5EACA483/5EAC9991" Ref="R?"  Part="1" 
 F 0 "R101" H 5070 1396 50  0000 L CNN
-F 1 "R10K0" H 5070 1305 50  0000 L CNN
+F 1 "10K0" H 5070 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 1350 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5000 1350 50  0001 C CNN
 F 4 "311-10KGRCT-ND" H 5000 1350 50  0001 C CNN "DigiKey Part No."
 F 5 "Yageo RC0603JR-0710KL" H 5000 1350 50  0001 C CNN "Mftr Part No."
+F 6 "Yageo" H 5000 1350 50  0001 C CNN "Manufacturer"
 	1    5000 1350
 	1    0    0    -1  
 $EndComp
@@ -499,9 +502,11 @@ AR Path="/5EC9D2F5" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EC9D2F5" Ref="R104"  Part="1" 
 AR Path="/5EACA483/5EC9D2F5" Ref="R?"  Part="1" 
 F 0 "R104" H 6420 1396 50  0000 L CNN
-F 1 "R10K0" H 6420 1305 50  0000 L CNN
+F 1 "10K0" H 6420 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 1350 50  0001 C CNN
 F 3 "~" H 6350 1350 50  0001 C CNN
+F 4 "311-10KGRCT-ND" H 6350 1350 50  0001 C CNN "DigiKey Part No."
+F 5 "Yageo" H 6350 1350 50  0001 C CNN "Manufacturer"
 	1    6350 1350
 	1    0    0    -1  
 $EndComp
@@ -513,9 +518,11 @@ AR Path="/5EC9D6B1" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EC9D6B1" Ref="R105"  Part="1" 
 AR Path="/5EACA483/5EC9D6B1" Ref="R?"  Part="1" 
 F 0 "R105" H 6820 1396 50  0000 L CNN
-F 1 "R10K0" H 6820 1305 50  0000 L CNN
+F 1 "10K0" H 6820 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 1350 50  0001 C CNN
 F 3 "~" H 6750 1350 50  0001 C CNN
+F 4 "311-10KGRCT-ND" H 6750 1350 50  0001 C CNN "DigiKey Part No."
+F 5 "Yageo" H 6750 1350 50  0001 C CNN "Manufacturer"
 	1    6750 1350
 	1    0    0    -1  
 $EndComp

@@ -355,9 +355,10 @@ AR Path="/5ECF32A9/5ED1C8D7" Ref="TP?"  Part="1"
 AR Path="/5ECF3158/5ED1C8D7" Ref="TP?"  Part="1" 
 AR Path="/5ECF3070/5ED1C8D7" Ref="TP604"  Part="1" 
 F 0 "TP604" H 2000 3750 50  0000 R CNN
-F 1 "TP_SCL" H 2000 3850 50  0000 R CNN
+F 1 "Test Point" H 2000 3850 50  0000 R CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 3700 50  0001 C CNN
-F 3 "~" H 2250 3700 50  0001 C CNN
+F 3 "None" H 2250 3700 50  0001 C CNN
+F 4 "TP_SCL" H 2050 3700 50  0001 C CNN "Name"
 	1    2050 3700
 	-1   0    0    1   
 $EndComp
@@ -372,9 +373,10 @@ AR Path="/5ECF32A9/5ED1C8DF" Ref="TP?"  Part="1"
 AR Path="/5ECF3158/5ED1C8DF" Ref="TP?"  Part="1" 
 AR Path="/5ECF3070/5ED1C8DF" Ref="TP603"  Part="1" 
 F 0 "TP603" H 2100 3750 50  0000 L CNN
-F 1 "TP_SDA" H 2100 3650 50  0000 L CNN
+F 1 "Test Point" H 2100 3650 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 3600 50  0001 C CNN
-F 3 "~" H 2250 3600 50  0001 C CNN
+F 3 "None" H 2250 3600 50  0001 C CNN
+F 4 "TP_SDA" H 2050 3600 50  0001 C CNN "Name"
 	1    2050 3600
 	1    0    0    -1  
 $EndComp
@@ -396,11 +398,12 @@ AR Path="/5ECF2FE7/5ED1C8EB" Ref="R?"  Part="1"
 AR Path="/5ECF3158/5ED1C8EB" Ref="R?"  Part="1" 
 AR Path="/5ECF3070/5ED1C8EB" Ref="R602"  Part="1" 
 F 0 "R602" H 1570 2746 50  0000 L CNN
-F 1 "R10K0" H 1570 2655 50  0000 L CNN
+F 1 "10K0" H 1570 2655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1430 2700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1500 2700 50  0001 C CNN
 F 4 "311-10KGRCT-ND" H 1500 2700 50  0001 C CNN "DigiKey Part No."
 F 5 "Yageo RC0603JR-0710KL" H 1500 2700 50  0001 C CNN "Mftr Part No."
+F 6 "Yageo" H 1500 2700 50  0001 C CNN "Manufacturer"
 	1    1500 2700
 	1    0    0    -1  
 $EndComp
@@ -412,9 +415,10 @@ AR Path="/5ECF32A9/5ED1C8F1" Ref="TP?"  Part="1"
 AR Path="/5ECF3158/5ED1C8F1" Ref="TP?"  Part="1" 
 AR Path="/5ECF3070/5ED1C8F1" Ref="TP602"  Part="1" 
 F 0 "TP602" H 2100 3250 50  0000 L CNN
-F 1 "TP_IMU_INT" H 2100 3150 50  0000 L CNN
+F 1 "Test Point" H 2100 3150 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 3100 50  0001 C CNN
-F 3 "~" H 2250 3100 50  0001 C CNN
+F 3 "None" H 2250 3100 50  0001 C CNN
+F 4 "TP_IMU_INT" H 2050 3100 50  0001 C CNN "Name"
 	1    2050 3100
 	1    0    0    -1  
 $EndComp
@@ -434,11 +438,12 @@ AR Path="/5ECF2FE7/5ED1C8FC" Ref="R?"  Part="1"
 AR Path="/5ECF3158/5ED1C8FC" Ref="R?"  Part="1" 
 AR Path="/5ECF3070/5ED1C8FC" Ref="R601"  Part="1" 
 F 0 "R601" H 1070 2746 50  0000 L CNN
-F 1 "R10K0" H 1070 2655 50  0000 L CNN
+F 1 "10K0" H 1070 2655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 930 2700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 1000 2700 50  0001 C CNN
 F 4 "311-10KGRCT-ND" H 1000 2700 50  0001 C CNN "DigiKey Part No."
 F 5 "Yageo RC0603JR-0710KL" H 1000 2700 50  0001 C CNN "Mftr Part No."
+F 6 "Yageo" H 1000 2700 50  0001 C CNN "Manufacturer"
 	1    1000 2700
 	1    0    0    -1  
 $EndComp
@@ -450,9 +455,10 @@ AR Path="/5ECF32A9/5ED1C902" Ref="TP?"  Part="1"
 AR Path="/5ECF3158/5ED1C902" Ref="TP?"  Part="1" 
 AR Path="/5ECF3070/5ED1C902" Ref="TP601"  Part="1" 
 F 0 "TP601" H 2100 3050 50  0000 L CNN
-F 1 "TP_nRST" H 2100 2950 50  0000 L CNN
+F 1 "Test Point" H 2100 2950 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 2900 50  0001 C CNN
-F 3 "~" H 2250 2900 50  0001 C CNN
+F 3 "None" H 2250 2900 50  0001 C CNN
+F 4 "TP_nRST" H 2050 2900 50  0001 C CNN "Name"
 	1    2050 2900
 	1    0    0    -1  
 $EndComp

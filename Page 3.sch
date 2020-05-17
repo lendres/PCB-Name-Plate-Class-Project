@@ -38,6 +38,7 @@ F 0 "R302" V 2850 4750 50  0000 L BNN
 F 1 "470k" V 2950 4750 50  0000 L BNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2980 4850 50  0001 C CNN
 F 3 "~" H 3050 4850 50  0001 C CNN
+F 4 "TE Connectivity " H 3050 4850 50  0001 C CNN "Manufacturer"
 	1    3050 4850
 	0    1    1    0   
 $EndComp
@@ -130,9 +131,10 @@ AR Path="/5EACA483/5EB2ABF4" Ref="R?"  Part="1"
 AR Path="/5ECF32A9/5EB2ABF4" Ref="R?"  Part="1" 
 AR Path="/5ECEA271/5EB2ABF4" Ref="R301"  Part="1" 
 F 0 "R301" V 3150 2350 50  0000 R CNN
-F 1 "R22K0" V 3050 2350 50  0000 R CNN
+F 1 "22K0" V 3050 2350 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3180 2250 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3250 2250 50  0001 C CNN
+F 4 "TE Connectivity " H 3250 2250 50  0001 C CNN "Manufacturer"
 	1    3250 2250
 	0    -1   -1   0   
 $EndComp
@@ -143,9 +145,10 @@ P 2850 2250
 AR Path="/5ECF32A9/5EB2B88E" Ref="TP?"  Part="1" 
 AR Path="/5ECEA271/5EB2B88E" Ref="TP301"  Part="1" 
 F 0 "TP301" H 2650 2550 50  0000 L CNN
-F 1 "TP_ADDR_LED" H 2650 2450 50  0000 L CNN
+F 1 "Test Point" H 2650 2450 50  0000 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3050 2250 50  0001 C CNN
-F 3 "~" H 3050 2250 50  0001 C CNN
+F 3 "None" H 3050 2250 50  0001 C CNN
+F 4 "TP_ADDR_LED" H 2850 2250 50  0001 C CNN "Name"
 	1    2850 2250
 	1    0    0    -1  
 $EndComp
