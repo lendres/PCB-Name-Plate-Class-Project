@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -46,8 +46,8 @@ P 4250 1500
 AR Path="/5EB93212" Ref="R?"  Part="1" 
 AR Path="/5EAC05C2/5EB93212" Ref="R?"  Part="1" 
 AR Path="/5EACA483/5EB93212" Ref="R?"  Part="1" 
-AR Path="/5ECF2F45/5EB93212" Ref="R402"  Part="1" 
-F 0 "R402" V 4350 1400 50  0000 L CNN
+AR Path="/5ECF2F45/5EB93212" Ref="R403"  Part="1" 
+F 0 "R403" V 4350 1400 50  0000 L CNN
 F 1 "R43K0" V 4150 1350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 1500 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4250 1500 50  0001 C CNN
@@ -172,8 +172,8 @@ P 7400 1250
 AR Path="/5EBA7594" Ref="R?"  Part="1" 
 AR Path="/5EAC05C2/5EBA7594" Ref="R?"  Part="1" 
 AR Path="/5EACA483/5EBA7594" Ref="R?"  Part="1" 
-AR Path="/5ECF2F45/5EBA7594" Ref="R403"  Part="1" 
-F 0 "R403" H 7470 1296 50  0000 L CNN
+AR Path="/5ECF2F45/5EBA7594" Ref="R402"  Part="1" 
+F 0 "R402" H 7470 1296 50  0000 L CNN
 F 1 "R12K0" H 7470 1205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7330 1250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7400 1250 50  0001 C CNN

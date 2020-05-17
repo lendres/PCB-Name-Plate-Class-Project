@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -102,9 +102,9 @@ U 1 1 5ECECE9A
 P 8950 4800
 AR Path="/5EACA483/5ECECE9A" Ref="C?"  Part="1" 
 AR Path="/5ECE9FD3/5ECECE9A" Ref="C?"  Part="1" 
-AR Path="/5ECEA271/5ECECE9A" Ref="C309"  Part="1" 
-F 0 "C309" V 9202 4800 50  0000 C CNN
-F 1 "2.2uF" V 9111 4800 50  0000 C CNN
+AR Path="/5ECEA271/5ECECE9A" Ref="C301"  Part="1" 
+F 0 "C301" V 9202 4800 50  0000 C CNN
+F 1 "10uF" V 9111 4800 50  0000 C CNN
 F 2 "Name Plate Class Project:CAP_430X430N" H 8950 4800 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 8950 4800 50  0001 C CNN
 F 4 "Panasonic EEE-1VA2R2NR" H 8950 4800 50  0001 C CNN "Field4"
@@ -170,8 +170,8 @@ P 4350 2550
 AR Path="/5EB2D593" Ref="C?"  Part="1" 
 AR Path="/5EAC05C2/5EB2D593" Ref="C?"  Part="1" 
 AR Path="/5EACA483/5EB2D593" Ref="C?"  Part="1" 
-AR Path="/5ECEA271/5EB2D593" Ref="C305"  Part="1" 
-F 0 "C305" H 4400 2650 50  0000 L BNN
+AR Path="/5ECEA271/5EB2D593" Ref="C303"  Part="1" 
+F 0 "C303" H 4400 2650 50  0000 L BNN
 F 1 "0.1uF" H 4400 2400 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4388 2400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4350 2550 50  0001 C CNN
@@ -217,8 +217,8 @@ P 5500 2550
 AR Path="/5EB315FC" Ref="C?"  Part="1" 
 AR Path="/5EAC05C2/5EB315FC" Ref="C?"  Part="1" 
 AR Path="/5EACA483/5EB315FC" Ref="C?"  Part="1" 
-AR Path="/5ECEA271/5EB315FC" Ref="C306"  Part="1" 
-F 0 "C306" H 5550 2650 50  0000 L BNN
+AR Path="/5ECEA271/5EB315FC" Ref="C304"  Part="1" 
+F 0 "C304" H 5550 2650 50  0000 L BNN
 F 1 "0.1uF" H 5550 2400 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5538 2400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5500 2550 50  0001 C CNN
@@ -259,8 +259,8 @@ P 6650 2550
 AR Path="/5EB32756" Ref="C?"  Part="1" 
 AR Path="/5EAC05C2/5EB32756" Ref="C?"  Part="1" 
 AR Path="/5EACA483/5EB32756" Ref="C?"  Part="1" 
-AR Path="/5ECEA271/5EB32756" Ref="C307"  Part="1" 
-F 0 "C307" H 6700 2650 50  0000 L BNN
+AR Path="/5ECEA271/5EB32756" Ref="C305"  Part="1" 
+F 0 "C305" H 6700 2650 50  0000 L BNN
 F 1 "0.1uF" H 6700 2400 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6688 2400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6650 2550 50  0001 C CNN
@@ -301,8 +301,8 @@ P 7800 2550
 AR Path="/5EB3364B" Ref="C?"  Part="1" 
 AR Path="/5EAC05C2/5EB3364B" Ref="C?"  Part="1" 
 AR Path="/5EACA483/5EB3364B" Ref="C?"  Part="1" 
-AR Path="/5ECEA271/5EB3364B" Ref="C308"  Part="1" 
-F 0 "C308" H 7850 2650 50  0000 L BNN
+AR Path="/5ECEA271/5EB3364B" Ref="C306"  Part="1" 
+F 0 "C306" H 7850 2650 50  0000 L BNN
 F 1 "0.1uF" H 7850 2400 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7838 2400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7800 2550 50  0001 C CNN
@@ -333,21 +333,6 @@ Wire Wire Line
 	8300 1550 8300 1400
 Connection ~ 7800 2850
 NoConn ~ 7600 2250
-$Comp
-L Device:C C?
-U 1 1 5EB3F54E
-P 8300 2200
-AR Path="/5EB3F54E" Ref="C?"  Part="1" 
-AR Path="/5EAC05C2/5EB3F54E" Ref="C?"  Part="1" 
-AR Path="/5EACA483/5EB3F54E" Ref="C?"  Part="1" 
-AR Path="/5ECEA271/5EB3F54E" Ref="C301"  Part="1" 
-F 0 "C301" H 8350 2300 50  0000 L BNN
-F 1 "10uF" H 8350 2050 50  0000 L BNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8338 2050 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8300 2200 50  0001 C CNN
-	1    8300 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8300 2350 8300 2850
 Connection ~ 5000 1550
@@ -414,4 +399,22 @@ Text HLabel 2050 4850 0    50   Input ~ 0
 LED_IND
 Text HLabel 2550 2250 0    50   Input ~ 0
 ADDR_LED
+$Comp
+L Device:CP1 C?
+U 1 1 5ECD505A
+P 8300 2200
+AR Path="/5EACA483/5ECD505A" Ref="C?"  Part="1" 
+AR Path="/5ECE9FD3/5ECD505A" Ref="C?"  Part="1" 
+AR Path="/5ECEA271/5ECD505A" Ref="C302"  Part="1" 
+F 0 "C302" H 8350 2300 50  0000 L CNN
+F 1 "10uF" H 8350 2050 50  0000 L CNN
+F 2 "Name Plate Class Project:CAP_430X430N" H 8300 2200 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 8300 2200 50  0001 C CNN
+F 4 "Panasonic EEE-1VA2R2NR" H 8300 2200 50  0001 C CNN "Field4"
+F 5 "PCE4295CT-ND" H 8300 2200 50  0001 C CNN "DigiKey Part No."
+F 6 "Panasonic EEE-1VA2R2NR" H 8300 2200 50  0001 C CNN "Mftr Part No."
+F 7 "" H 8300 2200 50  0001 C CNN "URL"
+	1    8300 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

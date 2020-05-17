@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -93,12 +93,7 @@ Connection ~ 4400 3300
 Wire Wire Line
 	4400 2500 4400 3300
 Wire Wire Line
-	5400 3300 6300 3300
-Connection ~ 5400 3300
-Wire Wire Line
 	5400 2500 5400 3300
-Wire Wire Line
-	6300 3300 6300 2500
 Wire Wire Line
 	3800 3300 4400 3300
 Wire Wire Line
@@ -109,12 +104,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 2500 4300 3200
 Wire Wire Line
-	5300 3200 6200 3200
-Connection ~ 5300 3200
-Wire Wire Line
 	5300 2500 5300 3200
-Wire Wire Line
-	6200 3200 6200 2500
 Wire Wire Line
 	5200 3000 5200 2500
 Wire Wire Line
@@ -132,23 +122,6 @@ F4 "RTC_INT" I B 5200 2500 50
 $EndSheet
 Wire Wire Line
 	3800 2800 4200 2800
-$Sheet
-S 4100 1400 700  1100
-U 5ECF3158
-F0 "Page 7" 50
-F1 "Page 7.sch" 50
-F2 "IMU_INT" I B 4200 2500 50 
-F3 "SDA" I B 4300 2500 50 
-F4 "SCL" I B 4400 2500 50 
-$EndSheet
-$Sheet
-S 6100 1400 700  1100
-U 5ECF3070
-F0 "Page 6" 50
-F1 "Page 6.sch" 50
-F2 "SDA" I B 6200 2500 50 
-F3 "SCL" I B 6300 2500 50 
-$EndSheet
 Wire Wire Line
 	3800 3500 6900 3500
 Wire Wire Line
@@ -223,4 +196,13 @@ Wire Wire Line
 	3800 4600 5600 4600
 Wire Wire Line
 	5600 4600 5600 5700
+$Sheet
+S 4100 1400 700  1100
+U 5ECF3070
+F0 "Page 6" 50
+F1 "Page 6.sch" 50
+F2 "SDA" I B 4300 2500 50 
+F3 "SCL" I B 4400 2500 50 
+F4 "IMU_INT" I B 4200 2500 50 
+$EndSheet
 $EndSCHEMATC

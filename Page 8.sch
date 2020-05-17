@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -108,6 +108,9 @@ F 2 "Name Plate Class Project:BAT_BK-883" H 4700 3700 50  0001 L BNN
 F 3 "https://www.memoryprotectiondevices.com/datasheets/BK-883-datasheet.pdf" H 4700 3100 50  0001 L BNN
 F 4 "MPD" H 4700 3150 50  0001 L BNN "Field4"
 F 5 "L" H 4700 3050 50  0001 L BNN "Field5"
+F 6 "" H 4850 3450 50  0001 C CNN "Mftr Part No."
+F 7 "BK-883-ND" H 4850 3450 50  0001 C CNN "DigiKey Part No."
+F 8 "MPD" H 4850 3450 50  0001 C CNN "Manufacturer"
 	1    4850 3450
 	-1   0    0    1   
 $EndComp

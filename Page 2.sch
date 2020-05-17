@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -46,10 +46,10 @@ Wire Wire Line
 Wire Wire Line
 	2650 4100 2150 4100
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L Connector_Generic:Conn_01x02 J201
 U 1 1 5EB52776
 P 1450 2650
-F 0 "J1" V 1650 2700 50  0000 R CNN
+F 0 "J201" V 1650 2700 50  0000 R CNN
 F 1 "Battery Connector" V 1550 2700 50  0000 R CNN
 F 2 "Name Plate Class Project:JST_PH_w_SolderPoints" H 1450 2650 50  0001 C CNN
 F 3 "~" H 1450 2650 50  0001 C CNN
@@ -92,21 +92,6 @@ $EndComp
 Wire Wire Line
 	4000 2950 4000 3050
 $Comp
-L Device:C C?
-U 1 1 5EB5C47E
-P 6450 3850
-AR Path="/5EB5C47E" Ref="C?"  Part="1" 
-AR Path="/5EAC05C2/5EB5C47E" Ref="C?"  Part="1" 
-AR Path="/5EACA483/5EB5C47E" Ref="C203"  Part="1" 
-F 0 "C203" H 6500 3950 50  0000 L BNN
-F 1 "0.1uF" H 6500 3700 50  0000 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6488 3700 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6450 3850 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 6450 3850 50  0001 C CNN "Mftr Part No."
-	1    6450 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5EB5D504
 P 4500 3800
@@ -126,8 +111,8 @@ U 1 1 5EB5DD15
 P 4000 4700
 AR Path="/5EB5DD15" Ref="R?"  Part="1" 
 AR Path="/5EAC05C2/5EB5DD15" Ref="R?"  Part="1" 
-AR Path="/5EACA483/5EB5DD15" Ref="R202"  Part="1" 
-F 0 "R202" H 4070 4746 50  0000 L CNN
+AR Path="/5EACA483/5EB5DD15" Ref="R203"  Part="1" 
+F 0 "R203" H 4070 4746 50  0000 L CNN
 F 1 "R100K0" H 4070 4655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 4700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4000 4700 50  0001 C CNN
@@ -270,8 +255,8 @@ P 7100 3850
 AR Path="/5EACA483/5EB74201" Ref="C202"  Part="1" 
 AR Path="/5ECE9FD3/5EB74201" Ref="C?"  Part="1" 
 AR Path="/5ECEA271/5EB74201" Ref="C?"  Part="1" 
-F 0 "C202" H 7250 3850 50  0000 L CNN
-F 1 "22uF" H 7250 3750 50  0000 L CNN
+F 0 "C202" H 7150 3950 50  0000 L CNN
+F 1 "22uF" H 7150 3750 50  0000 L CNN
 F 2 "Name Plate Class Project:CAP_430X430N" H 7100 3850 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 7100 3850 50  0001 C CNN
 F 4 "" H 7100 3850 50  0001 C CNN "Field4"
@@ -304,9 +289,9 @@ U 1 1 5EB7AD4B
 P 9050 3850
 AR Path="/5EB7AD4B" Ref="C?"  Part="1" 
 AR Path="/5EAC05C2/5EB7AD4B" Ref="C?"  Part="1" 
-AR Path="/5EACA483/5EB7AD4B" Ref="C204"  Part="1" 
-F 0 "C204" H 9100 3950 50  0000 L BNN
-F 1 "0.1uF" H 9100 3700 50  0000 L BNN
+AR Path="/5EACA483/5EB7AD4B" Ref="C206"  Part="1" 
+F 0 "C206" H 9100 3950 50  0000 L BNN
+F 1 "470pF" H 9100 3700 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9088 3700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9050 3850 50  0001 C CNN
 F 4 "Yageo CC0603KPX7R7BB104" H 9050 3850 50  0001 C CNN "Mftr Part No."
@@ -336,14 +321,14 @@ Connection ~ 9050 4100
 Wire Wire Line
 	9050 4100 9050 4200
 $Comp
-L Device:CP1 C205
+L Device:CP1 C204
 U 1 1 5EB7AD61
 P 9700 3850
-AR Path="/5EACA483/5EB7AD61" Ref="C205"  Part="1" 
+AR Path="/5EACA483/5EB7AD61" Ref="C204"  Part="1" 
 AR Path="/5ECE9FD3/5EB7AD61" Ref="C?"  Part="1" 
 AR Path="/5ECEA271/5EB7AD61" Ref="C?"  Part="1" 
-F 0 "C205" H 9850 3850 50  0000 L CNN
-F 1 "22uF" H 9850 3750 50  0000 L CNN
+F 0 "C204" H 9850 3850 50  0000 L CNN
+F 1 "10uF" H 9850 3750 50  0000 L CNN
 F 2 "Name Plate Class Project:CAP_430X430N" H 9700 3850 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 9700 3850 50  0001 C CNN
 F 4 "" H 9700 3850 50  0001 C CNN "Field4"
@@ -367,10 +352,10 @@ Wire Wire Line
 Wire Wire Line
 	8900 3900 8900 4100
 Wire Wire Line
-	8850 3500 9700 3500
+	8850 3500 9300 3500
 Connection ~ 7550 3500
 Wire Wire Line
-	7550 3500 7800 3500
+	7550 3500 7650 3500
 Wire Wire Line
 	7100 3500 7550 3500
 Wire Wire Line
@@ -462,4 +447,68 @@ Wire Wire Line
 Connection ~ 2150 3500
 Wire Wire Line
 	1450 3500 2150 3500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5ECCF025
+P 9300 3500
+AR Path="/5ECF32A9/5ECCF025" Ref="TP?"  Part="1" 
+AR Path="/5EACA483/5ECCF025" Ref="TP203"  Part="1" 
+F 0 "TP203" H 9250 3800 50  0000 L CNN
+F 1 "TP_3V" H 9250 3700 50  0000 L CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 9500 3500 50  0001 C CNN
+F 3 "~" H 9500 3500 50  0001 C CNN
+	1    9300 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 9300 3500
+Wire Wire Line
+	9300 3500 9700 3500
+$Comp
+L Device:C C?
+U 1 1 5ECCFF91
+P 7650 3850
+AR Path="/5ECCFF91" Ref="C?"  Part="1" 
+AR Path="/5EAC05C2/5ECCFF91" Ref="C?"  Part="1" 
+AR Path="/5EACA483/5ECCFF91" Ref="C203"  Part="1" 
+F 0 "C203" H 7700 3950 50  0000 L CNN
+F 1 "0.1uF" H 7700 3750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7688 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7650 3850 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 7650 3850 50  0001 C CNN "Mftr Part No."
+	1    7650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EB5C47E
+P 6450 3850
+AR Path="/5EB5C47E" Ref="C?"  Part="1" 
+AR Path="/5EAC05C2/5EB5C47E" Ref="C?"  Part="1" 
+AR Path="/5EACA483/5EB5C47E" Ref="C205"  Part="1" 
+F 0 "C205" H 6500 3950 50  0000 L CNN
+F 1 "470pF" H 6500 3750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6488 3700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6450 3850 50  0001 C CNN
+F 4 "Yageo CC0603KPX7R7BB104" H 6450 3850 50  0001 C CNN "Mftr Part No."
+	1    6450 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3700 7650 3500
+Connection ~ 7650 3500
+Wire Wire Line
+	7650 3500 7800 3500
+$Comp
+L power:GND #PWR?
+U 1 1 5ECD2699
+P 7650 4350
+F 0 "#PWR?" H 7650 4100 50  0001 C CNN
+F 1 "GND" H 7655 4177 50  0000 C CNN
+F 2 "" H 7650 4350 50  0001 C CNN
+F 3 "" H 7650 4350 50  0001 C CNN
+	1    7650 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4350 7650 4000
 $EndSCHEMATC
