@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -19,8 +19,8 @@ U 1 1 5EB307E0
 P 7150 3700
 AR Path="/5EAC05C2/5EB307E0" Ref="C?"  Part="1" 
 AR Path="/5ECF32A9/5EB307E0" Ref="C?"  Part="1" 
-AR Path="/5ECF31FF/5EB307E0" Ref="C803"  Part="1" 
-F 0 "C803" V 7000 3700 50  0000 C CNN
+AR Path="/5ECF31FF/5EB307E0" Ref="C703"  Part="1" 
+F 0 "C703" V 7000 3700 50  0000 C CNN
 F 1 "10pF" V 7300 3700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 3550 50  0001 C CNN
 F 3 "~" H 7150 3700 50  0001 C CNN
@@ -35,8 +35,8 @@ U 1 1 5EB307E8
 P 7150 4300
 AR Path="/5EAC05C2/5EB307E8" Ref="C?"  Part="1" 
 AR Path="/5ECF32A9/5EB307E8" Ref="C?"  Part="1" 
-AR Path="/5ECF31FF/5EB307E8" Ref="C802"  Part="1" 
-F 0 "C802" V 7000 4300 50  0000 C CNN
+AR Path="/5ECF31FF/5EB307E8" Ref="C702"  Part="1" 
+F 0 "C702" V 7000 4300 50  0000 C CNN
 F 1 "10pF" V 7300 4300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 4150 50  0001 C CNN
 F 3 "~" H 7150 4300 50  0001 C CNN
@@ -51,8 +51,8 @@ U 1 1 5EB307EE
 P 6650 4000
 AR Path="/5EAC05C2/5EB307EE" Ref="Y?"  Part="1" 
 AR Path="/5ECF32A9/5EB307EE" Ref="Y?"  Part="1" 
-AR Path="/5ECF31FF/5EB307EE" Ref="Y801"  Part="1" 
-F 0 "Y801" H 6550 3850 50  0000 L CNN
+AR Path="/5ECF31FF/5EB307EE" Ref="Y701"  Part="1" 
+F 0 "Y701" H 6550 3850 50  0000 L CNN
 F 1 "32.7680 kHz" H 6400 4150 50  0000 L CNN
 F 2 "Name Plate Class Project:Oscillator_MC-405_32.7680K-D__ROHS" H 6550 3700 50  0001 L BNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-405&lang=en" H 6550 3600 50  0001 L BNN
@@ -114,37 +114,16 @@ F 8 "MPD" H 4850 3450 50  0001 C CNN "Manufacturer"
 	1    4850 3450
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5500 4100 5300 4100
-Text Label 4950 4100 0    50   ~ 0
-RTC_INT
 Text Notes 5300 5050 0    98   ~ 20
 Real Time Clock
-Connection ~ 5300 4100
-Wire Wire Line
-	5300 4100 4950 4100
-$Comp
-L Device:R R?
-U 1 1 5EB30819
-P 5300 3050
-AR Path="/5EAC05C2/5EB30819" Ref="R?"  Part="1" 
-AR Path="/5ECF32A9/5EB30819" Ref="R?"  Part="1" 
-AR Path="/5ECF31FF/5EB30819" Ref="R801"  Part="1" 
-F 0 "R801" H 5370 3096 50  0000 L CNN
-F 1 "10k0" H 5370 3005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5230 3050 50  0001 C CNN
-F 3 "~" H 5300 3050 50  0001 C CNN
-	1    5300 3050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5EB30820
 P 4500 3100
 AR Path="/5EAC05C2/5EB30820" Ref="C?"  Part="1" 
 AR Path="/5ECF32A9/5EB30820" Ref="C?"  Part="1" 
-AR Path="/5ECF31FF/5EB30820" Ref="C801"  Part="1" 
-F 0 "C801" H 4150 3150 50  0000 L CNN
+AR Path="/5ECF31FF/5EB30820" Ref="C701"  Part="1" 
+F 0 "C701" H 4150 3150 50  0000 L CNN
 F 1 "0.1uF" H 4150 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4538 2950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4500 3100 50  0001 C CNN
@@ -169,9 +148,6 @@ F 3 "" H 4500 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 2900 5300 2800
-Connection ~ 5300 2800
-Wire Wire Line
 	5150 3450 5650 3450
 Wire Wire Line
 	6000 3450 6000 3600
@@ -180,12 +156,6 @@ Wire Wire Line
 Connection ~ 4500 3450
 Wire Wire Line
 	5900 3600 5900 2800
-Wire Wire Line
-	5300 2800 5900 2800
-Wire Wire Line
-	5300 3200 5300 4100
-Wire Wire Line
-	4500 2800 5300 2800
 Connection ~ 4500 2800
 Wire Wire Line
 	4500 2800 4500 2950
@@ -257,4 +227,8 @@ Text HLabel 4950 3900 0    50   Input ~ 0
 SDA
 Text HLabel 4950 4100 0    50   Input ~ 0
 RTC_INT
+Wire Wire Line
+	4500 2800 5900 2800
+Wire Wire Line
+	4950 4100 5500 4100
 $EndSCHEMATC
