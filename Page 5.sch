@@ -21,6 +21,9 @@ F 0 "J502" H 8500 2600 50  0000 L CNN
 F 1 "SAMD11 Header" H 8500 2500 50  0000 L CNN
 F 2 "Name Plate Class Project:Molex_PinHeader_2x05" H 8550 2150 50  0001 C CNN
 F 3 "http://suddendocs.samtec.com/catalog_english/fts.pdf" H 8550 2150 50  0001 C CNN
+F 4 "SAM1157-05-ND" H 8550 2150 50  0001 C CNN "DigiKey Part No."
+F 5 "Samtec" H 8550 2150 50  0001 C CNN "Manufacturer"
+F 6 "FTS-105-01-L-DV" H 8550 2150 50  0001 C CNN "Mftr Part No."
 	1    8550 2150
 	1    0    0    -1  
 $EndComp
@@ -32,6 +35,9 @@ F 0 "J501" H 2450 6800 50  0000 L CNN
 F 1 "USB_B_Mini" H 2450 6700 50  0000 L CNN
 F 2 "Name Plate Class Project:Molex_USB_Mini_B_548190572" H 2800 6250 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/548190572_sd.pdf" H 2800 6250 50  0001 C CNN
+F 4 "WM17116DKR-ND" H 2650 6300 50  0001 C CNN "DigiKey Part No."
+F 5 "Molex" H 2650 6300 50  0001 C CNN "Manufacturer"
+F 6 "548190572" H 2650 6300 50  0001 C CNN "Mftr Part No."
 	1    2650 6300
 	1    0    0    -1  
 $EndComp
@@ -91,9 +97,12 @@ L Power_Protection:PRTR5V0U2X D501
 U 1 1 5EBF84C8
 P 3750 5350
 F 0 "D501" H 3150 5800 50  0000 L CNN
-F 1 "PRTR5V0U2X" H 3150 5700 50  0000 L CNN
+F 1 "PRTR5V0U2X,215" H 3150 5700 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-143" H 3810 5350 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 3810 5350 50  0001 C CNN
+F 4 "1727-3884-6-ND" H 3750 5350 50  0001 C CNN "DigiKey Part No."
+F 5 "Philips/NXP" H 3750 5350 50  0001 C CNN "Manufacturer"
+F 6 "PRTR5V0U2X,215" H 3750 5350 50  0001 C CNN "Mftr Part No."
 	1    3750 5350
 	1    0    0    -1  
 $EndComp
@@ -128,11 +137,12 @@ AR Path="/5EAC05C2/5EC05B2C" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EC05B2C" Ref="R?"  Part="1" 
 AR Path="/5ECF2FE7/5EC05B2C" Ref="R504"  Part="1" 
 F 0 "R504" H 1470 6446 50  0000 L CNN
-F 1 "1M0" H 1470 6355 50  0000 L CNN
+F 1 "1M" H 1470 6355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1330 6400 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 1400 6400 50  0001 C CNN
-F 4 "A130109CT-ND" H 1400 6400 50  0001 C CNN "DigiKey Part No."
-F 5 "TE Connectivity CRGCQ0603J1M0" H 1400 6400 50  0001 C CNN "Mftr Part No."
+F 4 "311-1.00MHRCT-ND" H 1400 6400 50  0001 C CNN "DigiKey Part No."
+F 5 "RC0603FR-071ML" H 1400 6400 50  0001 C CNN "Mftr Part No."
+F 6 "TE Connectivity" H 1400 6400 50  0001 C CNN "Manufacturer"
 	1    1400 6400
 	1    0    0    -1  
 $EndComp
@@ -148,8 +158,9 @@ F 0 "C502" H 1950 6500 50  0000 L BNN
 F 1 "4.7uF" H 1950 6250 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1938 6250 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1010_X7R_HV_SMD.pdf" H 1900 6400 50  0001 C CNN
-F 4 "KEMET C0805C472KDRACTU" H 1900 6400 50  0001 C CNN "Mftr Part No."
+F 4 "C0805C472KDRACTU" H 1900 6400 50  0001 C CNN "Mftr Part No."
 F 5 "399-6738-1-ND" H 1900 6400 50  0001 C CNN "DigiKey Part No."
+F 6 "Kemet" H 1900 6400 50  0001 C CNN "Manufacturer"
 	1    1900 6400
 	1    0    0    -1  
 $EndComp
@@ -234,30 +245,36 @@ Connection ~ 6350 2050
 Wire Wire Line
 	6350 1900 6350 2050
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EBE3E2F
 P 6350 1900
 AR Path="/5ECF32A9/5EBE3E2F" Ref="TP?"  Part="1" 
 AR Path="/5ECF2FE7/5EBE3E2F" Ref="TP504"  Part="1" 
 F 0 "TP504" H 6150 2200 50  0000 L CNN
-F 1 "Test Point" H 6150 2100 50  0000 L CNN
+F 1 "Test Point" H 6150 2100 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 6550 1900 50  0001 C CNN
 F 3 "None" H 6550 1900 50  0001 C CNN
-F 4 "TP_SAMD11_RX_MEGA_TX" H 6350 1900 50  0001 C CNN "Name"
+F 4 "TP_SAMD11_RX_MEGA_TX" H 6150 2100 50  0000 L CNN "Name"
+F 5 "None" H 6350 1900 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 6350 1900 50  0001 C CNN "Manufacturer"
+F 7 "None" H 6350 1900 50  0001 C CNN "Mftr Part No."
 	1    6350 1900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EBE32F4
 P 5950 1600
 AR Path="/5ECF32A9/5EBE32F4" Ref="TP?"  Part="1" 
 AR Path="/5ECF2FE7/5EBE32F4" Ref="TP503"  Part="1" 
 F 0 "TP503" H 5750 1900 50  0000 L CNN
-F 1 "Test Point" H 5750 1800 50  0000 L CNN
+F 1 "Test Point" H 5750 1800 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 6150 1600 50  0001 C CNN
 F 3 "None" H 6150 1600 50  0001 C CNN
-F 4 "TP_SAMD11_TX_MEGA_RX" H 5950 1600 50  0001 C CNN "Name"
+F 4 "TP_SAMD11_TX_MEGA_RX" H 5750 1800 50  0000 L CNN "Name"
+F 5 "None" H 5950 1600 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 5950 1600 50  0001 C CNN "Manufacturer"
+F 7 "None" H 5950 1600 50  0001 C CNN "Mftr Part No."
 	1    5950 1600
 	1    0    0    -1  
 $EndComp
@@ -282,30 +299,19 @@ Wire Wire Line
 Wire Wire Line
 	2400 2950 2400 2850
 $Comp
-L Connector:TestPoint TP?
-U 1 1 5EBD98BA
-P 2400 2950
-AR Path="/5ECF32A9/5EBD98BA" Ref="TP?"  Part="1" 
-AR Path="/5ECF2FE7/5EBD98BA" Ref="TP502"  Part="1" 
-F 0 "TP502" H 2350 3050 50  0000 R CNN
-F 1 "Test Point" H 2350 3150 50  0000 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2600 2950 50  0001 C CNN
-F 3 "None" H 2600 2950 50  0001 C CNN
-F 4 "TP_MEGA_nRST" H 2400 2950 50  0001 C CNN "Name"
-	1    2400 2950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EBCF6F7
 P 2800 2200
 AR Path="/5ECF32A9/5EBCF6F7" Ref="TP?"  Part="1" 
 AR Path="/5ECF2FE7/5EBCF6F7" Ref="TP505"  Part="1" 
 F 0 "TP505" H 3000 2450 50  0000 R CNN
-F 1 "Test Point" H 3000 2550 50  0000 R CNN
+F 1 "Test Point" H 3000 2550 50  0001 R CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3000 2200 50  0001 C CNN
 F 3 "None" H 3000 2200 50  0001 C CNN
-F 4 "TP_SAMD11_SWCLK" H 2800 2200 50  0001 C CNN "Name"
+F 4 "TP_SAMD11_SWCLK" H 3000 2550 50  0000 R CNN "Name"
+F 5 "None" H 2800 2200 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 2800 2200 50  0001 C CNN "Manufacturer"
+F 7 "None" H 2800 2200 50  0001 C CNN "Mftr Part No."
 	1    2800 2200
 	-1   0    0    1   
 $EndComp
@@ -317,16 +323,19 @@ Wire Wire Line
 	1750 2050 2800 2050
 Connection ~ 2800 2050
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EBCD7DB
 P 2400 2350
 AR Path="/5ECF32A9/5EBCD7DB" Ref="TP?"  Part="1" 
 AR Path="/5ECF2FE7/5EBCD7DB" Ref="TP506"  Part="1" 
 F 0 "TP506" H 3150 2350 50  0000 R CNN
-F 1 "Test Point" H 3150 2450 50  0000 R CNN
+F 1 "Test Point" H 3150 2450 50  0001 R CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2600 2350 50  0001 C CNN
 F 3 "None" H 2600 2350 50  0001 C CNN
-F 4 "TP_SAMD11_SWDIO" H 2400 2350 50  0001 C CNN "Name"
+F 4 "TP_SAMD11_SWDIO" H 3150 2450 50  0000 R CNN "Name"
+F 5 "None" H 2400 2350 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 2400 2350 50  0001 C CNN "Manufacturer"
+F 7 "None" H 2400 2350 50  0001 C CNN "Mftr Part No."
 	1    2400 2350
 	-1   0    0    1   
 $EndComp
@@ -350,16 +359,19 @@ Wire Wire Line
 Wire Wire Line
 	2950 1550 2950 1850
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EBCAF81
 P 2400 1850
 AR Path="/5ECF32A9/5EBCAF81" Ref="TP?"  Part="1" 
 AR Path="/5ECF2FE7/5EBCAF81" Ref="TP501"  Part="1" 
 F 0 "TP501" H 2200 2150 50  0000 L CNN
-F 1 "Test Point" H 2200 2050 50  0000 L CNN
+F 1 "Test Point" H 2200 2050 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2600 1850 50  0001 C CNN
 F 3 "None" H 2600 1850 50  0001 C CNN
-F 4 "TP_SAMD11_nRST" H 2400 1850 50  0001 C CNN "Name"
+F 4 "TP_SAMD11_nRST" H 2200 2050 50  0000 L CNN "Name"
+F 5 "None" H 2400 1850 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 2400 1850 50  0001 C CNN "Manufacturer"
+F 7 "None" H 2400 1850 50  0001 C CNN "Mftr Part No."
 	1    2400 1850
 	1    0    0    -1  
 $EndComp
@@ -376,11 +388,12 @@ AR Path="/5EAC05C2/5EBC8A3C" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EBC8A3C" Ref="R?"  Part="1" 
 AR Path="/5ECF2FE7/5EBC8A3C" Ref="R503"  Part="1" 
 F 0 "R503" V 5700 1950 50  0000 L CNN
-F 1 "1K0" V 5800 1950 50  0000 L CNN
+F 1 "1k" V 5800 1950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5530 2050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5600 2050 50  0001 C CNN
 F 4 "311-1.0KGRCT-ND" H 5600 2050 50  0001 C CNN "DigiKey Part No."
-F 5 "Yageo RC0603JR-071KL" H 5600 2050 50  0001 C CNN "Mftr Part No."
+F 5 "RC0603JR-071KL" H 5600 2050 50  0001 C CNN "Mftr Part No."
+F 6 "Yageo" H 5600 2050 50  0001 C CNN "Manufacturer"
 	1    5600 2050
 	0    1    1    0   
 $EndComp
@@ -393,11 +406,12 @@ AR Path="/5EAC05C2/5EBC7901" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EBC7901" Ref="R?"  Part="1" 
 AR Path="/5ECF2FE7/5EBC7901" Ref="R502"  Part="1" 
 F 0 "R502" V 5400 1850 50  0000 L CNN
-F 1 "1K0" V 5500 1850 50  0000 L CNN
+F 1 "1k" V 5500 1850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5530 1950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5600 1950 50  0001 C CNN
 F 4 "311-1.0KGRCT-ND" H 5600 1950 50  0001 C CNN "DigiKey Part No."
-F 5 "Yageo RC0603JR-071KL" H 5600 1950 50  0001 C CNN "Mftr Part No."
+F 5 "RC0603JR-071KL" H 5600 1950 50  0001 C CNN "Mftr Part No."
+F 6 "Yageo" H 5600 1950 50  0001 C CNN "Manufacturer"
 	1    5600 1950
 	0    1    1    0   
 $EndComp
@@ -410,11 +424,11 @@ AR Path="/5EAC05C2/5EBC6EB0" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EBC6EB0" Ref="R?"  Part="1" 
 AR Path="/5ECF2FE7/5EBC6EB0" Ref="R501"  Part="1" 
 F 0 "R501" H 3020 1446 50  0000 L CNN
-F 1 "10K0" H 3020 1355 50  0000 L CNN
+F 1 "10k" H 3020 1355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2880 1400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 2950 1400 50  0001 C CNN
 F 4 "311-10KGRCT-ND" H 2950 1400 50  0001 C CNN "DigiKey Part No."
-F 5 "Yageo RC0603JR-0710KL" H 2950 1400 50  0001 C CNN "Mftr Part No."
+F 5 "RC0603JR-0710KL" H 2950 1400 50  0001 C CNN "Mftr Part No."
 F 6 "Yageo" H 2950 1400 50  0001 C CNN "Manufacturer"
 	1    2950 1400
 	1    0    0    -1  
@@ -469,7 +483,9 @@ F 0 "C501" H 3550 3200 50  0000 L BNN
 F 1 "0.1uF" H 3550 3100 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 3000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 3400 3150 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 3400 3150 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 3400 3150 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 3400 3150 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 3400 3150 50  0001 C CNN "DigiKey Part No."
 	1    3400 3150
 	1    0    0    -1  
 $EndComp
@@ -485,6 +501,9 @@ F 0 "U501" H 4400 2900 50  0000 L CNN
 F 1 "ATSAMD11C14A-SS" H 4400 2800 50  0000 L CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4200 1100 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42363-SAM-D11_Datasheet.pdf" H 4200 1450 50  0001 C CNN
+F 4 "ATSAMD11C14A-SSNTDKR-ND" H 4200 2150 50  0001 C CNN "DigiKey Part No."
+F 5 "Atmel" H 4200 2150 50  0001 C CNN "Manufacturer"
+F 6 "ATSAMD11C14A-SSNT" H 4200 2150 50  0001 C CNN "Mftr Part No."
 	1    4200 2150
 	1    0    0    -1  
 $EndComp
@@ -530,4 +549,21 @@ Wire Wire Line
 Connection ~ 2400 2850
 Wire Wire Line
 	2200 2850 2400 2850
+$Comp
+L Name~Plate~Class~Library:TestPoint TP?
+U 1 1 5EBD98BA
+P 2400 2950
+AR Path="/5ECF32A9/5EBD98BA" Ref="TP?"  Part="1" 
+AR Path="/5ECF2FE7/5EBD98BA" Ref="TP502"  Part="1" 
+F 0 "TP502" H 2350 3050 50  0000 R CNN
+F 1 "Test Point" H 2350 3150 50  0001 R CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2600 2950 50  0001 C CNN
+F 3 "None" H 2600 2950 50  0001 C CNN
+F 4 "TP_MEGA_nRST" H 2350 2950 50  0000 R CNN "Name"
+F 5 "None" H 2400 2950 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 2400 2950 50  0001 C CNN "Manufacturer"
+F 7 "None" H 2400 2950 50  0001 C CNN "Mftr Part No."
+	1    2400 2950
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

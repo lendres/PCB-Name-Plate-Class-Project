@@ -22,9 +22,10 @@ AR Path="/5ECEA271/5ECEB242" Ref="D305"  Part="1"
 F 0 "D305" H 2550 4600 50  0000 R TNN
 F 1 "BLUE LED" H 2550 4700 50  0000 R TNN
 F 2 "Name Plate Class Project:LED_G-GX" H 2500 4850 50  0001 C CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APA3010CGCK-GX.pdf" H 2500 4850 50  0001 C CNN
-F 4 "754-1580-6-ND" H 2500 4850 50  0001 C CNN "DigiKey Part No."
-F 5 "Kingbright APA3010CGCK-GX" H 2500 4850 50  0001 C CNN "Mftr Part No."
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Osram%20PDFs/LB_Q39G_v1.4_9-1-15.pdf" H 2500 4850 50  0001 C CNN
+F 4 "475-2816-1-ND" H 2500 4850 50  0001 C CNN "DigiKey Part No."
+F 5 "LB Q39G-L2OO-35-1" H 2500 4850 50  0001 C CNN "Mftr Part No."
+F 6 "OSRAM Opto Semiconductors" H 2500 4850 50  0001 C CNN "Manufacturer"
 	1    2500 4850
 	-1   0    0    1   
 $EndComp
@@ -35,10 +36,12 @@ P 3050 4850
 AR Path="/5EAC05C2/5ECEB248" Ref="R?"  Part="1" 
 AR Path="/5ECEA271/5ECEB248" Ref="R302"  Part="1" 
 F 0 "R302" V 2850 4750 50  0000 L BNN
-F 1 "470k" V 2950 4750 50  0000 L BNN
+F 1 "470" V 2950 4750 50  0000 L BNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2980 4850 50  0001 C CNN
-F 3 "~" H 3050 4850 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3050 4850 50  0001 C CNN
 F 4 "TE Connectivity " H 3050 4850 50  0001 C CNN "Manufacturer"
+F 5 "A130089CT-ND" H 3050 4850 50  0001 C CNN "DigiKey Part No."
+F 6 "CRGCQ0603J470R" H 3050 4850 50  0001 C CNN "Mftr Part No."
 	1    3050 4850
 	0    1    1    0   
 $EndComp
@@ -76,6 +79,9 @@ F 0 "LS301" H 9500 4950 50  0000 L CNN
 F 1 "Piezo Buzzer" H 9500 4850 50  0000 L CNN
 F 2 "Name Plate Class Project:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm" V 9325 5000 50  0001 C CNN
 F 3 "http://www.puiaudio.com/pdf/AST-03008MR-R.pdf" V 9325 5000 50  0001 C CNN
+F 4 "668-1136-ND" H 9350 4900 50  0001 C CNN "DigiKey Part No."
+F 5 "Pui Audio" H 9350 4900 50  0001 C CNN "Manufacturer"
+F 6 "AST-03008MR-R" H 9350 4900 50  0001 C CNN "Mftr Part No."
 	1    9350 4900
 	1    0    0    -1  
 $EndComp
@@ -109,9 +115,10 @@ F 1 "10uF" V 9111 4800 50  0000 C CNN
 F 2 "Name Plate Class Project:CAP_430X430N" H 8950 4800 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 8950 4800 50  0001 C CNN
 F 4 "Panasonic EEE-1VA2R2NR" H 8950 4800 50  0001 C CNN "Field4"
-F 5 "PCE4295CT-ND" H 8950 4800 50  0001 C CNN "DigiKey Part No."
-F 6 "Panasonic EEE-1VA2R2NR" H 8950 4800 50  0001 C CNN "Mftr Part No."
+F 5 "399-11437-1-ND" H 8950 4800 50  0001 C CNN "DigiKey Part No."
+F 6 "T491A106K010AT" H 8950 4800 50  0001 C CNN "Mftr Part No."
 F 7 "" H 8950 4800 50  0001 C CNN "URL"
+F 8 "Kemet" H 8950 4800 50  0001 C CNN "Manufacturer"
 	1    8950 4800
 	0    -1   -1   0   
 $EndComp
@@ -131,24 +138,29 @@ AR Path="/5EACA483/5EB2ABF4" Ref="R?"  Part="1"
 AR Path="/5ECF32A9/5EB2ABF4" Ref="R?"  Part="1" 
 AR Path="/5ECEA271/5EB2ABF4" Ref="R301"  Part="1" 
 F 0 "R301" V 3150 2350 50  0000 R CNN
-F 1 "22K0" V 3050 2350 50  0000 R CNN
+F 1 "22" V 3050 2350 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3180 2250 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3250 2250 50  0001 C CNN
 F 4 "TE Connectivity " H 3250 2250 50  0001 C CNN "Manufacturer"
+F 5 "CRGCQ0603J22R" H 3250 2250 50  0001 C CNN "Mftr Part No."
+F 6 "A130081CT-ND" H 3250 2250 50  0001 C CNN "DigiKey Part No."
 	1    3250 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EB2B88E
 P 2850 2250
 AR Path="/5ECF32A9/5EB2B88E" Ref="TP?"  Part="1" 
 AR Path="/5ECEA271/5EB2B88E" Ref="TP301"  Part="1" 
 F 0 "TP301" H 2650 2550 50  0000 L CNN
-F 1 "Test Point" H 2650 2450 50  0000 L CNN
+F 1 "Test Point" H 2650 2450 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3050 2250 50  0001 C CNN
 F 3 "None" H 3050 2250 50  0001 C CNN
-F 4 "TP_ADDR_LED" H 2850 2250 50  0001 C CNN "Name"
+F 4 "TP_ADDR_LED" H 2650 2450 50  0000 L CNN "Name"
+F 5 "None" H 2850 2250 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 2850 2250 50  0001 C CNN "Manufacturer"
+F 7 "None" H 2850 2250 50  0001 C CNN "Mftr Part No."
 	1    2850 2250
 	1    0    0    -1  
 $EndComp
@@ -178,7 +190,9 @@ F 0 "C303" H 4400 2650 50  0000 L BNN
 F 1 "0.1uF" H 4400 2400 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4388 2400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4350 2550 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 4350 2550 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 4350 2550 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 4350 2550 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 4350 2550 50  0001 C CNN "DigiKey Part No."
 	1    4350 2550
 	1    0    0    -1  
 $EndComp
@@ -225,7 +239,9 @@ F 0 "C304" H 5550 2650 50  0000 L BNN
 F 1 "0.1uF" H 5550 2400 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5538 2400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 5500 2550 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 5500 2550 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 5500 2550 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 5500 2550 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 5500 2550 50  0001 C CNN "DigiKey Part No."
 	1    5500 2550
 	1    0    0    -1  
 $EndComp
@@ -267,7 +283,9 @@ F 0 "C305" H 6700 2650 50  0000 L BNN
 F 1 "0.1uF" H 6700 2400 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6688 2400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6650 2550 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 6650 2550 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 6650 2550 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 6650 2550 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 6650 2550 50  0001 C CNN "DigiKey Part No."
 	1    6650 2550
 	1    0    0    -1  
 $EndComp
@@ -309,7 +327,9 @@ F 0 "C306" H 7850 2650 50  0000 L BNN
 F 1 "0.1uF" H 7850 2400 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7838 2400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7800 2550 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 7800 2550 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 7800 2550 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 7800 2550 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 7800 2550 50  0001 C CNN "DigiKey Part No."
 	1    7800 2550
 	1    0    0    -1  
 $EndComp
@@ -414,9 +434,10 @@ F 1 "10uF" H 8350 2050 50  0000 L CNN
 F 2 "Name Plate Class Project:CAP_430X430N" H 8300 2200 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 8300 2200 50  0001 C CNN
 F 4 "Panasonic EEE-1VA2R2NR" H 8300 2200 50  0001 C CNN "Field4"
-F 5 "PCE4295CT-ND" H 8300 2200 50  0001 C CNN "DigiKey Part No."
-F 6 "Panasonic EEE-1VA2R2NR" H 8300 2200 50  0001 C CNN "Mftr Part No."
+F 5 "399-11437-1-ND" H 8300 2200 50  0001 C CNN "DigiKey Part No."
+F 6 "T491A106K010AT" H 8300 2200 50  0001 C CNN "Mftr Part No."
 F 7 "" H 8300 2200 50  0001 C CNN "URL"
+F 8 "Kemet" H 8300 2200 50  0001 C CNN "Manufacturer"
 	1    8300 2200
 	1    0    0    -1  
 $EndComp

@@ -205,4 +205,18 @@ F5 "SPI_MOSI" I L 6900 4700 50
 F6 "LCD_DC" I L 6900 5000 50 
 F7 "LCD_nCS" I L 6900 4800 50 
 $EndSheet
+Text Notes 8050 4800 0    79   ~ 16
+LCD
+Text Notes 8050 3800 0    79   ~ 16
+SAMD11 and Connectors
+Text Notes 5000 1350 0    79   ~ 16
+Real Time Clock
+Text Notes 4200 1350 0    79   ~ 16
+Sensors
+Text Notes 2350 1150 0    79   ~ 16
+Power
+Text Notes 4300 6950 0    79   ~ 16
+LEDs
+Text Notes 5200 6950 0    79   ~ 16
+Buttons
 $EndSCHEMATC

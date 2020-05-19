@@ -23,9 +23,10 @@ AR Path="/5ECF31FF/5EB307E0" Ref="C703"  Part="1"
 F 0 "C703" V 7000 3700 50  0000 C CNN
 F 1 "10pF" V 7300 3700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 3550 50  0001 C CNN
-F 3 "~" H 7150 3700 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 7150 3700 50  0001 C CNN
 F 4 "399-7816-1-ND" H 7150 3700 50  0001 C CNN "DigiKey Part No."
-F 5 "Kemet C0603C100J1GACTU" H 7150 3700 50  0001 C CNN "Mftr Part No."
+F 5 "C0603C100J1GACTU" H 7150 3700 50  0001 C CNN "Mftr Part No."
+F 6 "Kemet" H 7150 3700 50  0001 C CNN "Manufacturer"
 	1    7150 3700
 	0    1    1    0   
 $EndComp
@@ -39,9 +40,10 @@ AR Path="/5ECF31FF/5EB307E8" Ref="C702"  Part="1"
 F 0 "C702" V 7000 4300 50  0000 C CNN
 F 1 "10pF" V 7300 4300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 4150 50  0001 C CNN
-F 3 "~" H 7150 4300 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 7150 4300 50  0001 C CNN
 F 4 "399-7816-1-ND" H 7150 4300 50  0001 C CNN "DigiKey Part No."
-F 5 "Kemet C0603C100J1GACTU" H 7150 4300 50  0001 C CNN "Mftr Part No."
+F 5 "C0603C100J1GACTU" H 7150 4300 50  0001 C CNN "Mftr Part No."
+F 6 "Kemet" H 7150 4300 50  0001 C CNN "Manufacturer"
 	1    7150 4300
 	0    1    1    0   
 $EndComp
@@ -56,6 +58,9 @@ F 0 "Y701" H 6550 3850 50  0000 L CNN
 F 1 "32.7680 kHz" H 6400 4150 50  0000 L CNN
 F 2 "Name Plate Class Project:Oscillator_MC-405_32.7680K-D__ROHS" H 6550 3700 50  0001 L BNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-405&lang=en" H 6550 3600 50  0001 L BNN
+F 4 "SER4311TR-ND" H 6650 4000 50  0001 C CNN "DigiKey Part No."
+F 5 "Epson " H 6650 4000 50  0001 C CNN "Manufacturer"
+F 6 "MC-405 32.7680K-E3: ROHS" H 6650 4000 50  0001 C CNN "Mftr Part No."
 	1    6650 4000
 	0    1    1    0   
 $EndComp
@@ -108,7 +113,7 @@ F 2 "Name Plate Class Project:BAT_BK-883" H 4700 3700 50  0001 L BNN
 F 3 "https://www.memoryprotectiondevices.com/datasheets/BK-883-datasheet.pdf" H 4700 3100 50  0001 L BNN
 F 4 "MPD" H 4700 3150 50  0001 L BNN "Field4"
 F 5 "L" H 4700 3050 50  0001 L BNN "Field5"
-F 6 "" H 4850 3450 50  0001 C CNN "Mftr Part No."
+F 6 "BK-883" H 4850 3450 50  0001 C CNN "Mftr Part No."
 F 7 "BK-883-ND" H 4850 3450 50  0001 C CNN "DigiKey Part No."
 F 8 "MPD" H 4850 3450 50  0001 C CNN "Manufacturer"
 	1    4850 3450
@@ -127,7 +132,9 @@ F 0 "C701" H 4150 3150 50  0000 L CNN
 F 1 "0.1uF" H 4150 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4538 2950 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4500 3100 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 4500 3100 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 4500 3100 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 4500 3100 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 4500 3100 50  0001 C CNN "DigiKey Part No."
 	1    4500 3100
 	1    0    0    -1  
 $EndComp
@@ -192,11 +199,14 @@ U 1 1 5EB307D8
 P 5900 4000
 AR Path="/5EAC05C2/5EB307D8" Ref="U?"  Part="1" 
 AR Path="/5ECF32A9/5EB307D8" Ref="U?"  Part="1" 
-AR Path="/5ECF31FF/5EB307D8" Ref="U3"  Part="1" 
-F 0 "U3" H 6000 3600 50  0000 L BNN
+AR Path="/5ECF31FF/5EB307D8" Ref="U701"  Part="1" 
+F 0 "U701" H 6000 3600 50  0000 L BNN
 F 1 "MCP7940N-xSN" H 6000 3500 50  0000 L BNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5900 4000 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005010F.pdf" H 5900 4000 50  0001 C CNN
+F 4 "MCP79400-I/SN-ND" H 5900 4000 50  0001 C CNN "DigiKey Part No."
+F 5 "Microchip" H 5900 4000 50  0001 C CNN "Manufacturer"
+F 6 "MCP79400-I/SN" H 5900 4000 50  0001 C CNN "Mftr Part No."
 	1    5900 4000
 	1    0    0    -1  
 $EndComp

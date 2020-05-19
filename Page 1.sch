@@ -72,22 +72,6 @@ Wire Wire Line
 	3700 2500 4450 2500
 Wire Wire Line
 	3700 2600 4450 2600
-$Comp
-L power:GND #PWR?
-U 1 1 5EAEF2BE
-P 8200 3550
-AR Path="/5EAEF2BE" Ref="#PWR?"  Part="1" 
-AR Path="/5EAC05C2/5EAEF2BE" Ref="#PWR02"  Part="1" 
-AR Path="/5EACA483/5EAEF2BE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR02" H 8200 3300 50  0001 C CNN
-F 1 "GND" H 8205 3377 50  0000 C CNN
-F 2 "" H 8200 3550 50  0001 C CNN
-F 3 "" H 8200 3550 50  0001 C CNN
-	1    8200 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 3200 8200 3550
 Wire Wire Line
 	3200 1100 3200 1000
 Wire Wire Line
@@ -238,31 +222,6 @@ Wire Wire Line
 	8150 1300 8550 1300
 Wire Wire Line
 	5000 1100 5450 1100
-Wire Wire Line
-	8100 3400 8100 3050
-$Comp
-L power:+3.3V #PWR01
-U 1 1 5EAEE3B2
-P 8100 3050
-F 0 "#PWR01" H 8100 2900 50  0001 C CNN
-F 1 "+3.3V" H 8115 3223 50  0000 C CNN
-F 2 "" H 8100 3050 50  0001 C CNN
-F 3 "" H 8100 3050 50  0001 C CNN
-	1    8100 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8100 3400 8800 3400
-Wire Wire Line
-	8800 3200 8200 3200
-Wire Wire Line
-	8800 3300 8450 3300
-Wire Wire Line
-	9300 3200 9800 3200
-Wire Wire Line
-	9300 3300 9800 3300
-Wire Wire Line
-	9300 3400 9800 3400
 $Comp
 L Device:C C?
 U 1 1 5EAC994A
@@ -274,20 +233,11 @@ F 0 "C101" H 2350 2150 50  0000 L BNN
 F 1 "0.1uF" H 2350 1900 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2338 1900 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 2300 2050 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 2300 2050 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 2300 2050 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 2300 2050 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 2300 2050 50  0001 C CNN "DigiKey Part No."
 	1    2300 2050
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J101
-U 1 1 5EADD4CA
-P 9100 3300
-F 0 "J101" H 9250 3550 50  0000 R TNN
-F 1 "Conn Header SMD" H 9250 3650 50  0000 R TNN
-F 2 "Name Plate Class Project:Molex_PinHeader_2x03" H 9100 3300 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/713085404_sd.pdf" H 9100 3300 50  0001 C CNN
-	1    9100 3300
-	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C?
@@ -300,7 +250,9 @@ F 0 "C102" H 2000 2550 50  0000 L BNN
 F 1 "0.12uF" H 2000 2300 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1988 2300 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 1950 2450 50  0001 C CNN
-F 4 "AVX 08053C124KAT2A" H 1950 2450 50  0001 C CNN "Mftr Part No."
+F 4 "08053C124KAT2A" H 1950 2450 50  0001 C CNN "Mftr Part No."
+F 5 "AVX" H 1950 2450 50  0001 C CNN "Manufacturer"
+F 6 "478-5161-1-ND" H 1950 2450 50  0001 C CNN "DigiKey Part No."
 	1    1950 2450
 	1    0    0    -1  
 $EndComp
@@ -315,7 +267,9 @@ F 0 "C105" H 1700 3050 50  0000 L BNN
 F 1 "0.1uF" H 1700 2800 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1688 2800 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 1650 2950 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 1650 2950 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 1650 2950 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 1650 2950 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 1650 2950 50  0001 C CNN "DigiKey Part No."
 	1    1650 2950
 	1    0    0    -1  
 $EndComp
@@ -330,7 +284,9 @@ F 0 "C106" H 1400 3500 50  0000 L BNN
 F 1 "0.1uF" H 1400 3250 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1388 3250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 1350 3400 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 1350 3400 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 1350 3400 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 1350 3400 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 1350 3400 50  0001 C CNN "DigiKey Part No."
 	1    1350 3400
 	1    0    0    -1  
 $EndComp
@@ -339,12 +295,15 @@ L MCU_Microchip_ATmega:ATmega328P-AU U?
 U 1 1 5EAC995C
 P 3100 2600
 AR Path="/5EAC995C" Ref="U?"  Part="1" 
-AR Path="/5EAC05C2/5EAC995C" Ref="U1"  Part="1" 
+AR Path="/5EAC05C2/5EAC995C" Ref="U101"  Part="1" 
 AR Path="/5EACA483/5EAC995C" Ref="U?"  Part="1" 
-F 0 "U1" H 3400 4150 50  0000 L BNN
+F 0 "U101" H 3400 4150 50  0000 L BNN
 F 1 "ATmega328P-AU" H 3400 4050 50  0000 L BNN
 F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 3100 2600 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 3100 2600 50  0001 C CNN
+F 4 "ATMEGA328P-AURCT-ND" H 3100 2600 50  0001 C CNN "DigiKey Part No."
+F 5 "Microchip" H 3100 2600 50  0001 C CNN "Manufacturer"
+F 6 "ATMega328P-AU" H 3100 2600 50  0001 C CNN "Mftr Part No."
 	1    3100 2600
 	1    0    0    -1  
 $EndComp
@@ -356,10 +315,12 @@ AR Path="/5EAD5874" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EAD5874" Ref="R103"  Part="1" 
 AR Path="/5EACA483/5EAD5874" Ref="R?"  Part="1" 
 F 0 "R103" H 5970 1396 50  0000 L CNN
-F 1 "4k75" H 5970 1305 50  0000 L CNN
+F 1 "4.75k" H 5970 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5830 1350 50  0001 C CNN
-F 3 "~" H 5900 1350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5900 1350 50  0001 C CNN
 F 4 "Yageo" H 5900 1350 50  0001 C CNN "Manufacturer"
+F 5 "311-10KGRCT-ND" H 5900 1350 50  0001 C CNN "DigiKey Part No."
+F 6 "RC0603JR-074K7L" H 5900 1350 50  0001 C CNN "Mftr Part No."
 	1    5900 1350
 	1    0    0    -1  
 $EndComp
@@ -371,10 +332,12 @@ AR Path="/5EAD4B3A" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EAD4B3A" Ref="R102"  Part="1" 
 AR Path="/5EACA483/5EAD4B3A" Ref="R?"  Part="1" 
 F 0 "R102" H 5520 1396 50  0000 L CNN
-F 1 "4k75" H 5520 1305 50  0000 L CNN
+F 1 "4.75k" H 5520 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 1350 50  0001 C CNN
-F 3 "~" H 5450 1350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5450 1350 50  0001 C CNN
 F 4 "Yageo" H 5450 1350 50  0001 C CNN "Manufacturer"
+F 5 "311-10KGRCT-ND" H 5450 1350 50  0001 C CNN "DigiKey Part No."
+F 6 "RC0603JR-074K7L" H 5450 1350 50  0001 C CNN "Mftr Part No."
 	1    5450 1350
 	1    0    0    -1  
 $EndComp
@@ -386,11 +349,11 @@ AR Path="/5EAC9991" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EAC9991" Ref="R101"  Part="1" 
 AR Path="/5EACA483/5EAC9991" Ref="R?"  Part="1" 
 F 0 "R101" H 5070 1396 50  0000 L CNN
-F 1 "10K0" H 5070 1305 50  0000 L CNN
+F 1 "10k" H 5070 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4930 1350 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5000 1350 50  0001 C CNN
 F 4 "311-10KGRCT-ND" H 5000 1350 50  0001 C CNN "DigiKey Part No."
-F 5 "Yageo RC0603JR-0710KL" H 5000 1350 50  0001 C CNN "Mftr Part No."
+F 5 "RC0603JR-0710KL" H 5000 1350 50  0001 C CNN "Mftr Part No."
 F 6 "Yageo" H 5000 1350 50  0001 C CNN "Manufacturer"
 	1    5000 1350
 	1    0    0    -1  
@@ -403,6 +366,9 @@ F 0 "Y101" V 8504 1600 50  0000 L CNN
 F 1 "16.00 MHz" V 8595 1600 50  0000 L CNN
 F 2 "Name Plate Class Project:Oscillator_ABM3-16.000MHZ-B2-T" H 8500 1750 50  0001 L BNN
 F 3 "https://abracon.com/Resonators/abm3.pdf" H 8450 1250 50  0001 L BNN
+F 4 "535-9103-1-ND" H 8550 1500 50  0001 C CNN "DigiKey Part No."
+F 5 "Abracon " H 8550 1500 50  0001 C CNN "Manufacturer"
+F 6 "ABM3-16.000MHZ-B2-T" H 8550 1500 50  0001 C CNN "Mftr Part No."
 	1    8550 1500
 	0    1    1    0   
 $EndComp
@@ -413,8 +379,10 @@ P 9350 1300
 F 0 "C103" V 9098 1300 50  0000 C CNN
 F 1 "18pF" V 9189 1300 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9388 1150 50  0001 C CNN
-F 3 "~" H 9350 1300 50  0001 C CNN
-F 4 "Kemet C0603C180J5GACTU" H 9350 1300 50  0001 C CNN "Mftr Part No."
+F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 9350 1300 50  0001 C CNN
+F 4 "C0603C180J5GACTU" H 9350 1300 50  0001 C CNN "Mftr Part No."
+F 5 "Kemet" H 9350 1300 50  0001 C CNN "Manufacturer"
+F 6 "399-1052-1-ND" H 9350 1300 50  0001 C CNN "DigiKey Part No."
 	1    9350 1300
 	0    1    1    0   
 $EndComp
@@ -425,8 +393,10 @@ P 9350 1700
 F 0 "C104" V 9500 1700 50  0000 C CNN
 F 1 "18pF" V 9600 1700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9388 1550 50  0001 C CNN
-F 3 "~" H 9350 1700 50  0001 C CNN
-F 4 "Kemet C0603C180J5GACTU" H 9350 1700 50  0001 C CNN "Mftr Part No."
+F 3 "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf" H 9350 1700 50  0001 C CNN
+F 4 "C0603C180J5GACTU" H 9350 1700 50  0001 C CNN "Mftr Part No."
+F 5 "Kemet" H 9350 1700 50  0001 C CNN "Manufacturer"
+F 6 "399-1052-1-ND" H 9350 1700 50  0001 C CNN "DigiKey Part No."
 	1    9350 1700
 	0    1    1    0   
 $EndComp
@@ -474,18 +444,10 @@ Text HLabel 4450 1500 2    50   Input ~ 0
 BUZZER
 Text HLabel 4450 1400 2    50   Input ~ 0
 LED_IND
-Text Label 9400 3400 0    50   ~ 0
-SPI_MISO
 Text Label 4000 1800 0    50   ~ 0
 SPI_MISO
 Text Label 4000 1900 0    50   ~ 0
 SPI_CLK
-Text Label 9400 3300 0    50   ~ 0
-SPI_CLK
-Text Label 8450 3300 0    50   ~ 0
-SPI_MOSI
-Text Label 9400 3200 0    50   ~ 0
-MEGA_nRST
 Text Label 4000 2900 0    50   ~ 0
 MEGA_nRST
 Wire Wire Line
@@ -502,11 +464,12 @@ AR Path="/5EC9D2F5" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EC9D2F5" Ref="R104"  Part="1" 
 AR Path="/5EACA483/5EC9D2F5" Ref="R?"  Part="1" 
 F 0 "R104" H 6420 1396 50  0000 L CNN
-F 1 "10K0" H 6420 1305 50  0000 L CNN
+F 1 "10k" H 6420 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 1350 50  0001 C CNN
-F 3 "~" H 6350 1350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6350 1350 50  0001 C CNN
 F 4 "311-10KGRCT-ND" H 6350 1350 50  0001 C CNN "DigiKey Part No."
 F 5 "Yageo" H 6350 1350 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0710KL" H 6350 1350 50  0001 C CNN "Mftr Part No."
 	1    6350 1350
 	1    0    0    -1  
 $EndComp
@@ -518,20 +481,17 @@ AR Path="/5EC9D6B1" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EC9D6B1" Ref="R105"  Part="1" 
 AR Path="/5EACA483/5EC9D6B1" Ref="R?"  Part="1" 
 F 0 "R105" H 6820 1396 50  0000 L CNN
-F 1 "10K0" H 6820 1305 50  0000 L CNN
+F 1 "10k" H 6820 1305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6680 1350 50  0001 C CNN
-F 3 "~" H 6750 1350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6750 1350 50  0001 C CNN
 F 4 "311-10KGRCT-ND" H 6750 1350 50  0001 C CNN "DigiKey Part No."
 F 5 "Yageo" H 6750 1350 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0710KL" H 6750 1350 50  0001 C CNN "Mftr Part No."
 	1    6750 1350
 	1    0    0    -1  
 $EndComp
 Text Label 4000 1700 0    50   ~ 0
 SPI_MOSI
-Wire Wire Line
-	1650 3800 1650 3850
-Wire Wire Line
-	2300 3800 2300 3850
 Wire Wire Line
 	1650 3100 1650 3850
 Wire Wire Line
@@ -570,4 +530,67 @@ Wire Wire Line
 Connection ~ 5700 1100
 Wire Wire Line
 	5700 1100 5900 1100
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J101
+U 1 1 5EADD4CA
+P 9100 3400
+F 0 "J101" H 9250 3650 50  0000 R CNN
+F 1 "Conn Header SMD" H 9150 3150 50  0000 C CNN
+F 2 "Name Plate Class Project:Molex_PinHeader_2x03" H 9100 3400 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/713085404_sd.pdf" H 9100 3400 50  0001 C CNN
+F 4 "0713085406-ND" H 9100 3400 50  0001 C CNN "DigiKey Part No."
+F 5 "Molex" H 9100 3400 50  0001 C CNN "Manufacturer"
+F 6 "713085406" H 9100 3400 50  0001 C CNN "Mftr Part No."
+	1    9100 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 3500 8400 3500
+Wire Wire Line
+	8900 3400 8400 3400
+Wire Wire Line
+	8900 3300 8400 3300
+Text Label 8400 3500 0    50   ~ 0
+MEGA_nRST
+Text Label 9850 3400 2    50   ~ 0
+SPI_MOSI
+Text Label 8400 3400 0    50   ~ 0
+SPI_CLK
+Text Label 8400 3300 0    50   ~ 0
+SPI_MISO
+Wire Wire Line
+	9850 3300 9400 3300
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5EAEE3B2
+P 9850 3200
+F 0 "#PWR01" H 9850 3050 50  0001 C CNN
+F 1 "+3.3V" H 9865 3373 50  0000 C CNN
+F 2 "" H 9850 3200 50  0001 C CNN
+F 3 "" H 9850 3200 50  0001 C CNN
+	1    9850 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 3500 9850 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5EAEF2BE
+P 9850 3600
+AR Path="/5EAEF2BE" Ref="#PWR?"  Part="1" 
+AR Path="/5EAC05C2/5EAEF2BE" Ref="#PWR02"  Part="1" 
+AR Path="/5EACA483/5EAEF2BE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR02" H 9850 3350 50  0001 C CNN
+F 1 "GND" H 9855 3427 50  0000 C CNN
+F 2 "" H 9850 3600 50  0001 C CNN
+F 3 "" H 9850 3600 50  0001 C CNN
+	1    9850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3400 9850 3400
+Wire Wire Line
+	9400 3500 9850 3500
+Wire Wire Line
+	9850 3300 9850 3200
 $EndSCHEMATC

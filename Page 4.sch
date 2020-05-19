@@ -21,6 +21,9 @@ F 0 "S401" H 2850 1850 50  0000 L CNN
 F 1 "Button B3FS" H 2850 1750 50  0000 L CNN
 F 2 "Name Plate Class Project:Button B3FS-1000P" H 2850 1350 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 2850 1250 50  0001 L CNN
+F 4 "SW423DKR-ND" H 3050 1550 50  0001 C CNN "DigiKey Part No."
+F 5 "OMRON" H 3050 1550 50  0001 C CNN "Manufacturer"
+F 6 "B3FS-1000P" H 3050 1550 50  0001 C CNN "Mftr Part No."
 	1    3050 1550
 	1    0    0    -1  
 $EndComp
@@ -33,9 +36,12 @@ AR Path="/5EAC05C2/5EB9319E" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EB9319E" Ref="R?"  Part="1" 
 AR Path="/5ECF2F45/5EB9319E" Ref="R401"  Part="1" 
 F 0 "R401" H 3820 1296 50  0000 L CNN
-F 1 "12K0" H 3820 1205 50  0000 L CNN
+F 1 "12k" H 3820 1205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3680 1250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3750 1250 50  0001 C CNN
+F 4 "311-12KGRCT-ND" H 3750 1250 50  0001 C CNN "DigiKey Part No."
+F 5 "Bourns " H 3750 1250 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0712KL" H 3750 1250 50  0001 C CNN "Mftr Part No."
 	1    3750 1250
 	1    0    0    -1  
 $EndComp
@@ -48,9 +54,12 @@ AR Path="/5EAC05C2/5EB93212" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EB93212" Ref="R?"  Part="1" 
 AR Path="/5ECF2F45/5EB93212" Ref="R403"  Part="1" 
 F 0 "R403" V 4350 1400 50  0000 L CNN
-F 1 "43K0" V 4150 1350 50  0000 L CNN
+F 1 "43k" V 4150 1350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 1500 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4250 1500 50  0001 C CNN
+F 4 "311-43KGRCT-ND" H 4250 1500 50  0001 C CNN "DigiKey Part No."
+F 5 "Yageo" H 4250 1500 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0743KL" H 4250 1500 50  0001 C CNN "Mftr Part No."
 	1    4250 1500
 	0    -1   -1   0   
 $EndComp
@@ -67,7 +76,9 @@ F 0 "C401" H 4850 1900 50  0000 L BNN
 F 1 "0.1uF" H 4850 1650 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4838 1650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4800 1800 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 4800 1800 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 4800 1800 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 4800 1800 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 4800 1800 50  0001 C CNN "DigiKey Part No."
 	1    4800 1800
 	1    0    0    -1  
 $EndComp
@@ -149,6 +160,9 @@ F 0 "S402" H 6500 1850 50  0000 L CNN
 F 1 "Button B3FS" H 6500 1750 50  0000 L CNN
 F 2 "Name Plate Class Project:Button B3FS-1000P" H 6500 1350 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 6500 1250 50  0001 L CNN
+F 4 "SW423DKR-ND" H 6700 1550 50  0001 C CNN "DigiKey Part No."
+F 5 "OMRON" H 6700 1550 50  0001 C CNN "Manufacturer"
+F 6 "B3FS-1000P" H 6700 1550 50  0001 C CNN "Mftr Part No."
 	1    6700 1550
 	1    0    0    -1  
 $EndComp
@@ -161,9 +175,12 @@ AR Path="/5EAC05C2/5EBA7594" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EBA7594" Ref="R?"  Part="1" 
 AR Path="/5ECF2F45/5EBA7594" Ref="R402"  Part="1" 
 F 0 "R402" H 7470 1296 50  0000 L CNN
-F 1 "12K0" H 7470 1205 50  0000 L CNN
+F 1 "12k" H 7470 1205 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7330 1250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7400 1250 50  0001 C CNN
+F 4 "311-12KGRCT-ND" H 7400 1250 50  0001 C CNN "DigiKey Part No."
+F 5 "Bourns " H 7400 1250 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0712KL" H 7400 1250 50  0001 C CNN "Mftr Part No."
 	1    7400 1250
 	1    0    0    -1  
 $EndComp
@@ -180,7 +197,9 @@ F 0 "C402" H 8500 1900 50  0000 L BNN
 F 1 "0.1uF" H 8500 1650 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8488 1650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8450 1800 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 8450 1800 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 8450 1800 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 8450 1800 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 8450 1800 50  0001 C CNN "DigiKey Part No."
 	1    8450 1800
 	1    0    0    -1  
 $EndComp
@@ -218,7 +237,7 @@ F 3 "" H 7400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EBA75BA
 P 8250 1500
 AR Path="/5ECF32A9/5EBA75BA" Ref="TP?"  Part="1" 
@@ -228,6 +247,9 @@ F 1 "Test Point" H 8150 1700 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 8450 1500 50  0001 C CNN
 F 3 "None" H 8450 1500 50  0001 C CNN
 F 4 "TP_SW2" H 8150 1700 50  0000 L CNN "Name"
+F 5 "None" H 8250 1500 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 8250 1500 50  0001 C CNN "Manufacturer"
+F 7 "None" H 8250 1500 50  0001 C CNN "Mftr Part No."
 	1    8250 1500
 	1    0    0    -1  
 $EndComp
@@ -276,6 +298,9 @@ F 0 "S403" H 2850 3650 50  0000 L CNN
 F 1 "Button B3FS" H 2850 3550 50  0000 L CNN
 F 2 "Name Plate Class Project:Button B3FS-1000P" H 2850 3150 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 2850 3050 50  0001 L CNN
+F 4 "SW423DKR-ND" H 3050 3350 50  0001 C CNN "DigiKey Part No."
+F 5 "OMRON" H 3050 3350 50  0001 C CNN "Manufacturer"
+F 6 "B3FS-1000P" H 3050 3350 50  0001 C CNN "Mftr Part No."
 	1    3050 3350
 	1    0    0    -1  
 $EndComp
@@ -288,9 +313,12 @@ AR Path="/5EAC05C2/5EBAED97" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EBAED97" Ref="R?"  Part="1" 
 AR Path="/5ECF2F45/5EBAED97" Ref="R405"  Part="1" 
 F 0 "R405" H 3820 3096 50  0000 L CNN
-F 1 "12K0" H 3820 3005 50  0000 L CNN
+F 1 "12k" H 3820 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3680 3050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 3750 3050 50  0001 C CNN
+F 4 "311-12KGRCT-ND" H 3750 3050 50  0001 C CNN "DigiKey Part No."
+F 5 "Bourns " H 3750 3050 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0712KL" H 3750 3050 50  0001 C CNN "Mftr Part No."
 	1    3750 3050
 	1    0    0    -1  
 $EndComp
@@ -303,9 +331,12 @@ AR Path="/5EAC05C2/5EBAED9D" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EBAED9D" Ref="R?"  Part="1" 
 AR Path="/5ECF2F45/5EBAED9D" Ref="R406"  Part="1" 
 F 0 "R406" V 4350 3200 50  0000 L CNN
-F 1 "43K0" V 4150 3150 50  0000 L CNN
+F 1 "43k" V 4150 3150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 3300 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4250 3300 50  0001 C CNN
+F 4 "311-43KGRCT-ND" H 4250 3300 50  0001 C CNN "DigiKey Part No."
+F 5 "Yageo" H 4250 3300 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0743KL" H 4250 3300 50  0001 C CNN "Mftr Part No."
 	1    4250 3300
 	0    -1   -1   0   
 $EndComp
@@ -322,7 +353,9 @@ F 0 "C403" H 4850 3700 50  0000 L BNN
 F 1 "0.1uF" H 4850 3450 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4838 3450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 4800 3600 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 4800 3600 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 4800 3600 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 4800 3600 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 4800 3600 50  0001 C CNN "DigiKey Part No."
 	1    4800 3600
 	1    0    0    -1  
 $EndComp
@@ -360,7 +393,7 @@ F 3 "" H 3750 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EBAEDBD
 P 4600 3300
 AR Path="/5ECF32A9/5EBAEDBD" Ref="TP?"  Part="1" 
@@ -370,6 +403,9 @@ F 1 "Test Point" H 4500 3500 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 4800 3300 50  0001 C CNN
 F 3 "None" H 4800 3300 50  0001 C CNN
 F 4 "TP_SW3" H 4500 3500 50  0000 L CNN "Name"
+F 5 "None" H 4600 3300 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 4600 3300 50  0001 C CNN "Manufacturer"
+F 7 "None" H 4600 3300 50  0001 C CNN "Mftr Part No."
 	1    4600 3300
 	1    0    0    -1  
 $EndComp
@@ -418,6 +454,9 @@ F 0 "S404" H 6500 3650 50  0000 L CNN
 F 1 "Button B3FS" H 6500 3550 50  0000 L CNN
 F 2 "Name Plate Class Project:Button B3FS-1000P" H 6500 3150 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 6500 3050 50  0001 L CNN
+F 4 "SW423DKR-ND" H 6700 3350 50  0001 C CNN "DigiKey Part No."
+F 5 "OMRON" H 6700 3350 50  0001 C CNN "Manufacturer"
+F 6 "B3FS-1000P" H 6700 3350 50  0001 C CNN "Mftr Part No."
 	1    6700 3350
 	1    0    0    -1  
 $EndComp
@@ -430,9 +469,12 @@ AR Path="/5EAC05C2/5EBB48B3" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EBB48B3" Ref="R?"  Part="1" 
 AR Path="/5ECF2F45/5EBB48B3" Ref="R407"  Part="1" 
 F 0 "R407" H 7470 3096 50  0000 L CNN
-F 1 "12K0" H 7470 3005 50  0000 L CNN
+F 1 "12k" H 7470 3005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7330 3050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7400 3050 50  0001 C CNN
+F 4 "311-12KGRCT-ND" H 7400 3050 50  0001 C CNN "DigiKey Part No."
+F 5 "Bourns " H 7400 3050 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0712KL" H 7400 3050 50  0001 C CNN "Mftr Part No."
 	1    7400 3050
 	1    0    0    -1  
 $EndComp
@@ -445,9 +487,12 @@ AR Path="/5EAC05C2/5EBB48B9" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EBB48B9" Ref="R?"  Part="1" 
 AR Path="/5ECF2F45/5EBB48B9" Ref="R408"  Part="1" 
 F 0 "R408" V 8000 3200 50  0000 L CNN
-F 1 "43K0" V 7800 3150 50  0000 L CNN
+F 1 "43k" V 7800 3150 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7830 3300 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7900 3300 50  0001 C CNN
+F 4 "311-43KGRCT-ND" H 7900 3300 50  0001 C CNN "DigiKey Part No."
+F 5 "Yageo" H 7900 3300 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0743KL" H 7900 3300 50  0001 C CNN "Mftr Part No."
 	1    7900 3300
 	0    -1   -1   0   
 $EndComp
@@ -464,7 +509,9 @@ F 0 "C404" H 8500 3700 50  0000 L BNN
 F 1 "0.1uF" H 8500 3450 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8488 3450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 8450 3600 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 8450 3600 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 8450 3600 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 8450 3600 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 8450 3600 50  0001 C CNN "DigiKey Part No."
 	1    8450 3600
 	1    0    0    -1  
 $EndComp
@@ -502,7 +549,7 @@ F 3 "" H 7400 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EBB48D9
 P 8250 3300
 AR Path="/5ECF32A9/5EBB48D9" Ref="TP?"  Part="1" 
@@ -512,6 +559,9 @@ F 1 "Test Point" H 8150 3500 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 8450 3300 50  0001 C CNN
 F 3 "None" H 8450 3300 50  0001 C CNN
 F 4 "TP_SW4" H 8150 3500 50  0000 L CNN "Name"
+F 5 "None" H 8250 3300 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 8250 3300 50  0001 C CNN "Manufacturer"
+F 7 "None" H 8250 3300 50  0001 C CNN "Mftr Part No."
 	1    8250 3300
 	1    0    0    -1  
 $EndComp
@@ -556,6 +606,9 @@ F 0 "S405" H 4850 5400 50  0000 L CNN
 F 1 "Button B3FS" H 4850 5300 50  0000 L CNN
 F 2 "Name Plate Class Project:Button B3FS-1000P" H 4850 4900 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 4850 4800 50  0001 L CNN
+F 4 "SW423DKR-ND" H 5050 5100 50  0001 C CNN "DigiKey Part No."
+F 5 "OMRON" H 5050 5100 50  0001 C CNN "Manufacturer"
+F 6 "B3FS-1000P" H 5050 5100 50  0001 C CNN "Mftr Part No."
 	1    5050 5100
 	1    0    0    -1  
 $EndComp
@@ -568,9 +621,12 @@ AR Path="/5EAC05C2/5EBBC6F7" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EBBC6F7" Ref="R?"  Part="1" 
 AR Path="/5ECF2F45/5EBBC6F7" Ref="R409"  Part="1" 
 F 0 "R409" H 5820 4846 50  0000 L CNN
-F 1 "12K0" H 5820 4755 50  0000 L CNN
+F 1 "12k" H 5820 4755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5680 4800 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 5750 4800 50  0001 C CNN
+F 4 "311-12KGRCT-ND" H 5750 4800 50  0001 C CNN "DigiKey Part No."
+F 5 "Bourns " H 5750 4800 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0712KL" H 5750 4800 50  0001 C CNN "Mftr Part No."
 	1    5750 4800
 	1    0    0    -1  
 $EndComp
@@ -583,9 +639,12 @@ AR Path="/5EAC05C2/5EBBC6FD" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EBBC6FD" Ref="R?"  Part="1" 
 AR Path="/5ECF2F45/5EBBC6FD" Ref="R410"  Part="1" 
 F 0 "R410" V 6350 4950 50  0000 L CNN
-F 1 "43K0" V 6150 4900 50  0000 L CNN
+F 1 "43k" V 6150 4900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6180 5050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6250 5050 50  0001 C CNN
+F 4 "311-43KGRCT-ND" H 6250 5050 50  0001 C CNN "DigiKey Part No."
+F 5 "Yageo" H 6250 5050 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0743KL" H 6250 5050 50  0001 C CNN "Mftr Part No."
 	1    6250 5050
 	0    -1   -1   0   
 $EndComp
@@ -602,7 +661,9 @@ F 0 "C405" H 6850 5450 50  0000 L BNN
 F 1 "0.1uF" H 6850 5200 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6838 5200 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6800 5350 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 6800 5350 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 6800 5350 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 6800 5350 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 6800 5350 50  0001 C CNN "DigiKey Part No."
 	1    6800 5350
 	1    0    0    -1  
 $EndComp
@@ -640,7 +701,7 @@ F 3 "" H 5750 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EBBC71D
 P 6600 5050
 AR Path="/5ECF32A9/5EBBC71D" Ref="TP?"  Part="1" 
@@ -650,6 +711,9 @@ F 1 "Test Point" H 6500 5250 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 6800 5050 50  0001 C CNN
 F 3 "None" H 6800 5050 50  0001 C CNN
 F 4 "TP_SW5" H 6500 5250 50  0000 L CNN "Name"
+F 5 "None" H 6600 5050 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 6600 5050 50  0001 C CNN "Manufacturer"
+F 7 "None" H 6600 5050 50  0001 C CNN "Mftr Part No."
 	1    6600 5050
 	1    0    0    -1  
 $EndComp
@@ -699,9 +763,12 @@ AR Path="/5EAC05C2/5EBA759A" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EBA759A" Ref="R?"  Part="1" 
 AR Path="/5ECF2F45/5EBA759A" Ref="R404"  Part="1" 
 F 0 "R404" V 8000 1400 50  0000 L CNN
-F 1 "43K0" V 7800 1350 50  0000 L CNN
+F 1 "43k" V 7800 1350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7830 1500 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 7900 1500 50  0001 C CNN
+F 4 "311-43KGRCT-ND" H 7900 1500 50  0001 C CNN "DigiKey Part No."
+F 5 "Yageo" H 7900 1500 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-0743KL" H 7900 1500 50  0001 C CNN "Mftr Part No."
 	1    7900 1500
 	0    -1   -1   0   
 $EndComp
@@ -722,7 +789,7 @@ SW5
 Text HLabel 5100 3300 2    50   Input ~ 0
 SW3
 $Comp
-L Connector:TestPoint TP?
+L Name~Plate~Class~Library:TestPoint TP?
 U 1 1 5EB966B9
 P 4600 1500
 AR Path="/5ECF32A9/5EB966B9" Ref="TP?"  Part="1" 
@@ -732,6 +799,9 @@ F 1 "Test Point" H 4500 1700 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 4800 1500 50  0001 C CNN
 F 3 "None" H 4800 1500 50  0001 C CNN
 F 4 "TP_SW1" H 4500 1700 50  0000 L CNN "Name"
+F 5 "None" H 4600 1500 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 4600 1500 50  0001 C CNN "Manufacturer"
+F 7 "None" H 4600 1500 50  0001 C CNN "Mftr Part No."
 	1    4600 1500
 	1    0    0    -1  
 $EndComp

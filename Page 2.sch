@@ -21,6 +21,9 @@ F 0 "S201" H 2400 4300 50  0000 L CNN
 F 1 "Battery Switch" H 2400 4200 50  0000 L CNN
 F 2 "Name Plate Class Project:Switch_JS202011SCQN" H 1800 2700 50  0001 L BNN
 F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 2650 3500 50  0001 L BNN
+F 4 "401-2002-2-ND" H 2650 3500 50  0001 C CNN "DigiKey Part No."
+F 5 "C&K" H 2650 3500 50  0001 C CNN "Manufacturer"
+F 6 "JS202011SCQN" H 2650 3500 50  0001 C CNN "Mftr Part No."
 	1    2650 3500
 	1    0    0    -1  
 $EndComp
@@ -53,6 +56,7 @@ F 0 "J201" V 1650 2700 50  0000 R CNN
 F 1 "Battery Connector" V 1550 2700 50  0000 R CNN
 F 2 "Name Plate Class Project:JST_PH_w_SolderPoints" H 1450 2650 50  0001 C CNN
 F 3 "~" H 1450 2650 50  0001 C CNN
+F 4 "DNP" H 1450 2650 50  0001 C CNN "Manufacturer"
 	1    1450 2650
 	0    -1   -1   0   
 $EndComp
@@ -99,11 +103,12 @@ AR Path="/5EB5D504" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EB5D504" Ref="R?"  Part="1" 
 AR Path="/5EACA483/5EB5D504" Ref="R202"  Part="1" 
 F 0 "R202" H 4570 3846 50  0000 L CNN
-F 1 "100K0" H 4570 3755 50  0000 L CNN
+F 1 "100k" H 4570 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 3800 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4500 3800 50  0001 C CNN
 F 4 "311-100KGRCT-ND" H 4500 3800 50  0001 C CNN "DigiKey Part No."
 F 5 "Yageo" H 4500 3800 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-07100KL" H 4500 3800 50  0001 C CNN "Mftr Part No."
 	1    4500 3800
 	1    0    0    1   
 $EndComp
@@ -115,11 +120,12 @@ AR Path="/5EB5DD15" Ref="R?"  Part="1"
 AR Path="/5EAC05C2/5EB5DD15" Ref="R?"  Part="1" 
 AR Path="/5EACA483/5EB5DD15" Ref="R203"  Part="1" 
 F 0 "R203" H 4070 4746 50  0000 L CNN
-F 1 "100K0" H 4070 4655 50  0000 L CNN
+F 1 "100k" H 4070 4655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3930 4700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 4000 4700 50  0001 C CNN
 F 4 "311-100KGRCT-ND" H 4000 4700 50  0001 C CNN "DigiKey Part No."
 F 5 "Yageo" H 4000 4700 50  0001 C CNN "Manufacturer"
+F 6 "RC0603JR-07100KL" H 4000 4700 50  0001 C CNN "Mftr Part No."
 	1    4000 4700
 	1    0    0    -1  
 $EndComp
@@ -136,7 +142,9 @@ F 0 "C201" H 3550 4650 50  0000 L BNN
 F 1 "0.1uF" H 3550 4400 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3538 4400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 3500 4550 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 3500 4550 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 3500 4550 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 3500 4550 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 3500 4550 50  0001 C CNN "DigiKey Part No."
 	1    3500 4550
 	1    0    0    -1  
 $EndComp
@@ -148,6 +156,9 @@ F 0 "Q201" H 4604 4254 50  0000 L CNN
 F 1 "BSS138" H 4604 4345 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4600 4400 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138LT1-D.PDF" H 4400 4300 50  0001 C CNN
+F 4 "FDN304PCT-ND" H 4400 4300 50  0001 C CNN "DigiKey Part No."
+F 5 "ON Semiconductor" H 4400 4300 50  0001 C CNN "Manufacturer"
+F 6 "BSS138CT-ND" H 4400 4300 50  0001 C CNN "Mftr Part No."
 	1    4400 4300
 	1    0    0    1   
 $EndComp
@@ -191,10 +202,13 @@ P 5250 4050
 AR Path="/5ECF32A9/5EB6B8BD" Ref="TP?"  Part="1" 
 AR Path="/5EACA483/5EB6B8BD" Ref="TP201"  Part="1" 
 F 0 "TP201" H 5300 4300 50  0000 R CNN
-F 1 "TestPoint" H 5300 4400 50  0000 R CNN
+F 1 "Test Point" H 5300 4400 50  0001 R CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 5450 4050 50  0001 C CNN
 F 3 "None" H 5450 4050 50  0001 C CNN
-F 4 "TP_SWITCH_BATTERY" H 5250 4050 50  0001 C CNN "Name"
+F 4 "TP_SWITCH_BATTERY" H 5300 4400 50  0000 R CNN "Name"
+F 5 "None" H 5250 4050 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 5250 4050 50  0001 C CNN "Manufacturer"
+F 7 "None" H 5250 4050 50  0001 C CNN "Mftr Part No."
 	1    5250 4050
 	-1   0    0    1   
 $EndComp
@@ -234,9 +248,12 @@ L Name~Plate~Class~Library:MIC5219-x.xYM5-TR U202
 U 1 1 5EB717E5
 P 8400 3700
 F 0 "U202" H 8050 4150 60  0000 L CNN
-F 1 "MIC5219-5.0YM5-TR" H 8050 4050 60  0000 L CNN
+F 1 "MIC5219-3.3YM5-TR" H 8050 4050 60  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 8050 3300 60  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 7750 3900 60  0001 C CNN
+F 4 "576-1281-6-ND" H 8400 3700 50  0001 C CNN "DigiKey Part No."
+F 5 "Microchip" H 8400 3700 50  0001 C CNN "Manufacturer"
+F 6 "MIC5219-3.3YM5-TR" H 8400 3700 50  0001 C CNN "Mftr Part No."
 	1    8400 3700
 	1    0    0    -1  
 $EndComp
@@ -251,6 +268,9 @@ F 1 "Test Point" H 6800 3700 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 7050 3500 50  0001 C CNN
 F 3 "None" H 7050 3500 50  0001 C CNN
 F 4 "TP_5V" H 6800 3700 50  0000 L CNN "Name"
+F 5 "None" H 6850 3500 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 6850 3500 50  0001 C CNN "Manufacturer"
+F 7 "None" H 6850 3500 50  0001 C CNN "Mftr Part No."
 	1    6850 3500
 	1    0    0    -1  
 $EndComp
@@ -266,9 +286,10 @@ F 1 "22uF" H 7150 3750 50  0000 L CNN
 F 2 "Name Plate Class Project:CAP_430X430N" H 7100 3850 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 7100 3850 50  0001 C CNN
 F 4 "" H 7100 3850 50  0001 C CNN "Field4"
-F 5 "399-11437-1-ND" H 7100 3850 50  0001 C CNN "DigiKey Part No."
-F 6 "KEMET EDK226M016A9BAA" H 7100 3850 50  0001 C CNN "Mftr Part No."
+F 5 "PCE4295CT-ND" H 7100 3850 50  0001 C CNN "DigiKey Part No."
+F 6 "EEE-1CA220WR" H 7100 3850 50  0001 C CNN "Mftr Part No."
 F 7 "" H 7100 3850 50  0001 C CNN "URL"
+F 8 "Panasonic" H 7100 3850 50  0001 C CNN "Manufacturer"
 	1    7100 3850
 	1    0    0    -1  
 $EndComp
@@ -300,7 +321,9 @@ F 0 "C206" H 9100 3950 50  0000 L BNN
 F 1 "470pF" H 9100 3700 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9088 3700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 9050 3850 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 9050 3850 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603MRX7R9BB471" H 9050 3850 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 9050 3850 50  0001 C CNN "Manufacturer"
+F 6 "311-3377-1-ND" H 9050 3850 50  0001 C CNN "DigiKey Part No."
 	1    9050 3850
 	1    0    0    -1  
 $EndComp
@@ -339,8 +362,9 @@ F 2 "Name Plate Class Project:CAP_430X430N" H 9700 3850 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 9700 3850 50  0001 C CNN
 F 4 "" H 9700 3850 50  0001 C CNN "Field4"
 F 5 "399-11437-1-ND" H 9700 3850 50  0001 C CNN "DigiKey Part No."
-F 6 "KEMET EDK226M016A9BAA" H 9700 3850 50  0001 C CNN "Mftr Part No."
+F 6 "T491A106K010AT" H 9700 3850 50  0001 C CNN "Mftr Part No."
 F 7 "" H 9700 3850 50  0001 C CNN "URL"
+F 8 "Kemet" H 9700 3850 50  0001 C CNN "Manufacturer"
 	1    9700 3850
 	1    0    0    -1  
 $EndComp
@@ -425,6 +449,9 @@ F 0 "U201" H 5450 4150 60  0000 L CNN
 F 1 "MIC5219-5.0YM5-TR" H 5450 4050 60  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 5450 3300 60  0001 L CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf" H 5150 3900 60  0001 C CNN
+F 4 "576-2770-6-ND" H 5800 3700 50  0001 C CNN "DigiKey Part No."
+F 5 "Microchip" H 5800 3700 50  0001 C CNN "Manufacturer"
+F 6 "MIC5219-5.0YM5-TR" H 5800 3700 50  0001 C CNN "Mftr Part No."
 	1    5800 3700
 	1    0    0    -1  
 $EndComp
@@ -464,6 +491,9 @@ F 1 "Test Point" H 9250 3700 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 9500 3500 50  0001 C CNN
 F 3 "None" H 9500 3500 50  0001 C CNN
 F 4 "TP_3V" H 9250 3700 50  0000 L CNN "Name"
+F 5 "None" H 9300 3500 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 9300 3500 50  0001 C CNN "Manufacturer"
+F 7 "None" H 9300 3500 50  0001 C CNN "Mftr Part No."
 	1    9300 3500
 	1    0    0    -1  
 $EndComp
@@ -481,7 +511,9 @@ F 0 "C203" H 7700 3950 50  0000 L CNN
 F 1 "0.1uF" H 7700 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7688 3700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 7650 3850 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 7650 3850 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 7650 3850 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 7650 3850 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 7650 3850 50  0001 C CNN "DigiKey Part No."
 	1    7650 3850
 	1    0    0    -1  
 $EndComp
@@ -496,7 +528,9 @@ F 0 "C205" H 6500 3950 50  0000 L CNN
 F 1 "470pF" H 6500 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6488 3700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6450 3850 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 6450 3850 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603MRX7R9BB471" H 6450 3850 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 6450 3850 50  0001 C CNN "Manufacturer"
+F 6 "311-3377-1-ND" H 6450 3850 50  0001 C CNN "DigiKey Part No."
 	1    6450 3850
 	1    0    0    -1  
 $EndComp
@@ -532,6 +566,8 @@ F 1 "Jumper" V 6450 2950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 3050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" H 6350 3050 50  0001 C CNN
 F 4 "Yageo" H 6350 3050 50  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-070RL" H 6350 3050 50  0001 C CNN "DigiKey Part No."
+F 6 "311-10KGRCT-ND" H 6350 3050 50  0001 C CNN "Mftr Part No."
 	1    6350 3050
 	0    1    -1   0   
 $EndComp

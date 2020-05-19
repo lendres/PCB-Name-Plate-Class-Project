@@ -216,14 +216,17 @@ Wire Wire Line
 Text Label 4150 5550 0    50   ~ 0
 LCD_nCS
 $Comp
-L Connector:TestPoint TP806
+L Name~Plate~Class~Library:TestPoint TP806
 U 1 1 5EB10897
 P 3500 5550
 F 0 "TP806" H 3300 5850 50  0000 L CNN
-F 1 "Test Point" H 3300 5750 50  0000 L CNN
+F 1 "Test Point" H 3300 5750 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3700 5550 50  0001 C CNN
 F 3 "None" H 3700 5550 50  0001 C CNN
-F 4 "TP_LCD_nCS" H 3500 5550 50  0001 C CNN "Name"
+F 4 "TP_LCD_nCS" H 3300 5750 50  0000 L CNN "Name"
+F 5 "None" H 3500 5550 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 3500 5550 50  0001 C CNN "Manufacturer"
+F 7 "None" H 3500 5550 50  0001 C CNN "Mftr Part No."
 	1    3500 5550
 	1    0    0    -1  
 $EndComp
@@ -236,22 +239,27 @@ AR Path="/5EAC05C2/5EB1088F" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EB1088F" Ref="R?"  Part="1" 
 AR Path="/5ECF32A9/5EB1088F" Ref="R806"  Part="1" 
 F 0 "R806" V 4000 5650 50  0000 R CNN
-F 1 "22K0" V 3800 5650 50  0000 R CNN
+F 1 "22" V 3800 5650 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3830 5550 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3900 5550 50  0001 C CNN
 F 4 "TE Connectivity " H 3900 5550 50  0001 C CNN "Manufacturer"
+F 5 "CRGCQ0603J22R" H 3900 5550 50  0001 C CNN "Mftr Part No."
+F 6 "A130081CT-ND" H 3900 5550 50  0001 C CNN "DigiKey Part No."
 	1    3900 5550
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP805
+L Name~Plate~Class~Library:TestPoint TP805
 U 1 1 5EB0F64B
 P 3500 4900
 F 0 "TP805" H 3300 5200 50  0000 L CNN
-F 1 "Test Point" H 3300 5100 50  0000 L CNN
+F 1 "Test Point" H 3300 5100 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3700 4900 50  0001 C CNN
 F 3 "None" H 3700 4900 50  0001 C CNN
-F 4 "TP_DC" H 3500 4900 50  0001 C CNN "Name"
+F 4 "TP_DC" H 3300 5100 50  0000 L CNN "Name"
+F 5 "None" H 3500 4900 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 3500 4900 50  0001 C CNN "Manufacturer"
+F 7 "None" H 3500 4900 50  0001 C CNN "Mftr Part No."
 	1    3500 4900
 	1    0    0    -1  
 $EndComp
@@ -264,21 +272,27 @@ AR Path="/5EAC05C2/5EB0F643" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EB0F643" Ref="R?"  Part="1" 
 AR Path="/5ECF32A9/5EB0F643" Ref="R805"  Part="1" 
 F 0 "R805" V 4000 5000 50  0000 R CNN
-F 1 "22K0" V 3800 5000 50  0000 R CNN
+F 1 "22" V 3800 5000 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3830 4900 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3900 4900 50  0001 C CNN
+F 4 "TE Connectivity " H 3900 4900 50  0001 C CNN "Manufacturer"
+F 5 "CRGCQ0603J22R" H 3900 4900 50  0001 C CNN "Mftr Part No."
+F 6 "A130081CT-ND" H 3900 4900 50  0001 C CNN "DigiKey Part No."
 	1    3900 4900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP804
+L Name~Plate~Class~Library:TestPoint TP804
 U 1 1 5EB078C9
 P 3500 4250
 F 0 "TP804" H 3300 4550 50  0000 L CNN
-F 1 "Test Point" H 3300 4450 50  0000 L CNN
+F 1 "Test Point" H 3300 4450 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3700 4250 50  0001 C CNN
 F 3 "None" H 3700 4250 50  0001 C CNN
-F 4 "TP_SPI_MOSI" H 3500 4250 50  0001 C CNN "Name"
+F 4 "TP_SPI_MOSI" H 3300 4450 50  0000 L CNN "Name"
+F 5 "None" H 3500 4250 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 3500 4250 50  0001 C CNN "Manufacturer"
+F 7 "None" H 3500 4250 50  0001 C CNN "Mftr Part No."
 	1    3500 4250
 	1    0    0    -1  
 $EndComp
@@ -291,21 +305,27 @@ AR Path="/5EAC05C2/5EB078C1" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EB078C1" Ref="R?"  Part="1" 
 AR Path="/5ECF32A9/5EB078C1" Ref="R804"  Part="1" 
 F 0 "R804" V 4000 4350 50  0000 R CNN
-F 1 "22K0" V 3800 4350 50  0000 R CNN
+F 1 "22" V 3800 4350 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3830 4250 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3900 4250 50  0001 C CNN
+F 4 "TE Connectivity " H 3900 4250 50  0001 C CNN "Manufacturer"
+F 5 "CRGCQ0603J22R" H 3900 4250 50  0001 C CNN "Mftr Part No."
+F 6 "A130081CT-ND" H 3900 4250 50  0001 C CNN "DigiKey Part No."
 	1    3900 4250
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP803
+L Name~Plate~Class~Library:TestPoint TP803
 U 1 1 5EB06A11
 P 3500 3600
 F 0 "TP803" H 3300 3900 50  0000 L CNN
-F 1 "Test Point" H 3300 3800 50  0000 L CNN
+F 1 "Test Point" H 3300 3800 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3700 3600 50  0001 C CNN
 F 3 "None" H 3700 3600 50  0001 C CNN
-F 4 "TP_SPI_CLK" H 3500 3600 50  0001 C CNN "Name"
+F 4 "TP_SPI_CLK" H 3300 3800 50  0000 L CNN "Name"
+F 5 "None" H 3500 3600 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 3500 3600 50  0001 C CNN "Manufacturer"
+F 7 "None" H 3500 3600 50  0001 C CNN "Mftr Part No."
 	1    3500 3600
 	1    0    0    -1  
 $EndComp
@@ -318,14 +338,17 @@ AR Path="/5EAC05C2/5EB06A09" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EB06A09" Ref="R?"  Part="1" 
 AR Path="/5ECF32A9/5EB06A09" Ref="R803"  Part="1" 
 F 0 "R803" V 4000 3700 50  0000 R CNN
-F 1 "22K0" V 3800 3700 50  0000 R CNN
+F 1 "22" V 3800 3700 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3830 3600 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3900 3600 50  0001 C CNN
+F 4 "TE Connectivity " H 3900 3600 50  0001 C CNN "Manufacturer"
+F 5 "CRGCQ0603J22R" H 3900 3600 50  0001 C CNN "Mftr Part No."
+F 6 "A130081CT-ND" H 3900 3600 50  0001 C CNN "DigiKey Part No."
 	1    3900 3600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP802
+L Name~Plate~Class~Library:TestPoint TP802
 U 1 1 5EB05D05
 P 3500 2950
 F 0 "TP802" H 3300 3250 50  0000 L CNN
@@ -333,6 +356,9 @@ F 1 "Test Point" H 3300 3150 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3700 2950 50  0001 C CNN
 F 3 "None" H 3700 2950 50  0001 C CNN
 F 4 "TP_FONT_nSELECT" H 3300 3150 50  0000 L CNN "Name"
+F 5 "None" H 3500 2950 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 3500 2950 50  0001 C CNN "Manufacturer"
+F 7 "None" H 3500 2950 50  0001 C CNN "Mftr Part No."
 	1    3500 2950
 	1    0    0    -1  
 $EndComp
@@ -345,9 +371,12 @@ AR Path="/5EAC05C2/5EB05CFD" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EB05CFD" Ref="R?"  Part="1" 
 AR Path="/5ECF32A9/5EB05CFD" Ref="R802"  Part="1" 
 F 0 "R802" V 4000 3050 50  0000 R CNN
-F 1 "22K0" V 3800 3050 50  0000 R CNN
+F 1 "22" V 3800 3050 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3830 2950 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3900 2950 50  0001 C CNN
+F 4 "TE Connectivity " H 3900 2950 50  0001 C CNN "Manufacturer"
+F 5 "CRGCQ0603J22R" H 3900 2950 50  0001 C CNN "Mftr Part No."
+F 6 "A130081CT-ND" H 3900 2950 50  0001 C CNN "DigiKey Part No."
 	1    3900 2950
 	0    -1   -1   0   
 $EndComp
@@ -360,9 +389,12 @@ AR Path="/5EAC05C2/5EAFACC6" Ref="R?"  Part="1"
 AR Path="/5EACA483/5EAFACC6" Ref="R?"  Part="1" 
 AR Path="/5ECF32A9/5EAFACC6" Ref="R801"  Part="1" 
 F 0 "R801" V 4000 2400 50  0000 R CNN
-F 1 "22K0" V 3800 2400 50  0000 R CNN
+F 1 "22" V 3800 2400 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3830 2300 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3900 2300 50  0001 C CNN
+F 4 "TE Connectivity " H 3900 2300 50  0001 C CNN "Manufacturer"
+F 5 "CRGCQ0603J22R" H 3900 2300 50  0001 C CNN "Mftr Part No."
+F 6 "A130081CT-ND" H 3900 2300 50  0001 C CNN "DigiKey Part No."
 	1    3900 2300
 	0    -1   -1   0   
 $EndComp
@@ -378,7 +410,9 @@ F 0 "C801" H 6050 2900 50  0000 L BNN
 F 1 "0.1uF" H 6050 2800 50  0000 L BNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6438 2750 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-50V_18.pdf" H 6400 2900 50  0001 C CNN
-F 4 "Yageo CC0603KPX7R7BB104" H 6400 2900 50  0001 C CNN "Mftr Part No."
+F 4 "CC0603KPX7R7BB104" H 6400 2900 50  0001 C CNN "Mftr Part No."
+F 5 "Yageo" H 6400 2900 50  0001 C CNN "Manufacturer"
+F 6 "311-1335-1-ND" H 6400 2900 50  0001 C CNN "DigiKey Part No."
 	1    6400 2900
 	1    0    0    -1  
 $EndComp
@@ -387,11 +421,15 @@ L Name~Plate~Class~Library:LCD_ER-TFTM024-3 LCD?
 U 1 1 5EB2A1E3
 P 7400 3650
 AR Path="/5EAC05C2/5EB2A1E3" Ref="LCD?"  Part="1" 
-AR Path="/5ECF32A9/5EB2A1E3" Ref="LCD1"  Part="1" 
-F 0 "LCD1" H 6900 4750 50  0000 L BNN
-F 1 "LCD 2.4\"" H 6900 2500 50  0000 L BNN
-F 2 "Name Plate Class Project:LCD_ER-TFTM024-3" H 7400 3650 50  0001 C CNN
+AR Path="/5ECF32A9/5EB2A1E3" Ref="J801"  Part="1" 
+F 0 "J801" H 6900 4750 50  0000 L BNN
+F 1 "DNP" H 6900 2500 50  0000 L BNN
+F 2 "Name Plate Class Project:LCD_ER-TFTM024-3_SMD" H 7400 3650 50  0001 C CNN
 F 3 "" H 7400 3650 50  0001 C CNN
+F 4 "0713085440-ND" H 7400 3650 50  0001 C CNN "DigiKey Part No."
+F 5 "Molex" H 7400 3650 50  0001 C CNN "Manufacturer"
+F 6 "0713085440" H 7400 3650 50  0001 C CNN "Mftr Part No."
+F 7 "ER-TFTM024-3-2847-4SPI-3.3V-3748-2559-3304" H 7400 3650 50  0001 C CNN "Name"
 	1    7400 3650
 	1    0    0    -1  
 $EndComp
@@ -400,10 +438,13 @@ L Name~Plate~Class~Library:TestPoint TP801
 U 1 1 5EB012D4
 P 3500 2300
 F 0 "TP801" H 3300 2600 50  0000 L CNN
-F 1 "TestPoint" H 3400 2050 50  0001 L CNN
+F 1 "Test Point" H 3400 2050 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3700 2300 50  0001 C CNN
 F 3 "None" H 3700 2300 50  0001 C CNN
 F 4 "TP_LCD_SPI_MISO" H 3300 2500 50  0000 L CNN "Name"
+F 5 "None" H 3500 2300 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 3500 2300 50  0001 C CNN "Manufacturer"
+F 7 "None" H 3500 2300 50  0001 C CNN "Mftr Part No."
 	1    3500 2300
 	1    0    0    -1  
 $EndComp
