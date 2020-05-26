@@ -55,8 +55,10 @@ P 1450 2650
 F 0 "J201" V 1650 2700 50  0000 R CNN
 F 1 "Battery Connector" V 1550 2700 50  0000 R CNN
 F 2 "Name Plate Class Project:JST_PH_w_SolderPoints" H 1450 2650 50  0001 C CNN
-F 3 "~" H 1450 2650 50  0001 C CNN
-F 4 "DNP" H 1450 2650 50  0001 C CNN "Manufacturer"
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1450 2650 50  0001 C CNN
+F 4 "JST Sales America Inc." H 1450 2650 50  0001 C CNN "Manufacturer"
+F 5 "455-1749-1-ND" H 1450 2650 50  0001 C CNN "DigiKey Part No."
+F 6 "S2B-PH-SM4-TB(LF)(SN)" H 1450 2650 50  0001 C CNN "Mftr Part No."
 	1    1450 2650
 	0    -1   -1   0   
 $EndComp
@@ -540,10 +542,10 @@ Connection ~ 7650 3500
 Wire Wire Line
 	7650 3500 7800 3500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0131
 U 1 1 5ECD2699
 P 7650 4350
-F 0 "#PWR?" H 7650 4100 50  0001 C CNN
+F 0 "#PWR0131" H 7650 4100 50  0001 C CNN
 F 1 "GND" H 7655 4177 50  0000 C CNN
 F 2 "" H 7650 4350 50  0001 C CNN
 F 3 "" H 7650 4350 50  0001 C CNN
