@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name "Name Plate Class Library")(type Legacy)(uri "${KIPRJMOD}/Name Plate Class Library.lib")(options "")(descr ""))
+  (lib (name Name_Plate_Class_Library)(type Legacy)(uri "${KIPRJMOD}/Name Plate Class Library.lib")(options "")(descr ""))
 )

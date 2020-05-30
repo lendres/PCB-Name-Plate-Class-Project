@@ -151,18 +151,18 @@ F 6 "311-1335-1-ND" H 3500 4550 50  0001 C CNN "DigiKey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_NMOS_GSD Q201
+L Name~Plate~Class~Library:Q_NMOS_GSD Q201
 U 1 1 5EB6003E
 P 4400 4300
 F 0 "Q201" H 4604 4254 50  0000 L CNN
 F 1 "BSS138" H 4604 4345 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4600 4400 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138LT1-D.PDF" H 4400 4300 50  0001 C CNN
-F 4 "FDN304PCT-ND" H 4400 4300 50  0001 C CNN "DigiKey Part No."
+F 4 "BSS138CT-ND" H 4400 4300 50  0001 C CNN "DigiKey Part No."
 F 5 "ON Semiconductor" H 4400 4300 50  0001 C CNN "Manufacturer"
-F 6 "BSS138CT-ND" H 4400 4300 50  0001 C CNN "Mftr Part No."
+F 6 "BSS138" H 4400 4300 50  0001 C CNN "Mftr Part No."
 	1    4400 4300
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4500 4500 4500 5000
@@ -284,14 +284,14 @@ AR Path="/5EACA483/5EB74201" Ref="C202"  Part="1"
 AR Path="/5ECE9FD3/5EB74201" Ref="C?"  Part="1" 
 AR Path="/5ECEA271/5EB74201" Ref="C?"  Part="1" 
 F 0 "C202" H 7150 3950 50  0000 L CNN
-F 1 "22uF" H 7150 3750 50  0000 L CNN
+F 1 "10uF" H 7150 3750 50  0000 L CNN
 F 2 "Name Plate Class Project:CAP_430X430N" H 7100 3850 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 7100 3850 50  0001 C CNN
 F 4 "" H 7100 3850 50  0001 C CNN "Field4"
-F 5 "PCE4295CT-ND" H 7100 3850 50  0001 C CNN "DigiKey Part No."
-F 6 "EEE-1CA220WR" H 7100 3850 50  0001 C CNN "Mftr Part No."
+F 5 "399-11437-1-ND" H 7100 3850 50  0001 C CNN "DigiKey Part No."
+F 6 "T491A106K010AT" H 7100 3850 50  0001 C CNN "Mftr Part No."
 F 7 "" H 7100 3850 50  0001 C CNN "URL"
-F 8 "Panasonic" H 7100 3850 50  0001 C CNN "Manufacturer"
+F 8 "Kemet" H 7100 3850 50  0001 C CNN "Manufacturer"
 	1    7100 3850
 	1    0    0    -1  
 $EndComp

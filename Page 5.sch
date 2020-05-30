@@ -28,17 +28,17 @@ F 6 "FTS-105-01-L-DV" H 8550 2150 50  0001 C CNN "Mftr Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:USB_B_Mini J501
+L Connectors_LE:USB_B_Micro J501
 U 1 1 5EBEA16E
-P 2650 6300
-F 0 "J501" H 2450 6800 50  0000 L CNN
-F 1 "USB_B_Mini" H 2450 6700 50  0000 L CNN
-F 2 "Name Plate Class Project:Molex_USB_Mini_B_548190572" H 2800 6250 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/548190572_sd.pdf" H 2800 6250 50  0001 C CNN
-F 4 "WM17116DKR-ND" H 2650 6300 50  0001 C CNN "DigiKey Part No."
-F 5 "Molex" H 2650 6300 50  0001 C CNN "Manufacturer"
-F 6 "548190572" H 2650 6300 50  0001 C CNN "Mftr Part No."
-	1    2650 6300
+P 2600 5950
+F 0 "J501" H 2400 6450 50  0000 L CNN
+F 1 "USB_B_Mini" H 2400 6350 50  0000 L CNN
+F 2 "Name Plate Class Project:Molex_USB_Mini_B_548190572" H 2750 5900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/548190572_sd.pdf" H 2750 5900 50  0001 C CNN
+F 4 "WM17116DKR-ND" H 2600 5950 50  0001 C CNN "DigiKey Part No."
+F 5 "Molex" H 2600 5950 50  0001 C CNN "Manufacturer"
+F 6 "548190572" H 2600 5950 50  0001 C CNN "Mftr Part No."
+	1    2600 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -92,138 +92,87 @@ Text Label 8950 1950 0    50   ~ 0
 SAMD11_SWDIO
 Text Label 8950 2050 0    50   ~ 0
 SAMD11_SWCLK
+Wire Wire Line
+	2900 5850 3150 5850
+NoConn ~ 2900 6050
+Wire Wire Line
+	2900 5750 3000 5750
+Connection ~ 3150 5850
+Wire Wire Line
+	3150 5850 3650 5850
+Wire Wire Line
+	4000 5050 4050 5050
 $Comp
-L Power_Protection:PRTR5V0U2X D501
-U 1 1 5EBF84C8
-P 3750 5350
-F 0 "D501" H 3150 5800 50  0000 L CNN
-F 1 "PRTR5V0U2X,215" H 3150 5700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 3810 5350 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 3810 5350 50  0001 C CNN
-F 4 "1727-3884-6-ND" H 3750 5350 50  0001 C CNN "DigiKey Part No."
-F 5 "Philips/NXP" H 3750 5350 50  0001 C CNN "Manufacturer"
-F 6 "PRTR5V0U2X,215" H 3750 5350 50  0001 C CNN "Mftr Part No."
-	1    3750 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 6300 3200 6300
-NoConn ~ 2950 6500
-Wire Wire Line
-	2950 6100 4450 6100
-Wire Wire Line
-	4450 4900 4100 4900
-Connection ~ 3200 6300
-Wire Wire Line
-	3200 6300 3700 6300
-Wire Wire Line
-	4150 5350 4300 5350
-Wire Wire Line
-	4300 5350 4300 6400
-Connection ~ 4300 6400
-Wire Wire Line
-	4300 6400 4800 6400
-Wire Wire Line
-	4100 4850 4100 4900
-Connection ~ 4100 4900
-Wire Wire Line
-	4100 4900 3750 4900
-$Comp
-L Device:R R?
+L Frequently_Used:R R?
 U 1 1 5EC05B2C
-P 1400 6400
+P 3800 6300
 AR Path="/5EC05B2C" Ref="R?"  Part="1" 
 AR Path="/5EAC05C2/5EC05B2C" Ref="R?"  Part="1" 
 AR Path="/5EACA483/5EC05B2C" Ref="R?"  Part="1" 
 AR Path="/5ECF2FE7/5EC05B2C" Ref="R504"  Part="1" 
-F 0 "R504" H 1470 6446 50  0000 L CNN
-F 1 "1M" H 1470 6355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1330 6400 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 1400 6400 50  0001 C CNN
-F 4 "311-1.00MHRCT-ND" H 1400 6400 50  0001 C CNN "DigiKey Part No."
-F 5 "RC0603FR-071ML" H 1400 6400 50  0001 C CNN "Mftr Part No."
-F 6 "TE Connectivity" H 1400 6400 50  0001 C CNN "Manufacturer"
-	1    1400 6400
+F 0 "R504" H 3870 6346 50  0000 L CNN
+F 1 "1M" H 3870 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 6300 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3800 6300 50  0001 C CNN
+F 4 "311-1.00MHRCT-ND" H 3800 6300 50  0001 C CNN "DigiKey Part No."
+F 5 "RC0603FR-071ML" H 3800 6300 50  0001 C CNN "Mftr Part No."
+F 6 "TE Connectivity" H 3800 6300 50  0001 C CNN "Manufacturer"
+	1    3800 6300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Frequently_Used:C C?
 U 1 1 5EC06F34
-P 1900 6400
+P 3400 6300
 AR Path="/5EC06F34" Ref="C?"  Part="1" 
 AR Path="/5EAC05C2/5EC06F34" Ref="C?"  Part="1" 
 AR Path="/5EACA483/5EC06F34" Ref="C?"  Part="1" 
 AR Path="/5ECF2FE7/5EC06F34" Ref="C502"  Part="1" 
-F 0 "C502" H 1950 6500 50  0000 L BNN
-F 1 "4.7uF" H 1950 6250 50  0000 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1938 6250 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1010_X7R_HV_SMD.pdf" H 1900 6400 50  0001 C CNN
-F 4 "C0805C472KDRACTU" H 1900 6400 50  0001 C CNN "Mftr Part No."
-F 5 "399-6738-1-ND" H 1900 6400 50  0001 C CNN "DigiKey Part No."
-F 6 "Kemet" H 1900 6400 50  0001 C CNN "Manufacturer"
-	1    1900 6400
+F 0 "C502" H 3450 6400 50  0000 L BNN
+F 1 "4.7uF" H 3450 6150 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 6150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1010_X7R_HV_SMD.pdf" H 3400 6300 50  0001 C CNN
+F 4 "C0805C472KDRACTU" H 3400 6300 50  0001 C CNN "Mftr Part No."
+F 5 "399-6738-1-ND" H 3400 6300 50  0001 C CNN "DigiKey Part No."
+F 6 "Kemet" H 3400 6300 50  0001 C CNN "Manufacturer"
+	1    3400 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 5750 1250 5750
+	3800 6050 3800 6150
 Wire Wire Line
-	1250 5750 1250 6800
+	3400 6150 3400 6050
+Connection ~ 3400 6050
 Wire Wire Line
-	1250 6800 1400 6800
+	3400 6050 3150 6050
 Wire Wire Line
-	2650 6800 2650 6700
+	3400 6450 3400 6550
 Wire Wire Line
-	2550 6700 2550 6750
-Wire Wire Line
-	2550 6750 2300 6750
-Wire Wire Line
-	2300 6750 2300 6050
-Wire Wire Line
-	2300 6050 1900 6050
-Wire Wire Line
-	1400 6050 1400 6250
-Wire Wire Line
-	1900 6250 1900 6050
-Connection ~ 1900 6050
-Wire Wire Line
-	1900 6050 1400 6050
-Wire Wire Line
-	1900 6550 1900 6800
-Connection ~ 1900 6800
-Wire Wire Line
-	1900 6800 2650 6800
-Wire Wire Line
-	1400 6550 1400 6800
-Connection ~ 1400 6800
-Wire Wire Line
-	1400 6800 1650 6800
+	3800 6450 3800 6550
 $Comp
 L power:GND #PWR0127
 U 1 1 5EC1095E
-P 1650 6850
-F 0 "#PWR0127" H 1650 6600 50  0001 C CNN
-F 1 "GND" H 1655 6677 50  0000 C CNN
-F 2 "" H 1650 6850 50  0001 C CNN
-F 3 "" H 1650 6850 50  0001 C CNN
-	1    1650 6850
+P 3600 6600
+F 0 "#PWR0127" H 3600 6350 50  0001 C CNN
+F 1 "GND" H 3605 6427 50  0000 C CNN
+F 2 "" H 3600 6600 50  0001 C CNN
+F 3 "" H 3600 6600 50  0001 C CNN
+	1    3600 6600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 6800 1650 6850
-Connection ~ 1650 6800
-Wire Wire Line
-	1650 6800 1900 6800
+	3600 6550 3600 6600
 $Comp
 L power:VBUS #PWR?
 U 1 1 5EC62D79
-P 4100 4850
+P 3600 4600
 AR Path="/5EACA483/5EC62D79" Ref="#PWR?"  Part="1" 
 AR Path="/5ECF2FE7/5EC62D79" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 4100 4700 50  0001 C CNN
-F 1 "VBUS" H 4115 5023 50  0000 C CNN
-F 2 "" H 4100 4850 50  0001 C CNN
-F 3 "" H 4100 4850 50  0001 C CNN
-	1    4100 4850
+F 0 "#PWR0128" H 3600 4450 50  0001 C CNN
+F 1 "VBUS" H 3615 4773 50  0000 C CNN
+F 2 "" H 3600 4600 50  0001 C CNN
+F 3 "" H 3600 4600 50  0001 C CNN
+	1    3600 4600
 	1    0    0    -1  
 $EndComp
 Text Label 1750 2050 0    50   ~ 0
@@ -509,21 +458,15 @@ F 6 "ATSAMD11C14A-SSNT" H 4200 2150 50  0001 C CNN "Mftr Part No."
 $EndComp
 Text Notes 4700 3850 0    98   ~ 20
 SAMD11 Microcontroller and Connector
-Text Notes 2500 7150 0    98   ~ 20
+Text Notes 2850 7150 0    98   ~ 20
 USB Connector
 Wire Wire Line
-	2950 6400 4300 6400
+	2900 5950 4050 5950
 Wire Wire Line
-	3350 5350 3200 5350
-Wire Wire Line
-	3200 5350 3200 6300
-Wire Wire Line
-	4450 6100 4450 4900
-Wire Wire Line
-	3750 4900 3750 4950
-Text Label 4500 6400 0    50   ~ 0
+	3600 4600 3600 4650
+Text Label 4150 5950 0    50   ~ 0
 USB_DM
-Text Label 3400 6300 0    50   ~ 0
+Text Label 3350 5850 0    50   ~ 0
 USB_DP
 Text HLabel 2200 2850 0    50   Input ~ 0
 MEGA_nRST
@@ -566,4 +509,73 @@ F 7 "None" H 2400 2950 50  0001 C CNN "Mftr Part No."
 	1    2400 2950
 	-1   0    0    1   
 $EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5ED1C5B0
+P 3000 5650
+AR Path="/5EACA483/5ED1C5B0" Ref="#PWR?"  Part="1" 
+AR Path="/5ECF2FE7/5ED1C5B0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3000 5500 50  0001 C CNN
+F 1 "VBUS" H 3015 5823 50  0000 C CNN
+F 2 "" H 3000 5650 50  0001 C CNN
+F 3 "" H 3000 5650 50  0001 C CNN
+	1    3000 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5650 3000 5750
+$Comp
+L Power_LE:PRTR5V0U2X D501
+U 1 1 5EBF84C8
+P 3600 5050
+F 0 "D501" H 3800 5500 50  0000 L CNN
+F 1 "PRTR5V0U2X,215" H 3800 5400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 3660 5050 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 3660 5050 50  0001 C CNN
+F 4 "1727-3884-6-ND" H 3600 5050 50  0001 C CNN "DigiKey Part No."
+F 5 "Philips/NXP" H 3600 5050 50  0001 C CNN "Manufacturer"
+F 6 "PRTR5V0U2X,215" H 3600 5050 50  0001 C CNN "Mftr Part No."
+	1    3600 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5450 3600 5500
+$Comp
+L power:GND #PWR?
+U 1 1 5ED270A3
+P 3600 5500
+F 0 "#PWR?" H 3600 5250 50  0001 C CNN
+F 1 "GND" H 3605 5327 50  0000 C CNN
+F 2 "" H 3600 5500 50  0001 C CNN
+F 3 "" H 3600 5500 50  0001 C CNN
+	1    3600 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 6550
+Wire Wire Line
+	3600 6550 3800 6550
+Wire Wire Line
+	3800 6050 3400 6050
+Wire Wire Line
+	3150 6050 3150 6150
+Wire Wire Line
+	3150 6150 2900 6150
+Wire Wire Line
+	3150 5050 3150 5850
+Wire Wire Line
+	4050 5050 4050 5950
+Wire Wire Line
+	2900 6250 3150 6250
+Wire Wire Line
+	3150 6250 3150 6550
+Wire Wire Line
+	3150 6550 3400 6550
+Connection ~ 3400 6550
+Wire Wire Line
+	3400 6550 3600 6550
+Wire Wire Line
+	3200 5050 3150 5050
+Connection ~ 4050 5950
+Wire Wire Line
+	4050 5950 4500 5950
 $EndSCHEMATC
