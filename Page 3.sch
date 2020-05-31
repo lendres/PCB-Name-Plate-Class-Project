@@ -21,7 +21,7 @@ AR Path="/5EAC05C2/5ECEB242" Ref="D?"  Part="1"
 AR Path="/5ECEA271/5ECEB242" Ref="D305"  Part="1" 
 F 0 "D305" H 2550 4600 50  0000 R TNN
 F 1 "BLUE LED" H 2550 4700 50  0000 R TNN
-F 2 "Name Plate Class Project:LED_G-GX" H 2500 4850 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:LED_G-GX" H 2500 4850 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Osram%20PDFs/LB_Q39G_v1.4_9-1-15.pdf" H 2500 4850 50  0001 C CNN
 F 4 "475-2816-1-ND" H 2500 4850 50  0001 C CNN "DigiKey Part No."
 F 5 "LB Q39G-L2OO-35-1" H 2500 4850 50  0001 C CNN "Mftr Part No."
@@ -77,7 +77,7 @@ AR Path="/5ECE9FD3/5ECECE8C" Ref="LS?"  Part="1"
 AR Path="/5ECEA271/5ECECE8C" Ref="LS301"  Part="1" 
 F 0 "LS301" H 9500 4950 50  0000 L CNN
 F 1 "Piezo Buzzer" H 9500 4850 50  0000 L CNN
-F 2 "Name Plate Class Project:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm" V 9325 5000 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm" V 9325 5000 50  0001 C CNN
 F 3 "http://www.puiaudio.com/pdf/AST-03008MR-R.pdf" V 9325 5000 50  0001 C CNN
 F 4 "668-1136-ND" H 9350 4900 50  0001 C CNN "DigiKey Part No."
 F 5 "Pui Audio" H 9350 4900 50  0001 C CNN "Manufacturer"
@@ -112,13 +112,11 @@ AR Path="/5ECE9FD3/5ECECE9A" Ref="C?"  Part="1"
 AR Path="/5ECEA271/5ECECE9A" Ref="C301"  Part="1" 
 F 0 "C301" V 9202 4800 50  0000 C CNN
 F 1 "10uF" V 9111 4800 50  0000 C CNN
-F 2 "Name Plate Class Project:CAP_430X430N" H 8950 4800 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:CAP_430X430N" H 8950 4800 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 8950 4800 50  0001 C CNN
-F 4 "Panasonic EEE-1VA2R2NR" H 8950 4800 50  0001 C CNN "Field4"
-F 5 "399-11437-1-ND" H 8950 4800 50  0001 C CNN "DigiKey Part No."
-F 6 "T491A106K010AT" H 8950 4800 50  0001 C CNN "Mftr Part No."
-F 7 "" H 8950 4800 50  0001 C CNN "URL"
-F 8 "Kemet" H 8950 4800 50  0001 C CNN "Manufacturer"
+F 4 "399-11437-1-ND" H 8950 4800 50  0001 C CNN "DigiKey Part No."
+F 5 "T491A106K010AT" H 8950 4800 50  0001 C CNN "Mftr Part No."
+F 6 "Kemet" H 8950 4800 50  0001 C CNN "Manufacturer"
 	1    8950 4800
 	0    -1   -1   0   
 $EndComp
@@ -148,11 +146,12 @@ F 6 "A130081CT-ND" H 3250 2250 50  0001 C CNN "DigiKey Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EB2B88E
 P 2850 2250
 AR Path="/5ECF32A9/5EB2B88E" Ref="TP?"  Part="1" 
 AR Path="/5ECEA271/5EB2B88E" Ref="TP301"  Part="1" 
+AR Path="/5EB2B88E" Ref="TP301"  Part="1" 
 F 0 "TP301" H 2650 2550 50  0000 L CNN
 F 1 "Test Point" H 2650 2450 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3050 2250 50  0001 C CNN
@@ -431,13 +430,11 @@ AR Path="/5ECE9FD3/5ECD505A" Ref="C?"  Part="1"
 AR Path="/5ECEA271/5ECD505A" Ref="C302"  Part="1" 
 F 0 "C302" H 8350 2300 50  0000 L CNN
 F 1 "10uF" H 8350 2050 50  0000 L CNN
-F 2 "Name Plate Class Project:CAP_430X430N" H 8300 2200 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:CAP_430X430N" H 8300 2200 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 8300 2200 50  0001 C CNN
-F 4 "Panasonic EEE-1VA2R2NR" H 8300 2200 50  0001 C CNN "Field4"
-F 5 "399-11437-1-ND" H 8300 2200 50  0001 C CNN "DigiKey Part No."
-F 6 "T491A106K010AT" H 8300 2200 50  0001 C CNN "Mftr Part No."
-F 7 "" H 8300 2200 50  0001 C CNN "URL"
-F 8 "Kemet" H 8300 2200 50  0001 C CNN "Manufacturer"
+F 4 "399-11437-1-ND" H 8300 2200 50  0001 C CNN "DigiKey Part No."
+F 5 "T491A106K010AT" H 8300 2200 50  0001 C CNN "Mftr Part No."
+F 6 "Kemet" H 8300 2200 50  0001 C CNN "Manufacturer"
 	1    8300 2200
 	1    0    0    -1  
 $EndComp

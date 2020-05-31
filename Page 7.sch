@@ -48,7 +48,7 @@ F 6 "Kemet" H 7150 4300 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Name~Plate~Class~Library:Oscillator_MC-405_32.7680K-D__ROHS Y?
+L Name_Plate_Class_Project:Oscillator_MC-405_32.7680K-D__ROHS Y?
 U 1 1 5EB307EE
 P 6650 4000
 AR Path="/5EAC05C2/5EB307EE" Ref="Y?"  Part="1" 
@@ -56,7 +56,7 @@ AR Path="/5ECF32A9/5EB307EE" Ref="Y?"  Part="1"
 AR Path="/5ECF31FF/5EB307EE" Ref="Y701"  Part="1" 
 F 0 "Y701" H 6550 3850 50  0000 L CNN
 F 1 "32.7680 kHz" H 6400 4150 50  0000 L CNN
-F 2 "Name Plate Class Project:Oscillator_MC-405_32.7680K-D__ROHS" H 6550 3700 50  0001 L BNN
+F 2 "Name_Plate_Class_Project:Oscillator_MC-405_32.7680K-D__ROHS" H 6550 3700 50  0001 L BNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-405&lang=en" H 6550 3600 50  0001 L BNN
 F 4 "SER4311TR-ND" H 6650 4000 50  0001 C CNN "DigiKey Part No."
 F 5 "Epson " H 6650 4000 50  0001 C CNN "Manufacturer"
@@ -101,21 +101,19 @@ F 3 "" H 7400 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Name~Plate~Class~Library:BK-883 B?
+L Name_Plate_Class_Project:BK-883 B?
 U 1 1 5EB3080E
 P 4850 3450
 AR Path="/5EAC05C2/5EB3080E" Ref="B?"  Part="1" 
 AR Path="/5ECF32A9/5EB3080E" Ref="B?"  Part="1" 
-AR Path="/5ECF31FF/5EB3080E" Ref="B801"  Part="1" 
-F 0 "B801" H 4850 3183 50  0000 C CNN
+AR Path="/5ECF31FF/5EB3080E" Ref="B701"  Part="1" 
+F 0 "B701" H 4850 3183 50  0000 C CNN
 F 1 "BK-883" H 4850 3274 50  0000 C CNN
-F 2 "Name Plate Class Project:BAT_BK-883" H 4700 3700 50  0001 L BNN
+F 2 "Name_Plate_Class_Project:BAT_BK-883" H 4700 3700 50  0001 L BNN
 F 3 "https://www.memoryprotectiondevices.com/datasheets/BK-883-datasheet.pdf" H 4700 3100 50  0001 L BNN
-F 4 "MPD" H 4700 3150 50  0001 L BNN "Field4"
-F 5 "L" H 4700 3050 50  0001 L BNN "Field5"
-F 6 "BK-883" H 4850 3450 50  0001 C CNN "Mftr Part No."
-F 7 "BK-883-ND" H 4850 3450 50  0001 C CNN "DigiKey Part No."
-F 8 "MPD" H 4850 3450 50  0001 C CNN "Manufacturer"
+F 4 "BK-883" H 4850 3450 50  0001 C CNN "Mftr Part No."
+F 5 "BK-883-ND" H 4850 3450 50  0001 C CNN "DigiKey Part No."
+F 6 "MPD" H 4850 3450 50  0001 C CNN "Manufacturer"
 	1    4850 3450
 	-1   0    0    1   
 $EndComp

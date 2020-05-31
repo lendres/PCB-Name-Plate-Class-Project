@@ -216,7 +216,7 @@ Wire Wire Line
 Text Label 4150 5550 0    50   ~ 0
 LCD_nCS
 $Comp
-L Name~Plate~Class~Library:TestPoint TP806
+L Name_Plate_Class_Project:TestPoint TP806
 U 1 1 5EB10897
 P 3500 5550
 F 0 "TP806" H 3300 5850 50  0000 L CNN
@@ -249,7 +249,7 @@ F 6 "A130081CT-ND" H 3900 5550 50  0001 C CNN "DigiKey Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP805
+L Name_Plate_Class_Project:TestPoint TP805
 U 1 1 5EB0F64B
 P 3500 4900
 F 0 "TP805" H 3300 5200 50  0000 L CNN
@@ -282,7 +282,7 @@ F 6 "A130081CT-ND" H 3900 4900 50  0001 C CNN "DigiKey Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP804
+L Name_Plate_Class_Project:TestPoint TP804
 U 1 1 5EB078C9
 P 3500 4250
 F 0 "TP804" H 3300 4550 50  0000 L CNN
@@ -315,7 +315,7 @@ F 6 "A130081CT-ND" H 3900 4250 50  0001 C CNN "DigiKey Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP803
+L Name_Plate_Class_Project:TestPoint TP803
 U 1 1 5EB06A11
 P 3500 3600
 F 0 "TP803" H 3300 3900 50  0000 L CNN
@@ -348,7 +348,7 @@ F 6 "A130081CT-ND" H 3900 3600 50  0001 C CNN "DigiKey Part No."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP802
+L Name_Plate_Class_Project:TestPoint TP802
 U 1 1 5EB05D05
 P 3500 2950
 F 0 "TP802" H 3300 3250 50  0000 L CNN
@@ -417,24 +417,23 @@ F 6 "311-1335-1-ND" H 6400 2900 50  0001 C CNN "DigiKey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:LCD_ER-TFTM024-3 LCD?
+L Name_Plate_Class_Project:LCD_ER-TFTM024-3 LCD?
 U 1 1 5EB2A1E3
 P 7400 3650
 AR Path="/5EAC05C2/5EB2A1E3" Ref="LCD?"  Part="1" 
 AR Path="/5ECF32A9/5EB2A1E3" Ref="J801"  Part="1" 
 F 0 "J801" H 6900 4750 50  0000 L BNN
 F 1 "DNP" H 6900 2500 50  0000 L BNN
-F 2 "Name Plate Class Project:LCD_ER-TFTM024-3_SMD" H 7400 3650 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:LCD_ER-TFTM024-3_SMD" H 7400 3650 50  0001 C CNN
 F 3 "" H 7400 3650 50  0001 C CNN
 F 4 "0713085440-ND" H 7400 3650 50  0001 C CNN "DigiKey Part No."
 F 5 "Molex" H 7400 3650 50  0001 C CNN "Manufacturer"
 F 6 "0713085440" H 7400 3650 50  0001 C CNN "Mftr Part No."
-F 7 "ER-TFTM024-3-2847-4SPI-3.3V-3748-2559-3304" H 7400 3650 50  0001 C CNN "Name"
 	1    7400 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP801
+L Name_Plate_Class_Project:TestPoint TP801
 U 1 1 5EB012D4
 P 3500 2300
 F 0 "TP801" H 3300 2600 50  0000 L CNN

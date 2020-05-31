@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Name~Plate~Class~Library:Switch_JS202011SCQN S201
+L Name_Plate_Class_Project:Switch_JS202011SCQN S201
 U 1 1 5EB4E9F9
 P 2650 3500
 F 0 "S201" H 2400 4300 50  0000 L CNN
 F 1 "Battery Switch" H 2400 4200 50  0000 L CNN
-F 2 "Name Plate Class Project:Switch_JS202011SCQN" H 1800 2700 50  0001 L BNN
+F 2 "Name_Plate_Class_Project:Switch_JS202011SCQN" H 1800 2700 50  0001 L BNN
 F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 2650 3500 50  0001 L BNN
 F 4 "401-2002-2-ND" H 2650 3500 50  0001 C CNN "DigiKey Part No."
 F 5 "C&K" H 2650 3500 50  0001 C CNN "Manufacturer"
@@ -54,7 +54,7 @@ U 1 1 5EB52776
 P 1450 2650
 F 0 "J201" V 1650 2700 50  0000 R CNN
 F 1 "Battery Connector" V 1550 2700 50  0000 R CNN
-F 2 "Name Plate Class Project:JST_PH_w_SolderPoints" H 1450 2650 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:JST_PH_w_SolderPoints" H 1450 2650 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 1450 2650 50  0001 C CNN
 F 4 "JST Sales America Inc." H 1450 2650 50  0001 C CNN "Manufacturer"
 F 5 "455-1749-1-ND" H 1450 2650 50  0001 C CNN "DigiKey Part No."
@@ -151,7 +151,7 @@ F 6 "311-1335-1-ND" H 3500 4550 50  0001 C CNN "DigiKey Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:Q_NMOS_GSD Q201
+L Name_Plate_Class_Project:Q_NMOS_GSD Q201
 U 1 1 5EB6003E
 P 4400 4300
 F 0 "Q201" H 4604 4254 50  0000 L CNN
@@ -189,8 +189,6 @@ Connection ~ 3750 5000
 Wire Wire Line
 	3750 5000 3500 5000
 Wire Wire Line
-	4500 4050 5250 4050
-Wire Wire Line
 	5300 4050 5300 3600
 Wire Wire Line
 	5300 3600 5350 3600
@@ -198,11 +196,12 @@ Connection ~ 4500 4050
 Wire Wire Line
 	4500 4050 4500 4100
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EB6B8BD
 P 5250 4050
 AR Path="/5ECF32A9/5EB6B8BD" Ref="TP?"  Part="1" 
 AR Path="/5EACA483/5EB6B8BD" Ref="TP201"  Part="1" 
+AR Path="/5EB6B8BD" Ref="TP201"  Part="1" 
 F 0 "TP201" H 5300 4300 50  0000 R CNN
 F 1 "Test Point" H 5300 4400 50  0001 R CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 5450 4050 50  0001 C CNN
@@ -214,9 +213,6 @@ F 7 "None" H 5250 4050 50  0001 C CNN "Mftr Part No."
 	1    5250 4050
 	-1   0    0    1   
 $EndComp
-Connection ~ 5250 4050
-Wire Wire Line
-	5250 4050 5300 4050
 Wire Wire Line
 	6250 3600 6450 3600
 Wire Wire Line
@@ -246,7 +242,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 3500 6600 3500
 $Comp
-L Name~Plate~Class~Library:MIC5219-x.xYM5-TR U202
+L Name_Plate_Class_Project:MIC5219-x.xYM5-TR U202
 U 1 1 5EB717E5
 P 8400 3700
 F 0 "U202" H 8050 4150 60  0000 L CNN
@@ -260,11 +256,12 @@ F 6 "MIC5219-3.3YM5-TR" H 8400 3700 50  0001 C CNN "Mftr Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EB7241E
 P 6850 3500
 AR Path="/5ECF32A9/5EB7241E" Ref="TP?"  Part="1" 
 AR Path="/5EACA483/5EB7241E" Ref="TP202"  Part="1" 
+AR Path="/5EB7241E" Ref="TP202"  Part="1" 
 F 0 "TP202" H 6800 3800 50  0000 L CNN
 F 1 "Test Point" H 6800 3700 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 7050 3500 50  0001 C CNN
@@ -285,13 +282,11 @@ AR Path="/5ECE9FD3/5EB74201" Ref="C?"  Part="1"
 AR Path="/5ECEA271/5EB74201" Ref="C?"  Part="1" 
 F 0 "C202" H 7150 3950 50  0000 L CNN
 F 1 "10uF" H 7150 3750 50  0000 L CNN
-F 2 "Name Plate Class Project:CAP_430X430N" H 7100 3850 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:CAP_430X430N" H 7100 3850 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 7100 3850 50  0001 C CNN
-F 4 "" H 7100 3850 50  0001 C CNN "Field4"
-F 5 "399-11437-1-ND" H 7100 3850 50  0001 C CNN "DigiKey Part No."
-F 6 "T491A106K010AT" H 7100 3850 50  0001 C CNN "Mftr Part No."
-F 7 "" H 7100 3850 50  0001 C CNN "URL"
-F 8 "Kemet" H 7100 3850 50  0001 C CNN "Manufacturer"
+F 4 "399-11437-1-ND" H 7100 3850 50  0001 C CNN "DigiKey Part No."
+F 5 "T491A106K010AT" H 7100 3850 50  0001 C CNN "Mftr Part No."
+F 6 "Kemet" H 7100 3850 50  0001 C CNN "Manufacturer"
 	1    7100 3850
 	1    0    0    -1  
 $EndComp
@@ -360,13 +355,11 @@ AR Path="/5ECE9FD3/5EB7AD61" Ref="C?"  Part="1"
 AR Path="/5ECEA271/5EB7AD61" Ref="C?"  Part="1" 
 F 0 "C204" H 9850 3850 50  0000 L CNN
 F 1 "10uF" H 9850 3750 50  0000 L CNN
-F 2 "Name Plate Class Project:CAP_430X430N" H 9700 3850 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:CAP_430X430N" H 9700 3850 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 9700 3850 50  0001 C CNN
-F 4 "" H 9700 3850 50  0001 C CNN "Field4"
-F 5 "399-11437-1-ND" H 9700 3850 50  0001 C CNN "DigiKey Part No."
-F 6 "T491A106K010AT" H 9700 3850 50  0001 C CNN "Mftr Part No."
-F 7 "" H 9700 3850 50  0001 C CNN "URL"
-F 8 "Kemet" H 9700 3850 50  0001 C CNN "Manufacturer"
+F 4 "399-11437-1-ND" H 9700 3850 50  0001 C CNN "DigiKey Part No."
+F 5 "T491A106K010AT" H 9700 3850 50  0001 C CNN "Mftr Part No."
+F 6 "Kemet" H 9700 3850 50  0001 C CNN "Manufacturer"
 	1    9700 3850
 	1    0    0    -1  
 $EndComp
@@ -383,8 +376,6 @@ Wire Wire Line
 	8850 3900 8900 3900
 Wire Wire Line
 	8900 3900 8900 4100
-Wire Wire Line
-	8850 3500 9300 3500
 Connection ~ 7550 3500
 Wire Wire Line
 	7550 3500 7650 3500
@@ -433,18 +424,13 @@ $EndComp
 Text Notes 4700 5650 0    98   ~ 20
 Power Switching and Regulators
 Connection ~ 6600 3500
-Connection ~ 6850 3500
-Wire Wire Line
-	6850 3500 7100 3500
-Wire Wire Line
-	6600 3500 6850 3500
 Wire Wire Line
 	6600 3050 6600 3500
 Connection ~ 4000 3050
 Wire Wire Line
 	4000 3050 4000 4300
 $Comp
-L Name~Plate~Class~Library:MIC5219-x.xYM5-TR U201
+L Name_Plate_Class_Project:MIC5219-x.xYM5-TR U201
 U 1 1 5EB67A18
 P 5800 3700
 F 0 "U201" H 5450 4150 60  0000 L CNN
@@ -483,11 +469,12 @@ Connection ~ 2150 3500
 Wire Wire Line
 	1450 3500 2150 3500
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5ECCF025
 P 9300 3500
 AR Path="/5ECF32A9/5ECCF025" Ref="TP?"  Part="1" 
 AR Path="/5EACA483/5ECCF025" Ref="TP203"  Part="1" 
+AR Path="/5ECCF025" Ref="TP203"  Part="1" 
 F 0 "TP203" H 9250 3800 50  0000 L CNN
 F 1 "Test Point" H 9250 3700 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 9500 3500 50  0001 C CNN
@@ -499,9 +486,6 @@ F 7 "None" H 9300 3500 50  0001 C CNN "Mftr Part No."
 	1    9300 3500
 	1    0    0    -1  
 $EndComp
-Connection ~ 9300 3500
-Wire Wire Line
-	9300 3500 9700 3500
 $Comp
 L Device:C C?
 U 1 1 5ECCFF91
@@ -573,4 +557,10 @@ F 6 "311-10KGRCT-ND" H 6350 3050 50  0001 C CNN "Mftr Part No."
 	1    6350 3050
 	0    1    -1   0   
 $EndComp
+Wire Wire Line
+	4500 4050 5300 4050
+Wire Wire Line
+	8850 3500 9700 3500
+Wire Wire Line
+	6600 3500 7100 3500
 $EndSCHEMATC

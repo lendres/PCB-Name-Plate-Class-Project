@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Name~Plate~Class~Library:Button_B3FS-1000P S401
+L Name_Plate_Class_Project:Button_B3FS-1000P S401
 U 1 1 5EB92598
 P 3050 1550
 F 0 "S401" H 2850 1850 50  0000 L CNN
 F 1 "Button B3FS" H 2850 1750 50  0000 L CNN
-F 2 "Name Plate Class Project:Button B3FS-1000P" H 2850 1350 50  0001 L CNN
+F 2 "Name_Plate_Class_Project:Button B3FS-1000P" H 2850 1350 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 2850 1250 50  0001 L CNN
 F 4 "SW423DKR-ND" H 3050 1550 50  0001 C CNN "DigiKey Part No."
 F 5 "OMRON" H 3050 1550 50  0001 C CNN "Manufacturer"
@@ -153,12 +153,12 @@ Connection ~ 3500 1500
 Wire Wire Line
 	3500 1500 3750 1500
 $Comp
-L Name~Plate~Class~Library:Button_B3FS-1000P S402
+L Name_Plate_Class_Project:Button_B3FS-1000P S402
 U 1 1 5EBA758E
 P 6700 1550
 F 0 "S402" H 6500 1850 50  0000 L CNN
 F 1 "Button B3FS" H 6500 1750 50  0000 L CNN
-F 2 "Name Plate Class Project:Button B3FS-1000P" H 6500 1350 50  0001 L CNN
+F 2 "Name_Plate_Class_Project:Button B3FS-1000P" H 6500 1350 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 6500 1250 50  0001 L CNN
 F 4 "SW423DKR-ND" H 6700 1550 50  0001 C CNN "DigiKey Part No."
 F 5 "OMRON" H 6700 1550 50  0001 C CNN "Manufacturer"
@@ -237,11 +237,12 @@ F 3 "" H 7400 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EBA75BA
 P 8250 1500
 AR Path="/5ECF32A9/5EBA75BA" Ref="TP?"  Part="1" 
 AR Path="/5ECF2F45/5EBA75BA" Ref="TP402"  Part="1" 
+AR Path="/5EBA75BA" Ref="TP402"  Part="1" 
 F 0 "TP402" H 8150 1800 50  0000 L CNN
 F 1 "Test Point" H 8150 1700 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 8450 1500 50  0001 C CNN
@@ -291,12 +292,12 @@ Connection ~ 7150 1500
 Wire Wire Line
 	7150 1500 7400 1500
 $Comp
-L Name~Plate~Class~Library:Button_B3FS-1000P S403
+L Name_Plate_Class_Project:Button_B3FS-1000P S403
 U 1 1 5EBAED91
 P 3050 3350
 F 0 "S403" H 2850 3650 50  0000 L CNN
 F 1 "Button B3FS" H 2850 3550 50  0000 L CNN
-F 2 "Name Plate Class Project:Button B3FS-1000P" H 2850 3150 50  0001 L CNN
+F 2 "Name_Plate_Class_Project:Button B3FS-1000P" H 2850 3150 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 2850 3050 50  0001 L CNN
 F 4 "SW423DKR-ND" H 3050 3350 50  0001 C CNN "DigiKey Part No."
 F 5 "OMRON" H 3050 3350 50  0001 C CNN "Manufacturer"
@@ -393,11 +394,12 @@ F 3 "" H 3750 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EBAEDBD
 P 4600 3300
 AR Path="/5ECF32A9/5EBAEDBD" Ref="TP?"  Part="1" 
 AR Path="/5ECF2F45/5EBAEDBD" Ref="TP403"  Part="1" 
+AR Path="/5EBAEDBD" Ref="TP403"  Part="1" 
 F 0 "TP403" H 4500 3600 50  0000 L CNN
 F 1 "Test Point" H 4500 3500 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 4800 3300 50  0001 C CNN
@@ -447,12 +449,12 @@ Connection ~ 3500 3300
 Wire Wire Line
 	3500 3300 3750 3300
 $Comp
-L Name~Plate~Class~Library:Button_B3FS-1000P S404
+L Name_Plate_Class_Project:Button_B3FS-1000P S404
 U 1 1 5EBB48AD
 P 6700 3350
 F 0 "S404" H 6500 3650 50  0000 L CNN
 F 1 "Button B3FS" H 6500 3550 50  0000 L CNN
-F 2 "Name Plate Class Project:Button B3FS-1000P" H 6500 3150 50  0001 L CNN
+F 2 "Name_Plate_Class_Project:Button B3FS-1000P" H 6500 3150 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 6500 3050 50  0001 L CNN
 F 4 "SW423DKR-ND" H 6700 3350 50  0001 C CNN "DigiKey Part No."
 F 5 "OMRON" H 6700 3350 50  0001 C CNN "Manufacturer"
@@ -549,11 +551,12 @@ F 3 "" H 7400 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EBB48D9
 P 8250 3300
 AR Path="/5ECF32A9/5EBB48D9" Ref="TP?"  Part="1" 
 AR Path="/5ECF2F45/5EBB48D9" Ref="TP404"  Part="1" 
+AR Path="/5EBB48D9" Ref="TP404"  Part="1" 
 F 0 "TP404" H 8150 3600 50  0000 L CNN
 F 1 "Test Point" H 8150 3500 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 8450 3300 50  0001 C CNN
@@ -599,12 +602,12 @@ Wire Wire Line
 	7400 3300 7750 3300
 Connection ~ 7150 3300
 $Comp
-L Name~Plate~Class~Library:Button_B3FS-1000P S405
+L Name_Plate_Class_Project:Button_B3FS-1000P S405
 U 1 1 5EBBC6F1
 P 5050 5100
 F 0 "S405" H 4850 5400 50  0000 L CNN
 F 1 "Button B3FS" H 4850 5300 50  0000 L CNN
-F 2 "Name Plate Class Project:Button B3FS-1000P" H 4850 4900 50  0001 L CNN
+F 2 "Name_Plate_Class_Project:Button B3FS-1000P" H 4850 4900 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 4850 4800 50  0001 L CNN
 F 4 "SW423DKR-ND" H 5050 5100 50  0001 C CNN "DigiKey Part No."
 F 5 "OMRON" H 5050 5100 50  0001 C CNN "Manufacturer"
@@ -701,11 +704,12 @@ F 3 "" H 5750 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EBBC71D
 P 6600 5050
 AR Path="/5ECF32A9/5EBBC71D" Ref="TP?"  Part="1" 
 AR Path="/5ECF2F45/5EBBC71D" Ref="TP405"  Part="1" 
+AR Path="/5EBBC71D" Ref="TP405"  Part="1" 
 F 0 "TP405" H 6500 5350 50  0000 L CNN
 F 1 "Test Point" H 6500 5250 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 6800 5050 50  0001 C CNN
@@ -789,11 +793,12 @@ SW5
 Text HLabel 5100 3300 2    50   Input ~ 0
 SW3
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EB966B9
 P 4600 1500
 AR Path="/5ECF32A9/5EB966B9" Ref="TP?"  Part="1" 
 AR Path="/5ECF2F45/5EB966B9" Ref="TP401"  Part="1" 
+AR Path="/5EB966B9" Ref="TP401"  Part="1" 
 F 0 "TP401" H 4500 1800 50  0000 L CNN
 F 1 "Test Point" H 4500 1700 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 4800 1500 50  0001 C CNN

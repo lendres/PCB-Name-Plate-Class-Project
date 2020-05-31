@@ -19,7 +19,7 @@ U 1 1 5EBE875D
 P 8550 2150
 F 0 "J502" H 8500 2600 50  0000 L CNN
 F 1 "SAMD11 Header" H 8500 2500 50  0000 L CNN
-F 2 "Name Plate Class Project:Molex_PinHeader_2x05" H 8550 2150 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:Molex_PinHeader_2x05" H 8550 2150 50  0001 C CNN
 F 3 "http://suddendocs.samtec.com/catalog_english/fts.pdf" H 8550 2150 50  0001 C CNN
 F 4 "SAM1157-05-ND" H 8550 2150 50  0001 C CNN "DigiKey Part No."
 F 5 "Samtec" H 8550 2150 50  0001 C CNN "Manufacturer"
@@ -33,7 +33,7 @@ U 1 1 5EBEA16E
 P 2600 5950
 F 0 "J501" H 2400 6450 50  0000 L CNN
 F 1 "USB_B_Mini" H 2400 6350 50  0000 L CNN
-F 2 "Name Plate Class Project:Molex_USB_Mini_B_548190572" H 2750 5900 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:Molex_USB_Mini_B_548190572" H 2750 5900 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/548190572_sd.pdf" H 2750 5900 50  0001 C CNN
 F 4 "WM17116DKR-ND" H 2600 5950 50  0001 C CNN "DigiKey Part No."
 F 5 "Molex" H 2600 5950 50  0001 C CNN "Manufacturer"
@@ -194,7 +194,7 @@ Connection ~ 6350 2050
 Wire Wire Line
 	6350 1900 6350 2050
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EBE3E2F
 P 6350 1900
 AR Path="/5ECF32A9/5EBE3E2F" Ref="TP?"  Part="1" 
@@ -211,7 +211,7 @@ F 7 "None" H 6350 1900 50  0001 C CNN "Mftr Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EBE32F4
 P 5950 1600
 AR Path="/5ECF32A9/5EBE32F4" Ref="TP?"  Part="1" 
@@ -248,7 +248,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2950 2400 2850
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EBCF6F7
 P 2800 2200
 AR Path="/5ECF32A9/5EBCF6F7" Ref="TP?"  Part="1" 
@@ -272,7 +272,7 @@ Wire Wire Line
 	1750 2050 2800 2050
 Connection ~ 2800 2050
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EBCD7DB
 P 2400 2350
 AR Path="/5ECF32A9/5EBCD7DB" Ref="TP?"  Part="1" 
@@ -308,7 +308,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 1550 2950 1850
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EBCAF81
 P 2400 1850
 AR Path="/5ECF32A9/5EBCAF81" Ref="TP?"  Part="1" 
@@ -484,16 +484,11 @@ Wire Wire Line
 Connection ~ 2950 1850
 Wire Wire Line
 	2950 1850 3700 1850
-Connection ~ 2400 1850
-Wire Wire Line
-	2400 1850 2950 1850
-Wire Wire Line
-	1750 1850 2400 1850
 Connection ~ 2400 2850
 Wire Wire Line
 	2200 2850 2400 2850
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EBD98BA
 P 2400 2950
 AR Path="/5ECF32A9/5EBD98BA" Ref="TP?"  Part="1" 
@@ -514,8 +509,8 @@ L power:VBUS #PWR?
 U 1 1 5ED1C5B0
 P 3000 5650
 AR Path="/5EACA483/5ED1C5B0" Ref="#PWR?"  Part="1" 
-AR Path="/5ECF2FE7/5ED1C5B0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3000 5500 50  0001 C CNN
+AR Path="/5ECF2FE7/5ED1C5B0" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 3000 5500 50  0001 C CNN
 F 1 "VBUS" H 3015 5823 50  0000 C CNN
 F 2 "" H 3000 5650 50  0001 C CNN
 F 3 "" H 3000 5650 50  0001 C CNN
@@ -541,10 +536,10 @@ $EndComp
 Wire Wire Line
 	3600 5450 3600 5500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0138
 U 1 1 5ED270A3
 P 3600 5500
-F 0 "#PWR?" H 3600 5250 50  0001 C CNN
+F 0 "#PWR0138" H 3600 5250 50  0001 C CNN
 F 1 "GND" H 3605 5327 50  0000 C CNN
 F 2 "" H 3600 5500 50  0001 C CNN
 F 3 "" H 3600 5500 50  0001 C CNN
@@ -578,4 +573,6 @@ Wire Wire Line
 Connection ~ 4050 5950
 Wire Wire Line
 	4050 5950 4500 5950
+Wire Wire Line
+	1750 1850 2950 1850
 $EndSCHEMATC

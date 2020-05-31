@@ -220,7 +220,7 @@ F 6 "Kemet" H 5450 3450 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Name~Plate~Class~Library:Oscillator_MC-405_32.7680K-D__ROHS Y?
+L Name_Plate_Class_Project:Oscillator_MC-405_32.7680K-D__ROHS Y?
 U 1 1 5ED1C899
 P 4950 3150
 AR Path="/5EAC05C2/5ED1C899" Ref="Y?"  Part="1" 
@@ -230,7 +230,7 @@ AR Path="/5ECF3158/5ED1C899" Ref="Y?"  Part="1"
 AR Path="/5ECF3070/5ED1C899" Ref="Y601"  Part="1" 
 F 0 "Y601" H 4850 3000 50  0000 L CNN
 F 1 "32.7680 kHz" H 4700 3300 50  0000 L CNN
-F 2 "Name Plate Class Project:Oscillator_MC-405_32.7680K-D__ROHS" H 4850 2850 50  0001 L BNN
+F 2 "Name_Plate_Class_Project:Oscillator_MC-405_32.7680K-D__ROHS" H 4850 2850 50  0001 L BNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_MC-405&lang=en" H 4850 2750 50  0001 L BNN
 F 4 "SER4311TR-ND" H 4950 3150 50  0001 C CNN "DigiKey Part No."
 F 5 "Epson " H 4950 3150 50  0001 C CNN "Manufacturer"
@@ -344,7 +344,7 @@ AR Path="/5ECF3158/5ED1C8C7" Ref="C?"  Part="1"
 AR Path="/5ECF3070/5ED1C8C7" Ref="C603"  Part="1" 
 F 0 "C603" H 5300 2150 50  0000 L BNN
 F 1 "0.12uF" H 5300 1900 50  0000 L BNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5288 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_HandSolder" H 5288 1900 50  0001 C CNN
 F 3 "http://datasheets.avx.com/X7RDielectric.pdf" H 5250 2050 50  0001 C CNN
 F 4 "08053C124KAT2A" H 5250 2050 50  0001 C CNN "Mftr Part No."
 F 5 "AVX" H 5250 2050 50  0001 C CNN "Manufacturer"
@@ -371,12 +371,13 @@ Wire Wire Line
 Wire Wire Line
 	3250 2900 2050 2900
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5ED1C8D7
 P 2050 3700
 AR Path="/5ECF32A9/5ED1C8D7" Ref="TP?"  Part="1" 
 AR Path="/5ECF3158/5ED1C8D7" Ref="TP?"  Part="1" 
 AR Path="/5ECF3070/5ED1C8D7" Ref="TP604"  Part="1" 
+AR Path="/5ED1C8D7" Ref="TP604"  Part="1" 
 F 0 "TP604" H 2000 3750 50  0000 R CNN
 F 1 "Test Point" H 2000 3850 50  0001 R CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 3700 50  0001 C CNN
@@ -392,12 +393,13 @@ Connection ~ 2050 3700
 Wire Wire Line
 	2050 3700 1850 3700
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5ED1C8DF
 P 2050 3600
 AR Path="/5ECF32A9/5ED1C8DF" Ref="TP?"  Part="1" 
 AR Path="/5ECF3158/5ED1C8DF" Ref="TP?"  Part="1" 
 AR Path="/5ECF3070/5ED1C8DF" Ref="TP603"  Part="1" 
+AR Path="/5ED1C8DF" Ref="TP603"  Part="1" 
 F 0 "TP603" H 2100 3750 50  0000 L CNN
 F 1 "Test Point" H 2100 3650 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 3600 50  0001 C CNN
@@ -437,12 +439,13 @@ F 6 "Yageo" H 1500 2700 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5ED1C8F1
 P 2050 3100
 AR Path="/5ECF32A9/5ED1C8F1" Ref="TP?"  Part="1" 
 AR Path="/5ECF3158/5ED1C8F1" Ref="TP?"  Part="1" 
 AR Path="/5ECF3070/5ED1C8F1" Ref="TP602"  Part="1" 
+AR Path="/5ED1C8F1" Ref="TP602"  Part="1" 
 F 0 "TP602" H 2100 3250 50  0000 L CNN
 F 1 "Test Point" H 2100 3150 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 3100 50  0001 C CNN
@@ -480,12 +483,13 @@ F 6 "Yageo" H 1000 2700 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:TestPoint TP?
+L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5ED1C902
 P 2050 2900
 AR Path="/5ECF32A9/5ED1C902" Ref="TP?"  Part="1" 
 AR Path="/5ECF3158/5ED1C902" Ref="TP?"  Part="1" 
 AR Path="/5ECF3070/5ED1C902" Ref="TP601"  Part="1" 
+AR Path="/5ED1C902" Ref="TP601"  Part="1" 
 F 0 "TP601" H 2100 3050 50  0000 L CNN
 F 1 "Test Point" H 2100 2950 50  0001 L CNN
 F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 2900 50  0001 C CNN

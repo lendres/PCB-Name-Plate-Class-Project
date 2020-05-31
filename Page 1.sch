@@ -359,12 +359,12 @@ F 6 "Yageo" H 5000 1350 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Name~Plate~Class~Library:Oscillator_ABM3-16.000MHZ-B2-T Y101
+L Name_Plate_Class_Project:Oscillator_ABM3-16.000MHZ-B2-T Y101
 U 1 1 5EC8A05A
 P 8550 1500
 F 0 "Y101" V 8504 1600 50  0000 L CNN
 F 1 "16.00 MHz" V 8595 1600 50  0000 L CNN
-F 2 "Name Plate Class Project:Oscillator_ABM3-16.000MHZ-B2-T" H 8500 1750 50  0001 L BNN
+F 2 "Name_Plate_Class_Project:Oscillator_ABM3-16.000MHZ-B2-T" H 8500 1750 50  0001 L BNN
 F 3 "https://abracon.com/Resonators/abm3.pdf" H 8450 1250 50  0001 L BNN
 F 4 "535-9103-1-ND" H 8550 1500 50  0001 C CNN "DigiKey Part No."
 F 5 "Abracon " H 8550 1500 50  0001 C CNN "Manufacturer"
@@ -536,7 +536,7 @@ U 1 1 5EADD4CA
 P 9100 3400
 F 0 "J101" H 9250 3650 50  0000 R CNN
 F 1 "Conn Header SMD" H 9150 3150 50  0000 C CNN
-F 2 "Name Plate Class Project:Molex_PinHeader_2x03" H 9100 3400 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:Molex_PinHeader_2x03" H 9100 3400 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/713085404_sd.pdf" H 9100 3400 50  0001 C CNN
 F 4 "0713085406-ND" H 9100 3400 50  0001 C CNN "DigiKey Part No."
 F 5 "Molex" H 9100 3400 50  0001 C CNN "Manufacturer"
