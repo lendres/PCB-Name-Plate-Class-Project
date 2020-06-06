@@ -21,7 +21,7 @@ F 0 "S201" H 2400 4300 50  0000 L CNN
 F 1 "Battery Switch" H 2400 4200 50  0000 L CNN
 F 2 "Name_Plate_Class_Project:Switch_JS202011SCQN" H 1800 2700 50  0001 L BNN
 F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 2650 3500 50  0001 L BNN
-F 4 "401-2002-2-ND" H 2650 3500 50  0001 C CNN "DigiKey Part No."
+F 4 "401-2002-1-ND" H 2650 3500 50  0001 C CNN "DigiKey Part No."
 F 5 "C&K" H 2650 3500 50  0001 C CNN "Manufacturer"
 F 6 "JS202011SCQN" H 2650 3500 50  0001 C CNN "Mftr Part No."
 	1    2650 3500
