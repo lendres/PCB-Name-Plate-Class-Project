@@ -19,7 +19,7 @@ U 1 1 5EBE875D
 P 8550 2150
 F 0 "J502" H 8500 2600 50  0000 L CNN
 F 1 "SAMD11 Header" H 8500 2500 50  0000 L CNN
-F 2 "Name_Plate_Class_Project:Molex_PinHeader_2x05" H 8550 2150 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:SAMTEC-FTS-105-01-X-DV" H 8550 2150 50  0001 C CNN
 F 3 "http://suddendocs.samtec.com/catalog_english/fts.pdf" H 8550 2150 50  0001 C CNN
 F 4 "SAM1157-05-ND" H 8550 2150 50  0001 C CNN "DigiKey Part No."
 F 5 "Samtec" H 8550 2150 50  0001 C CNN "Manufacturer"
@@ -30,15 +30,15 @@ $EndComp
 $Comp
 L Connectors_LE:USB_B_Micro J501
 U 1 1 5EBEA16E
-P 2600 5950
-F 0 "J501" H 2400 6450 50  0000 L CNN
-F 1 "USB_B_Mini" H 2400 6350 50  0000 L CNN
-F 2 "Name_Plate_Class_Project:Molex_USB_Mini_B_548190572" H 2750 5900 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/548190572_sd.pdf" H 2750 5900 50  0001 C CNN
-F 4 "WM17116DKR-ND" H 2600 5950 50  0001 C CNN "DigiKey Part No."
-F 5 "Molex" H 2600 5950 50  0001 C CNN "Manufacturer"
-F 6 "548190572" H 2600 5950 50  0001 C CNN "Mftr Part No."
-	1    2600 5950
+P 2600 6150
+F 0 "J501" H 2400 6800 50  0000 L CNN
+F 1 "USB_B_Mini" H 2400 6700 50  0000 L CNN
+F 2 "Name_Plate_Class_Project:Molex_USB_Mini_B_548190572" H 2750 6100 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/548190572_sd.pdf" H 2750 6100 50  0001 C CNN
+F 4 "WM17116DKR-ND" H 2600 6150 50  0001 C CNN "DigiKey Part No."
+F 5 "Molex" H 2600 6150 50  0001 C CNN "Manufacturer"
+F 6 "548190572" H 2600 6150 50  0001 C CNN "Mftr Part No."
+	1    2600 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -103,65 +103,65 @@ Wire Wire Line
 Wire Wire Line
 	4000 5050 4050 5050
 $Comp
-L Frequently_Used:R R?
+L Frequently_Used_LE:R R?
 U 1 1 5EC05B2C
-P 3800 6300
+P 3650 6300
 AR Path="/5EC05B2C" Ref="R?"  Part="1" 
 AR Path="/5EAC05C2/5EC05B2C" Ref="R?"  Part="1" 
 AR Path="/5EACA483/5EC05B2C" Ref="R?"  Part="1" 
 AR Path="/5ECF2FE7/5EC05B2C" Ref="R504"  Part="1" 
-F 0 "R504" H 3870 6346 50  0000 L CNN
-F 1 "1M" H 3870 6255 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3730 6300 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3800 6300 50  0001 C CNN
-F 4 "311-1.00MHRCT-ND" H 3800 6300 50  0001 C CNN "DigiKey Part No."
-F 5 "RC0603FR-071ML" H 3800 6300 50  0001 C CNN "Mftr Part No."
-F 6 "TE Connectivity" H 3800 6300 50  0001 C CNN "Manufacturer"
-	1    3800 6300
+F 0 "R504" H 3720 6346 50  0000 L CNN
+F 1 "1M" H 3720 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3580 6300 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3650 6300 50  0001 C CNN
+F 4 "311-1.00MHRCT-ND" H 3650 6300 50  0001 C CNN "DigiKey Part No."
+F 5 "RC0603FR-071ML" H 3650 6300 50  0001 C CNN "Mftr Part No."
+F 6 "TE Connectivity" H 3650 6300 50  0001 C CNN "Manufacturer"
+	1    3650 6300
 	1    0    0    -1  
 $EndComp
 $Comp
-L Frequently_Used:C C?
+L Frequently_Used_LE:C C?
 U 1 1 5EC06F34
-P 3400 6300
+P 3300 6300
 AR Path="/5EC06F34" Ref="C?"  Part="1" 
 AR Path="/5EAC05C2/5EC06F34" Ref="C?"  Part="1" 
 AR Path="/5EACA483/5EC06F34" Ref="C?"  Part="1" 
 AR Path="/5ECF2FE7/5EC06F34" Ref="C502"  Part="1" 
-F 0 "C502" H 3450 6400 50  0000 L BNN
-F 1 "4.7uF" H 3450 6150 50  0000 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3438 6150 50  0001 C CNN
-F 3 "https://content.kemet.com/datasheets/KEM_C1010_X7R_HV_SMD.pdf" H 3400 6300 50  0001 C CNN
-F 4 "C0805C472KDRACTU" H 3400 6300 50  0001 C CNN "Mftr Part No."
-F 5 "399-6738-1-ND" H 3400 6300 50  0001 C CNN "DigiKey Part No."
-F 6 "Kemet" H 3400 6300 50  0001 C CNN "Manufacturer"
-	1    3400 6300
+F 0 "C502" H 3350 6400 50  0000 L BNN
+F 1 "4.7uF" H 3350 6150 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3338 6150 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_C1010_X7R_HV_SMD.pdf" H 3300 6300 50  0001 C CNN
+F 4 "C0805C472KDRACTU" H 3300 6300 50  0001 C CNN "Mftr Part No."
+F 5 "399-6738-1-ND" H 3300 6300 50  0001 C CNN "DigiKey Part No."
+F 6 "Kemet" H 3300 6300 50  0001 C CNN "Manufacturer"
+	1    3300 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 6050 3800 6150
+	3650 6050 3650 6150
 Wire Wire Line
-	3400 6150 3400 6050
-Connection ~ 3400 6050
+	3300 6150 3300 6050
+Connection ~ 3300 6050
 Wire Wire Line
-	3400 6050 3150 6050
+	3300 6050 3150 6050
 Wire Wire Line
-	3400 6450 3400 6550
+	3300 6450 3300 6550
 Wire Wire Line
-	3800 6450 3800 6550
+	3650 6450 3650 6550
 $Comp
 L power:GND #PWR0127
 U 1 1 5EC1095E
-P 3600 6600
-F 0 "#PWR0127" H 3600 6350 50  0001 C CNN
-F 1 "GND" H 3605 6427 50  0000 C CNN
-F 2 "" H 3600 6600 50  0001 C CNN
-F 3 "" H 3600 6600 50  0001 C CNN
-	1    3600 6600
+P 4100 6150
+F 0 "#PWR0127" H 4100 5900 50  0001 C CNN
+F 1 "GND" H 4105 5977 50  0000 C CNN
+F 2 "" H 4100 6150 50  0001 C CNN
+F 3 "" H 4100 6150 50  0001 C CNN
+	1    4100 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 6550 3600 6600
+	4100 6050 4100 6150
 $Comp
 L power:VBUS #PWR?
 U 1 1 5EC62D79
@@ -201,7 +201,7 @@ AR Path="/5ECF32A9/5EBE3E2F" Ref="TP?"  Part="1"
 AR Path="/5ECF2FE7/5EBE3E2F" Ref="TP504"  Part="1" 
 F 0 "TP504" H 6150 2200 50  0000 L CNN
 F 1 "Test Point" H 6150 2100 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 6550 1900 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 6550 1900 50  0001 C CNN
 F 3 "None" H 6550 1900 50  0001 C CNN
 F 4 "TP_SAMD11_RX_MEGA_TX" H 6150 2100 50  0000 L CNN "Name"
 F 5 "None" H 6350 1900 50  0001 C CNN "DigiKey Part No."
@@ -218,7 +218,7 @@ AR Path="/5ECF32A9/5EBE32F4" Ref="TP?"  Part="1"
 AR Path="/5ECF2FE7/5EBE32F4" Ref="TP503"  Part="1" 
 F 0 "TP503" H 5750 1900 50  0000 L CNN
 F 1 "Test Point" H 5750 1800 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 6150 1600 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 6150 1600 50  0001 C CNN
 F 3 "None" H 6150 1600 50  0001 C CNN
 F 4 "TP_SAMD11_TX_MEGA_RX" H 5750 1800 50  0000 L CNN "Name"
 F 5 "None" H 5950 1600 50  0001 C CNN "DigiKey Part No."
@@ -255,7 +255,7 @@ AR Path="/5ECF32A9/5EBCF6F7" Ref="TP?"  Part="1"
 AR Path="/5ECF2FE7/5EBCF6F7" Ref="TP505"  Part="1" 
 F 0 "TP505" H 3000 2450 50  0000 R CNN
 F 1 "Test Point" H 3000 2550 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3000 2200 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 3000 2200 50  0001 C CNN
 F 3 "None" H 3000 2200 50  0001 C CNN
 F 4 "TP_SAMD11_SWCLK" H 3000 2550 50  0000 R CNN "Name"
 F 5 "None" H 2800 2200 50  0001 C CNN "DigiKey Part No."
@@ -279,7 +279,7 @@ AR Path="/5ECF32A9/5EBCD7DB" Ref="TP?"  Part="1"
 AR Path="/5ECF2FE7/5EBCD7DB" Ref="TP506"  Part="1" 
 F 0 "TP506" H 3150 2350 50  0000 R CNN
 F 1 "Test Point" H 3150 2450 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2600 2350 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 2600 2350 50  0001 C CNN
 F 3 "None" H 2600 2350 50  0001 C CNN
 F 4 "TP_SAMD11_SWDIO" H 3150 2450 50  0000 R CNN "Name"
 F 5 "None" H 2400 2350 50  0001 C CNN "DigiKey Part No."
@@ -315,7 +315,7 @@ AR Path="/5ECF32A9/5EBCAF81" Ref="TP?"  Part="1"
 AR Path="/5ECF2FE7/5EBCAF81" Ref="TP501"  Part="1" 
 F 0 "TP501" H 2200 2150 50  0000 L CNN
 F 1 "Test Point" H 2200 2050 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2600 1850 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 2600 1850 50  0001 C CNN
 F 3 "None" H 2600 1850 50  0001 C CNN
 F 4 "TP_SAMD11_nRST" H 2200 2050 50  0000 L CNN "Name"
 F 5 "None" H 2400 1850 50  0001 C CNN "DigiKey Part No."
@@ -495,7 +495,7 @@ AR Path="/5ECF32A9/5EBD98BA" Ref="TP?"  Part="1"
 AR Path="/5ECF2FE7/5EBD98BA" Ref="TP502"  Part="1" 
 F 0 "TP502" H 2350 3050 50  0000 R CNN
 F 1 "Test Point" H 2350 3150 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2600 2950 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 2600 2950 50  0001 C CNN
 F 3 "None" H 2600 2950 50  0001 C CNN
 F 4 "TP_MEGA_nRST" H 2350 2950 50  0000 R CNN "Name"
 F 5 "None" H 2400 2950 50  0001 C CNN "DigiKey Part No."
@@ -525,7 +525,7 @@ U 1 1 5EBF84C8
 P 3600 5050
 F 0 "D501" H 3800 5500 50  0000 L CNN
 F 1 "PRTR5V0U2X,215" H 3800 5400 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-143" H 3660 5050 50  0001 C CNN
+F 2 "Name_Plate_Class_Project:SOT-143-4" H 3660 5050 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 3660 5050 50  0001 C CNN
 F 4 "1727-3884-6-ND" H 3600 5050 50  0001 C CNN "DigiKey Part No."
 F 5 "Philips/NXP" H 3600 5050 50  0001 C CNN "Manufacturer"
@@ -546,11 +546,8 @@ F 3 "" H 3600 5500 50  0001 C CNN
 	1    3600 5500
 	1    0    0    -1  
 $EndComp
-Connection ~ 3600 6550
 Wire Wire Line
-	3600 6550 3800 6550
-Wire Wire Line
-	3800 6050 3400 6050
+	3650 6050 3300 6050
 Wire Wire Line
 	3150 6050 3150 6150
 Wire Wire Line
@@ -560,14 +557,10 @@ Wire Wire Line
 Wire Wire Line
 	4050 5050 4050 5950
 Wire Wire Line
-	2900 6250 3150 6250
+	2900 6250 2950 6250
 Wire Wire Line
-	3150 6250 3150 6550
-Wire Wire Line
-	3150 6550 3400 6550
-Connection ~ 3400 6550
-Wire Wire Line
-	3400 6550 3600 6550
+	3150 6550 3300 6550
+Connection ~ 3300 6550
 Wire Wire Line
 	3200 5050 3150 5050
 Connection ~ 4050 5950
@@ -575,4 +568,30 @@ Wire Wire Line
 	4050 5950 4500 5950
 Wire Wire Line
 	1750 1850 2950 1850
+Wire Wire Line
+	2900 6550 2950 6550
+Wire Wire Line
+	2950 6550 2950 6450
+Wire Wire Line
+	2950 6400 3150 6400
+Wire Wire Line
+	2900 6450 2950 6450
+Connection ~ 2950 6450
+Wire Wire Line
+	2950 6450 2950 6400
+Wire Wire Line
+	2900 6350 2950 6350
+Connection ~ 2950 6350
+Wire Wire Line
+	2950 6350 2950 6250
+Connection ~ 2950 6400
+Wire Wire Line
+	2950 6400 2950 6350
+Wire Wire Line
+	3150 6400 3150 6550
+Wire Wire Line
+	3300 6550 3650 6550
+Wire Wire Line
+	4100 6050 3650 6050
+Connection ~ 3650 6050
 $EndSCHEMATC

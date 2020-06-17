@@ -198,19 +198,19 @@ Wire Wire Line
 $Comp
 L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EB6B8BD
-P 5250 4050
+P 5200 4050
 AR Path="/5ECF32A9/5EB6B8BD" Ref="TP?"  Part="1" 
 AR Path="/5EACA483/5EB6B8BD" Ref="TP201"  Part="1" 
 AR Path="/5EB6B8BD" Ref="TP201"  Part="1" 
-F 0 "TP201" H 5300 4300 50  0000 R CNN
-F 1 "Test Point" H 5300 4400 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 5450 4050 50  0001 C CNN
-F 3 "None" H 5450 4050 50  0001 C CNN
-F 4 "TP_SWITCH_BATTERY" H 5300 4400 50  0000 R CNN "Name"
-F 5 "None" H 5250 4050 50  0001 C CNN "DigiKey Part No."
-F 6 "None" H 5250 4050 50  0001 C CNN "Manufacturer"
-F 7 "None" H 5250 4050 50  0001 C CNN "Mftr Part No."
-	1    5250 4050
+F 0 "TP201" H 5250 4300 50  0000 R CNN
+F 1 "Test Point" H 5250 4400 50  0001 R CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 5400 4050 50  0001 C CNN
+F 3 "None" H 5400 4050 50  0001 C CNN
+F 4 "TP_SWITCH_BATTERY" H 5250 4400 50  0000 R CNN "Name"
+F 5 "None" H 5200 4050 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 5200 4050 50  0001 C CNN "Manufacturer"
+F 7 "None" H 5200 4050 50  0001 C CNN "Mftr Part No."
+	1    5200 4050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -264,7 +264,7 @@ AR Path="/5EACA483/5EB7241E" Ref="TP202"  Part="1"
 AR Path="/5EB7241E" Ref="TP202"  Part="1" 
 F 0 "TP202" H 6800 3800 50  0000 L CNN
 F 1 "Test Point" H 6800 3700 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 7050 3500 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 7050 3500 50  0001 C CNN
 F 3 "None" H 7050 3500 50  0001 C CNN
 F 4 "TP_5V" H 6800 3700 50  0000 L CNN "Name"
 F 5 "None" H 6850 3500 50  0001 C CNN "DigiKey Part No."
@@ -282,9 +282,9 @@ AR Path="/5ECE9FD3/5EB74201" Ref="C?"  Part="1"
 AR Path="/5ECEA271/5EB74201" Ref="C?"  Part="1" 
 F 0 "C202" H 7150 3950 50  0000 L CNN
 F 1 "10uF" H 7150 3750 50  0000 L CNN
-F 2 "Name_Plate_Class_Project:CAP_430X430N" H 7100 3850 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 7100 3850 50  0001 C CNN
-F 4 "399-11437-1-ND" H 7100 3850 50  0001 C CNN "DigiKey Part No."
+F 2 "Name_Plate_Class_Project:T491A106K010AT" H 7100 3850 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf" H 7100 3850 50  0001 C CNN
+F 4 "399-3684-1-ND" H 7100 3850 50  0001 C CNN "DigiKey Part No."
 F 5 "T491A106K010AT" H 7100 3850 50  0001 C CNN "Mftr Part No."
 F 6 "Kemet" H 7100 3850 50  0001 C CNN "Manufacturer"
 	1    7100 3850
@@ -355,9 +355,9 @@ AR Path="/5ECE9FD3/5EB7AD61" Ref="C?"  Part="1"
 AR Path="/5ECEA271/5EB7AD61" Ref="C?"  Part="1" 
 F 0 "C204" H 9850 3850 50  0000 L CNN
 F 1 "10uF" H 9850 3750 50  0000 L CNN
-F 2 "Name_Plate_Class_Project:CAP_430X430N" H 9700 3850 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 9700 3850 50  0001 C CNN
-F 4 "399-11437-1-ND" H 9700 3850 50  0001 C CNN "DigiKey Part No."
+F 2 "Name_Plate_Class_Project:T491A106K010AT" H 9700 3850 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf" H 9700 3850 50  0001 C CNN
+F 4 "399-3684-1-ND" H 9700 3850 50  0001 C CNN "DigiKey Part No."
 F 5 "T491A106K010AT" H 9700 3850 50  0001 C CNN "Mftr Part No."
 F 6 "Kemet" H 9700 3850 50  0001 C CNN "Manufacturer"
 	1    9700 3850
@@ -477,7 +477,7 @@ AR Path="/5EACA483/5ECCF025" Ref="TP203"  Part="1"
 AR Path="/5ECCF025" Ref="TP203"  Part="1" 
 F 0 "TP203" H 9250 3800 50  0000 L CNN
 F 1 "Test Point" H 9250 3700 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 9500 3500 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 9500 3500 50  0001 C CNN
 F 3 "None" H 9500 3500 50  0001 C CNN
 F 4 "TP_3V" H 9250 3700 50  0000 L CNN "Name"
 F 5 "None" H 9300 3500 50  0001 C CNN "DigiKey Part No."
@@ -558,9 +558,16 @@ F 6 "311-10KGRCT-ND" H 6350 3050 50  0001 C CNN "Mftr Part No."
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	4500 4050 5300 4050
+	4500 4050 5200 4050
 Wire Wire Line
 	8850 3500 9700 3500
 Wire Wire Line
 	6600 3500 7100 3500
+Text Label 1600 3500 0    50   ~ 0
+B+
+Text Label 3650 3500 0    50   ~ 0
+BSWO
+Connection ~ 5200 4050
+Wire Wire Line
+	5200 4050 5300 4050
 $EndSCHEMATC

@@ -19,7 +19,7 @@ U 1 1 5EB92598
 P 3050 1550
 F 0 "S401" H 2850 1850 50  0000 L CNN
 F 1 "Button B3FS" H 2850 1750 50  0000 L CNN
-F 2 "Name_Plate_Class_Project:Button B3FS-1000P" H 2850 1350 50  0001 L CNN
+F 2 "Name_Plate_Class_Project:Button_B3FS-1000P" H 2850 1350 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 2850 1250 50  0001 L CNN
 F 4 "SW423DKR-ND" H 3050 1550 50  0001 C CNN "DigiKey Part No."
 F 5 "OMRON" H 3050 1550 50  0001 C CNN "Manufacturer"
@@ -158,7 +158,7 @@ U 1 1 5EBA758E
 P 6700 1550
 F 0 "S402" H 6500 1850 50  0000 L CNN
 F 1 "Button B3FS" H 6500 1750 50  0000 L CNN
-F 2 "Name_Plate_Class_Project:Button B3FS-1000P" H 6500 1350 50  0001 L CNN
+F 2 "Name_Plate_Class_Project:Button_B3FS-1000P" H 6500 1350 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 6500 1250 50  0001 L CNN
 F 4 "SW423DKR-ND" H 6700 1550 50  0001 C CNN "DigiKey Part No."
 F 5 "OMRON" H 6700 1550 50  0001 C CNN "Manufacturer"
@@ -245,7 +245,7 @@ AR Path="/5ECF2F45/5EBA75BA" Ref="TP402"  Part="1"
 AR Path="/5EBA75BA" Ref="TP402"  Part="1" 
 F 0 "TP402" H 8150 1800 50  0000 L CNN
 F 1 "Test Point" H 8150 1700 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 8450 1500 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 8450 1500 50  0001 C CNN
 F 3 "None" H 8450 1500 50  0001 C CNN
 F 4 "TP_SW2" H 8150 1700 50  0000 L CNN "Name"
 F 5 "None" H 8250 1500 50  0001 C CNN "DigiKey Part No."
@@ -297,7 +297,7 @@ U 1 1 5EBAED91
 P 3050 3350
 F 0 "S403" H 2850 3650 50  0000 L CNN
 F 1 "Button B3FS" H 2850 3550 50  0000 L CNN
-F 2 "Name_Plate_Class_Project:Button B3FS-1000P" H 2850 3150 50  0001 L CNN
+F 2 "Name_Plate_Class_Project:Button_B3FS-1000P" H 2850 3150 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 2850 3050 50  0001 L CNN
 F 4 "SW423DKR-ND" H 3050 3350 50  0001 C CNN "DigiKey Part No."
 F 5 "OMRON" H 3050 3350 50  0001 C CNN "Manufacturer"
@@ -402,7 +402,7 @@ AR Path="/5ECF2F45/5EBAEDBD" Ref="TP403"  Part="1"
 AR Path="/5EBAEDBD" Ref="TP403"  Part="1" 
 F 0 "TP403" H 4500 3600 50  0000 L CNN
 F 1 "Test Point" H 4500 3500 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 4800 3300 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 4800 3300 50  0001 C CNN
 F 3 "None" H 4800 3300 50  0001 C CNN
 F 4 "TP_SW3" H 4500 3500 50  0000 L CNN "Name"
 F 5 "None" H 4600 3300 50  0001 C CNN "DigiKey Part No."
@@ -454,7 +454,7 @@ U 1 1 5EBB48AD
 P 6700 3350
 F 0 "S404" H 6500 3650 50  0000 L CNN
 F 1 "Button B3FS" H 6500 3550 50  0000 L CNN
-F 2 "Name_Plate_Class_Project:Button B3FS-1000P" H 6500 3150 50  0001 L CNN
+F 2 "Name_Plate_Class_Project:Button_B3FS-1000P" H 6500 3150 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 6500 3050 50  0001 L CNN
 F 4 "SW423DKR-ND" H 6700 3350 50  0001 C CNN "DigiKey Part No."
 F 5 "OMRON" H 6700 3350 50  0001 C CNN "Manufacturer"
@@ -559,7 +559,7 @@ AR Path="/5ECF2F45/5EBB48D9" Ref="TP404"  Part="1"
 AR Path="/5EBB48D9" Ref="TP404"  Part="1" 
 F 0 "TP404" H 8150 3600 50  0000 L CNN
 F 1 "Test Point" H 8150 3500 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 8450 3300 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 8450 3300 50  0001 C CNN
 F 3 "None" H 8450 3300 50  0001 C CNN
 F 4 "TP_SW4" H 8150 3500 50  0000 L CNN "Name"
 F 5 "None" H 8250 3300 50  0001 C CNN "DigiKey Part No."
@@ -607,7 +607,7 @@ U 1 1 5EBBC6F1
 P 5050 5100
 F 0 "S405" H 4850 5400 50  0000 L CNN
 F 1 "Button B3FS" H 4850 5300 50  0000 L CNN
-F 2 "Name_Plate_Class_Project:Button B3FS-1000P" H 4850 4900 50  0001 L CNN
+F 2 "Name_Plate_Class_Project:Button_B3FS-1000P" H 4850 4900 50  0001 L CNN
 F 3 "https://www.omron.co.jp/ecb/products/pdf/b3fs.pdf" H 4850 4800 50  0001 L CNN
 F 4 "SW423DKR-ND" H 5050 5100 50  0001 C CNN "DigiKey Part No."
 F 5 "OMRON" H 5050 5100 50  0001 C CNN "Manufacturer"
@@ -712,7 +712,7 @@ AR Path="/5ECF2F45/5EBBC71D" Ref="TP405"  Part="1"
 AR Path="/5EBBC71D" Ref="TP405"  Part="1" 
 F 0 "TP405" H 6500 5350 50  0000 L CNN
 F 1 "Test Point" H 6500 5250 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 6800 5050 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 6800 5050 50  0001 C CNN
 F 3 "None" H 6800 5050 50  0001 C CNN
 F 4 "TP_SW5" H 6500 5250 50  0000 L CNN "Name"
 F 5 "None" H 6600 5050 50  0001 C CNN "DigiKey Part No."
@@ -801,7 +801,7 @@ AR Path="/5ECF2F45/5EB966B9" Ref="TP401"  Part="1"
 AR Path="/5EB966B9" Ref="TP401"  Part="1" 
 F 0 "TP401" H 4500 1800 50  0000 L CNN
 F 1 "Test Point" H 4500 1700 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 4800 1500 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 4800 1500 50  0001 C CNN
 F 3 "None" H 4800 1500 50  0001 C CNN
 F 4 "TP_SW1" H 4500 1700 50  0000 L CNN "Name"
 F 5 "None" H 4600 1500 50  0001 C CNN "DigiKey Part No."

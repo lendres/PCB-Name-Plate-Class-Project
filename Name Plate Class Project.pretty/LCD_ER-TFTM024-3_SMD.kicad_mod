@@ -1,4 +1,4 @@
-(module LCD_ER-TFTM024-3_SMD (layer F.Cu) (tedit 5EC1C851)
+(module LCD_ER-TFTM024-3_SMD (layer F.Cu) (tedit 5EE83E67)
   (descr "TFT LCD Screen")
   (attr smd)
   (fp_text reference REF** (at 4.572 1.524) (layer F.SilkS)
@@ -91,8 +91,8 @@
   (pad "" np_thru_hole circle (at 70.7 -54) (size 1.75 1.75) (drill 1.41) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 12.2 -2) (size 1.75 1.75) (drill 1.41) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 70.7 -2) (size 1.75 1.75) (drill 1.41) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x20_P2.54mm_Vertical.wrl
-    (at (xyz 0 0 0))
+  (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x20_P2.54mm_Vertical_SMD.step
+    (offset (xyz 4.75 28 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

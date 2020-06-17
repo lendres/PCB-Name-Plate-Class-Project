@@ -380,7 +380,7 @@ AR Path="/5ECF3070/5ED1C8D7" Ref="TP604"  Part="1"
 AR Path="/5ED1C8D7" Ref="TP604"  Part="1" 
 F 0 "TP604" H 2000 3750 50  0000 R CNN
 F 1 "Test Point" H 2000 3850 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 3700 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 2250 3700 50  0001 C CNN
 F 3 "None" H 2250 3700 50  0001 C CNN
 F 4 "TP_SCL" H 2000 3850 50  0000 R CNN "Name"
 F 5 "None" H 2050 3700 50  0001 C CNN "DigiKey Part No."
@@ -402,7 +402,7 @@ AR Path="/5ECF3070/5ED1C8DF" Ref="TP603"  Part="1"
 AR Path="/5ED1C8DF" Ref="TP603"  Part="1" 
 F 0 "TP603" H 2100 3750 50  0000 L CNN
 F 1 "Test Point" H 2100 3650 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 3600 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 2250 3600 50  0001 C CNN
 F 3 "None" H 2250 3600 50  0001 C CNN
 F 4 "TP_SDA" H 2100 3650 50  0000 L CNN "Name"
 F 5 "None" H 2050 3600 50  0001 C CNN "DigiKey Part No."
@@ -448,7 +448,7 @@ AR Path="/5ECF3070/5ED1C8F1" Ref="TP602"  Part="1"
 AR Path="/5ED1C8F1" Ref="TP602"  Part="1" 
 F 0 "TP602" H 2100 3250 50  0000 L CNN
 F 1 "Test Point" H 2100 3150 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 3100 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 2250 3100 50  0001 C CNN
 F 3 "None" H 2250 3100 50  0001 C CNN
 F 4 "TP_IMU_INT" H 2100 3150 50  0000 L CNN "Name"
 F 5 "None" H 2050 3100 50  0001 C CNN "DigiKey Part No."
@@ -492,7 +492,7 @@ AR Path="/5ECF3070/5ED1C902" Ref="TP601"  Part="1"
 AR Path="/5ED1C902" Ref="TP601"  Part="1" 
 F 0 "TP601" H 2100 3050 50  0000 L CNN
 F 1 "Test Point" H 2100 2950 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 2250 2900 50  0001 C CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 2250 2900 50  0001 C CNN
 F 3 "None" H 2250 2900 50  0001 C CNN
 F 4 "TP_nRST" H 2100 2950 50  0000 L CNN "Name"
 F 5 "None" H 2050 2900 50  0001 C CNN "DigiKey Part No."

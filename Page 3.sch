@@ -112,9 +112,9 @@ AR Path="/5ECE9FD3/5ECECE9A" Ref="C?"  Part="1"
 AR Path="/5ECEA271/5ECECE9A" Ref="C301"  Part="1" 
 F 0 "C301" V 9202 4800 50  0000 C CNN
 F 1 "10uF" V 9111 4800 50  0000 C CNN
-F 2 "Name_Plate_Class_Project:CAP_430X430N" H 8950 4800 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 8950 4800 50  0001 C CNN
-F 4 "399-11437-1-ND" H 8950 4800 50  0001 C CNN "DigiKey Part No."
+F 2 "Name_Plate_Class_Project:T491A106K010AT" H 8950 4800 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf" H 8950 4800 50  0001 C CNN
+F 4 "399-3684-1-ND" H 8950 4800 50  0001 C CNN "DigiKey Part No."
 F 5 "T491A106K010AT" H 8950 4800 50  0001 C CNN "Mftr Part No."
 F 6 "Kemet" H 8950 4800 50  0001 C CNN "Manufacturer"
 	1    8950 4800
@@ -125,49 +125,44 @@ Wire Wire Line
 Wire Wire Line
 	8800 4800 8600 4800
 Wire Wire Line
-	3550 2250 3400 2250
+	3550 2250 3300 2250
 $Comp
 L Device:R R?
 U 1 1 5EB2ABF4
-P 3250 2250
+P 2900 2250
 AR Path="/5EB2ABF4" Ref="R?"  Part="1" 
 AR Path="/5EAC05C2/5EB2ABF4" Ref="R?"  Part="1" 
 AR Path="/5EACA483/5EB2ABF4" Ref="R?"  Part="1" 
 AR Path="/5ECF32A9/5EB2ABF4" Ref="R?"  Part="1" 
 AR Path="/5ECEA271/5EB2ABF4" Ref="R301"  Part="1" 
-F 0 "R301" V 3150 2350 50  0000 R CNN
-F 1 "22" V 3050 2350 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3180 2250 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 3250 2250 50  0001 C CNN
-F 4 "TE Connectivity " H 3250 2250 50  0001 C CNN "Manufacturer"
-F 5 "CRGCQ0603J22R" H 3250 2250 50  0001 C CNN "Mftr Part No."
-F 6 "A130081CT-ND" H 3250 2250 50  0001 C CNN "DigiKey Part No."
-	1    3250 2250
+F 0 "R301" V 2800 2350 50  0000 R CNN
+F 1 "22" V 2700 2350 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2830 2250 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" H 2900 2250 50  0001 C CNN
+F 4 "TE Connectivity " H 2900 2250 50  0001 C CNN "Manufacturer"
+F 5 "CRGCQ0603J22R" H 2900 2250 50  0001 C CNN "Mftr Part No."
+F 6 "A130081CT-ND" H 2900 2250 50  0001 C CNN "DigiKey Part No."
+	1    2900 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Name_Plate_Class_Project:TestPoint TP?
 U 1 1 5EB2B88E
-P 2850 2250
+P 3300 2250
 AR Path="/5ECF32A9/5EB2B88E" Ref="TP?"  Part="1" 
 AR Path="/5ECEA271/5EB2B88E" Ref="TP301"  Part="1" 
 AR Path="/5EB2B88E" Ref="TP301"  Part="1" 
-F 0 "TP301" H 2650 2550 50  0000 L CNN
-F 1 "Test Point" H 2650 2450 50  0001 L CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm" H 3050 2250 50  0001 C CNN
-F 3 "None" H 3050 2250 50  0001 C CNN
-F 4 "TP_ADDR_LED" H 2650 2450 50  0000 L CNN "Name"
-F 5 "None" H 2850 2250 50  0001 C CNN "DigiKey Part No."
-F 6 "None" H 2850 2250 50  0001 C CNN "Manufacturer"
-F 7 "None" H 2850 2250 50  0001 C CNN "Mftr Part No."
-	1    2850 2250
+F 0 "TP301" H 3100 2550 50  0000 L CNN
+F 1 "Test Point" H 3100 2450 50  0001 L CNN
+F 2 "FrequentlyUsed:Pad_2.5-2.5" H 3500 2250 50  0001 C CNN
+F 3 "None" H 3500 2250 50  0001 C CNN
+F 4 "TP_ADDR_LED" H 3100 2450 50  0000 L CNN "Name"
+F 5 "None" H 3300 2250 50  0001 C CNN "DigiKey Part No."
+F 6 "None" H 3300 2250 50  0001 C CNN "Manufacturer"
+F 7 "None" H 3300 2250 50  0001 C CNN "Mftr Part No."
+	1    3300 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 2250 2850 2250
-Wire Wire Line
-	2850 2250 2550 2250
-Connection ~ 2850 2250
 Wire Wire Line
 	3850 1950 3850 1750
 Wire Wire Line
@@ -352,7 +347,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 1550 5000 1550
 Wire Wire Line
-	8300 1550 8300 1400
+	8400 1550 8400 1450
 Connection ~ 7800 2850
 NoConn ~ 7600 2250
 Wire Wire Line
@@ -369,23 +364,23 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0101
 U 1 1 5EB43851
-P 8300 1400
-F 0 "#PWR0101" H 8300 1250 50  0001 C CNN
-F 1 "+5V" H 8315 1573 50  0000 C CNN
-F 2 "" H 8300 1400 50  0001 C CNN
-F 3 "" H 8300 1400 50  0001 C CNN
-	1    8300 1400
+P 8400 1450
+F 0 "#PWR0101" H 8400 1300 50  0001 C CNN
+F 1 "+5V" H 8415 1623 50  0000 C CNN
+F 2 "" H 8400 1450 50  0001 C CNN
+F 3 "" H 8400 1450 50  0001 C CNN
+	1    8400 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
 U 1 1 5EB44FF3
-P 8300 3050
-F 0 "#PWR0102" H 8300 2800 50  0001 C CNN
-F 1 "GND" H 8305 2877 50  0000 C CNN
-F 2 "" H 8300 3050 50  0001 C CNN
-F 3 "" H 8300 3050 50  0001 C CNN
-	1    8300 3050
+P 8400 2950
+F 0 "#PWR0102" H 8400 2700 50  0001 C CNN
+F 1 "GND" H 8405 2777 50  0000 C CNN
+F 2 "" H 8400 2950 50  0001 C CNN
+F 3 "" H 8400 2950 50  0001 C CNN
+	1    8400 2950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -401,14 +396,12 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3950 1875 50  0001 
 	1    3850 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 8300 1550
 Connection ~ 6150 2850
 Connection ~ 5500 2850
 Wire Wire Line
 	5500 2850 6150 2850
 Wire Wire Line
-	8300 2850 8300 3050
-Connection ~ 8300 2850
+	8400 2850 8400 2950
 Text Notes 5350 3400 0    98   ~ 20
 2812 LEDs
 Text Notes 2100 5500 0    98   ~ 20
@@ -430,12 +423,27 @@ AR Path="/5ECE9FD3/5ECD505A" Ref="C?"  Part="1"
 AR Path="/5ECEA271/5ECD505A" Ref="C302"  Part="1" 
 F 0 "C302" H 8350 2300 50  0000 L CNN
 F 1 "10uF" H 8350 2050 50  0000 L CNN
-F 2 "Name_Plate_Class_Project:CAP_430X430N" H 8300 2200 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 8300 2200 50  0001 C CNN
-F 4 "399-11437-1-ND" H 8300 2200 50  0001 C CNN "DigiKey Part No."
+F 2 "Name_Plate_Class_Project:T491A106K010AT" H 8300 2200 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf" H 8300 2200 50  0001 C CNN
+F 4 "399-3684-1-ND" H 8300 2200 50  0001 C CNN "DigiKey Part No."
 F 5 "T491A106K010AT" H 8300 2200 50  0001 C CNN "Mftr Part No."
 F 6 "Kemet" H 8300 2200 50  0001 C CNN "Manufacturer"
 	1    8300 2200
 	1    0    0    -1  
 $EndComp
+Text Label 7900 1550 0    50   ~ 0
+LEDVCC
+Text Label 7900 2850 0    50   ~ 0
+LEDGND
+Connection ~ 8300 1550
+Connection ~ 8300 2850
+Wire Wire Line
+	8300 2850 8400 2850
+Wire Wire Line
+	8300 1550 8400 1550
+Connection ~ 3300 2250
+Wire Wire Line
+	3300 2250 3050 2250
+Wire Wire Line
+	2550 2250 2750 2250
 $EndSCHEMATC
