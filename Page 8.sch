@@ -35,7 +35,7 @@ LCD_SPI_CLK
 Text Label 8100 4000 0    50   ~ 0
 LCD_SPI_MOSI
 Text Label 8100 3900 0    50   ~ 0
-LCD_DC
+LCD_DC_R
 Text Label 8100 3800 0    50   ~ 0
 LCD_nCS
 Wire Wire Line
@@ -205,7 +205,7 @@ Connection ~ 3500 4900
 Wire Wire Line
 	3500 4900 3250 4900
 Text Label 4150 4900 0    50   ~ 0
-LCD_DC
+LCD_DC_R
 Wire Wire Line
 	4050 5550 4750 5550
 Wire Wire Line

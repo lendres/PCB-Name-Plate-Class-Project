@@ -560,9 +560,9 @@ $EndComp
 Wire Wire Line
 	4500 4050 5200 4050
 Wire Wire Line
-	8850 3500 9700 3500
+	8850 3500 9300 3500
 Wire Wire Line
-	6600 3500 7100 3500
+	6600 3500 6850 3500
 Text Label 1600 3500 0    50   ~ 0
 B+
 Text Label 3650 3500 0    50   ~ 0
@@ -570,4 +570,10 @@ BSWO
 Connection ~ 5200 4050
 Wire Wire Line
 	5200 4050 5300 4050
+Connection ~ 6850 3500
+Wire Wire Line
+	6850 3500 7100 3500
+Connection ~ 9300 3500
+Wire Wire Line
+	9300 3500 9700 3500
 $EndSCHEMATC
