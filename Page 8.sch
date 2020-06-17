@@ -37,7 +37,7 @@ LCD_SPI_MOSI
 Text Label 8100 3900 0    50   ~ 0
 LCD_DC_R
 Text Label 8100 3800 0    50   ~ 0
-LCD_nCS
+LCD_nCS_R
 Wire Wire Line
 	8000 4300 8650 4300
 Wire Wire Line
@@ -214,7 +214,7 @@ Connection ~ 3500 5550
 Wire Wire Line
 	3500 5550 3250 5550
 Text Label 4150 5550 0    50   ~ 0
-LCD_nCS
+LCD_nCS_R
 $Comp
 L Name_Plate_Class_Project:TestPoint TP806
 U 1 1 5EB10897

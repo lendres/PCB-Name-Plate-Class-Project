@@ -567,7 +567,7 @@ Connection ~ 4050 5950
 Wire Wire Line
 	4050 5950 4500 5950
 Wire Wire Line
-	1750 1850 2950 1850
+	1750 1850 2400 1850
 Wire Wire Line
 	2900 6550 2950 6550
 Wire Wire Line
@@ -594,4 +594,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 6050 3650 6050
 Connection ~ 3650 6050
+Connection ~ 2400 1850
+Wire Wire Line
+	2400 1850 2950 1850
 $EndSCHEMATC
