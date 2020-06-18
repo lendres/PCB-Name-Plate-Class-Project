@@ -422,13 +422,14 @@ U 1 1 5EB2A1E3
 P 7400 3650
 AR Path="/5EAC05C2/5EB2A1E3" Ref="LCD?"  Part="1" 
 AR Path="/5ECF32A9/5EB2A1E3" Ref="J801"  Part="1" 
+AR Path="/5ECF31FF/5EB2A1E3" Ref="J801"  Part="1" 
 F 0 "J801" H 6900 4750 50  0000 L BNN
 F 1 "DNP" H 6900 2500 50  0000 L BNN
 F 2 "Name_Plate_Class_Project:LCD_ER-TFTM024-3_SMD" H 7400 3650 50  0001 C CNN
-F 3 "" H 7400 3650 50  0001 C CNN
-F 4 "0713085440-ND" H 7400 3650 50  0001 C CNN "DigiKey Part No."
-F 5 "Molex" H 7400 3650 50  0001 C CNN "Manufacturer"
-F 6 "0713085440" H 7400 3650 50  0001 C CNN "Mftr Part No."
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" H 7400 3650 50  0001 C CNN
+F 4 "S5690-ND" H 7400 3650 50  0001 C CNN "DigiKey Part No."
+F 5 "Sullins Connector Solutions" H 7400 3650 50  0001 C CNN "Manufacturer"
+F 6 "NPTC202KFMS-RC" H 7400 3650 50  0001 C CNN "Mftr Part No."
 	1    7400 3650
 	1    0    0    -1  
 $EndComp
