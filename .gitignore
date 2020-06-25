@@ -26,3 +26,5 @@ fp-info-cache
 *.csv
 BOM.xlsx
 Endres Schematic.pdf
+
+/Gerbers
