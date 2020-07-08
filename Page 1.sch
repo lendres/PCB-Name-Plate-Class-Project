@@ -100,15 +100,15 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5EAC9944
-P 2650 1000
+P 1000 1000
 AR Path="/5EAC9944" Ref="#PWR?"  Part="1" 
 AR Path="/5EAC05C2/5EAC9944" Ref="#PWR04"  Part="1" 
 AR Path="/5EACA483/5EAC9944" Ref="#PWR?"  Part="1" 
-F 0 "#PWR04" H 2650 850 50  0001 C CNN
-F 1 "+3.3V" H 2665 1173 50  0000 C CNN
-F 2 "" H 2650 1000 50  0001 C CNN
-F 3 "" H 2650 1000 50  0001 C CNN
-	1    2650 1000
+F 0 "#PWR04" H 1000 850 50  0001 C CNN
+F 1 "+3.3V" H 1015 1173 50  0000 C CNN
+F 2 "" H 1000 1000 50  0001 C CNN
+F 3 "" H 1000 1000 50  0001 C CNN
+	1    1000 1000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -146,8 +146,6 @@ Wire Wire Line
 	3000 1000 3000 1100
 Connection ~ 3000 1000
 Wire Wire Line
-	3000 1000 2650 1000
-Wire Wire Line
 	2300 1000 2300 1500
 Connection ~ 2300 1000
 Wire Wire Line
@@ -157,9 +155,6 @@ Wire Wire Line
 	1650 1000 1350 1000
 Wire Wire Line
 	1650 1000 1650 2800
-Connection ~ 2650 1000
-Wire Wire Line
-	2650 1000 2300 1000
 Wire Wire Line
 	3700 2400 5000 2400
 Wire Wire Line
@@ -593,4 +588,27 @@ Wire Wire Line
 	9400 3500 9850 3500
 Wire Wire Line
 	9850 3300 9850 3200
+Wire Wire Line
+	2300 1000 3000 1000
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5F05D7AF
+P 1200 1000
+F 0 "NT1" H 1200 1050 50  0000 C CNN
+F 1 "Net-Tie_2" H 1200 1090 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 1200 1000 50  0001 C CNN
+F 3 "None" H 1200 1000 50  0001 C CNN
+F 4 "None" H 1200 1000 50  0001 C CNN "DigiKey Part No."
+F 5 "None" H 1200 1000 50  0001 C CNN "Manufacturer"
+F 6 "None" H 1200 1000 50  0001 C CNN "Mftr Part No."
+	1    1200 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1000 1350 1000
+Connection ~ 1350 1000
+Wire Wire Line
+	1100 1000 1000 1000
+Text Label 1750 1000 0    50   ~ 0
+MEGAVCC
 $EndSCHEMATC

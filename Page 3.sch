@@ -78,10 +78,10 @@ AR Path="/5ECEA271/5ECECE8C" Ref="LS301"  Part="1"
 F 0 "LS301" H 9500 4950 50  0000 L CNN
 F 1 "Piezo Buzzer" H 9500 4850 50  0000 L CNN
 F 2 "Name_Plate_Class_Project:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm" V 9325 5000 50  0001 C CNN
-F 3 "http://www.puiaudio.com/pdf/AST-03008MR-R.pdf" V 9325 5000 50  0001 C CNN
-F 4 "668-1136-ND" H 9350 4900 50  0001 C CNN "DigiKey Part No."
+F 3 "http://www.puiaudio.com/pdf/AB1541B-LW100-R.pdf" V 9325 5000 50  0001 C CNN
+F 4 "668-1448-ND" H 9350 4900 50  0001 C CNN "DigiKey Part No."
 F 5 "Pui Audio" H 9350 4900 50  0001 C CNN "Manufacturer"
-F 6 "AST-03008MR-R" H 9350 4900 50  0001 C CNN "Mftr Part No."
+F 6 "AB1541B-LW100-R" H 9350 4900 50  0001 C CNN "Mftr Part No."
 	1    9350 4900
 	1    0    0    -1  
 $EndComp
@@ -208,7 +208,10 @@ P 5000 2250
 F 0 "D302" H 5100 2650 50  0000 L CNN
 F 1 "WS2812B" H 5100 2550 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5050 1950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5100 1875 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 5100 1875 50  0001 L TNN
+F 4 "1528-2388-ND" H 5000 2250 50  0001 C CNN "DigiKey Part No."
+F 5 "Adafruit Industries LLC" H 5000 2250 50  0001 C CNN "Manufacturer"
+F 6 "3094" H 5000 2250 50  0001 C CNN "Mftr Part No."
 	1    5000 2250
 	1    0    0    -1  
 $EndComp
@@ -252,7 +255,10 @@ P 6150 2250
 F 0 "D303" H 6250 2650 50  0000 L CNN
 F 1 "WS2812B" H 6250 2550 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6200 1950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6250 1875 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 6250 1875 50  0001 L TNN
+F 4 "1528-2388-ND" H 6150 2250 50  0001 C CNN "DigiKey Part No."
+F 5 "Adafruit Industries LLC" H 6150 2250 50  0001 C CNN "Manufacturer"
+F 6 "3094" H 6150 2250 50  0001 C CNN "Mftr Part No."
 	1    6150 2250
 	1    0    0    -1  
 $EndComp
@@ -296,7 +302,10 @@ P 7300 2250
 F 0 "D304" H 7400 2650 50  0000 L CNN
 F 1 "WS2812B" H 7400 2550 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7350 1950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7400 1875 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 7400 1875 50  0001 L TNN
+F 4 "1528-2388-ND" H 7300 2250 50  0001 C CNN "DigiKey Part No."
+F 5 "Adafruit Industries LLC" H 7300 2250 50  0001 C CNN "Manufacturer"
+F 6 "3094" H 7300 2250 50  0001 C CNN "Mftr Part No."
 	1    7300 2250
 	1    0    0    -1  
 $EndComp
@@ -392,7 +401,10 @@ P 3850 2250
 F 0 "D301" H 3950 2650 50  0000 L CNN
 F 1 "WS2812B" H 3950 2550 50  0000 L CNN
 F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3900 1950 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3950 1875 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3950 1875 50  0001 L TNN
+F 4 "1528-2388-ND" H 3850 2250 50  0001 C CNN "DigiKey Part No."
+F 5 "Adafruit Industries LLC" H 3850 2250 50  0001 C CNN "Manufacturer"
+F 6 "3094" H 3850 2250 50  0001 C CNN "Mftr Part No."
 	1    3850 2250
 	1    0    0    -1  
 $EndComp
